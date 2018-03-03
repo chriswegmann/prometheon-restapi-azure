@@ -16,3 +16,6 @@ THIS WORKS!
 
 - Commit: "added import from quote"
 uncommented: from resources.quote import Quote_test (not used)
+
+- Commit: "commented out imports from quote"
+no imports from models

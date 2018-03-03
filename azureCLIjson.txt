@@ -1,0 +1,77 @@
+Local git is configured with url of 'https://oldenhofe@prometheon-rest-api-cli-2.scm.azurewebsites.net/prometheon-rest-api-cli-2.git'
+{
+  "additionalProperties": {},
+  "availabilityState": "Normal",
+  "clientAffinityEnabled": true,
+  "clientCertEnabled": false,
+  "cloningInfo": null,
+  "containerSize": 0,
+  "dailyMemoryTimeQuota": 0,
+  "defaultHostName": "prometheon-rest-api-cli-2.azurewebsites.net",
+  "deploymentLocalGitUrl": "https://oldenhofe@prometheon-rest-api-cli-2.scm.azurewebsites.net/prometheon-rest-api-cli-2.git",
+  "enabled": true,
+  "enabledHostNames": [
+    "prometheon-rest-api-cli-2.azurewebsites.net",
+    "prometheon-rest-api-cli-2.scm.azurewebsites.net"
+  ],
+  "ftpPublishingUrl": "ftp://waws-prod-am2-179.ftp.azurewebsites.windows.net/site/wwwroot",
+  "hostNameSslStates": [
+    {
+      "additionalProperties": {
+        "ipBasedSslResult": null,
+        "ipBasedSslState": "NotConfigured",
+        "toUpdateIpBasedSsl": null
+      },
+      "hostType": "Standard",
+      "name": "prometheon-rest-api-cli-2.azurewebsites.net",
+      "sslState": "Disabled",
+      "thumbprint": null,
+      "toUpdate": null,
+      "virtualIp": null
+    },
+    {
+      "additionalProperties": {
+        "ipBasedSslResult": null,
+        "ipBasedSslState": "NotConfigured",
+        "toUpdateIpBasedSsl": null
+      },
+      "hostType": "Repository",
+      "name": "prometheon-rest-api-cli-2.scm.azurewebsites.net",
+      "sslState": "Disabled",
+      "thumbprint": null,
+      "toUpdate": null,
+      "virtualIp": null
+    }
+  ],
+  "hostNames": [
+    "prometheon-rest-api-cli-2.azurewebsites.net"
+  ],
+  "hostNamesDisabled": false,
+  "hostingEnvironmentProfile": null,
+  "httpsOnly": false,
+  "id": "/subscriptions/a86d3846-f558-4e80-8415-0ed91a4b5b37/resourceGroups/PrometheonRestApiCLIGroup/providers/Microsoft.Web/sites/prometheon-rest-api-cli-2",
+  "identity": null,
+  "isDefaultContainer": null,
+  "kind": "app",
+  "lastModifiedTimeUtc": "2018-03-03T13:38:47.720000",
+  "location": "West Europe",
+  "maxNumberOfWorkers": null,
+  "name": "prometheon-rest-api-cli-2",
+  "outboundIpAddresses": "52.232.19.237,40.68.248.76,40.68.253.160,52.174.26.87,40.68.253.49",
+  "possibleOutboundIpAddresses": "52.232.19.237,40.68.248.76,40.68.253.160,52.174.26.87,40.68.253.49,52.178.25.250,40.68.253.41",
+  "repositorySiteName": "prometheon-rest-api-cli-2",
+  "reserved": false,
+  "resourceGroup": "PrometheonRestApiCLIGroup",
+  "scmSiteAlsoStopped": false,
+  "serverFarmId": "/subscriptions/a86d3846-f558-4e80-8415-0ed91a4b5b37/resourceGroups/PrometheonRestApiCLIGroup/providers/Microsoft.Web/serverfarms/PrometheonServicePlan",
+  "siteConfig": null,
+  "slotSwapStatus": null,
+  "snapshotInfo": null,
+  "state": "Running",
+  "suspendedTill": null,
+  "tags": null,
+  "targetSwapSlot": null,
+  "trafficManagerHostNames": null,
+  "type": "Microsoft.Web/sites",
+  "usageState": "Normal"
+}
