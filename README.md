@@ -42,3 +42,5 @@ WORKS
 
 - Commit: " resource of api from quote: Quote_test": with the actual resource from resources
 WORKS!
+
+- Commit: "Added imports in resources.quote and class definition Quote (not used)"

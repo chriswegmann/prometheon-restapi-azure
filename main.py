@@ -27,7 +27,7 @@ app.secret_key = 'mothys9410prim'
 api = Api(app)
 
 # jwt = JWT(app, authenticate, identity) #creates new endpoint: /auth
-api.add_resource(Quote_test, '/quote')
+api.add_resource(Quote, '/quote')
 
 
 
