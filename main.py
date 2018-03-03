@@ -18,16 +18,16 @@ app.secret_key = 'mothys9410prim'
 
 ## 1. Test (as per github demo)
 
-@app.route('/')
-def hello_world():
-   return 'Hello, World!'
+# @app.route('/')
+# def hello_world():
+#    return 'Hello, World!'
 
 ## 2. Actual API
 
-# api = Api(app)
+api = Api(app)
 
 # jwt = JWT(app, authenticate, identity) #creates new endpoint: /auth
-# api.add_resource(Quote_test, '/quote')
+api.add_resource(Quote_test, '/quote')
 
 
 
