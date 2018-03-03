@@ -14,12 +14,16 @@ from security import authenticate, identity
 
 app = Flask(__name__)
 app.secret_key = 'mothys9410prim'
-api = Api(app)
+# api = Api(app)
+#
+# jwt = JWT(app, authenticate, identity) #creates new endpoint: /auth
+#
+# 
+# api.add_resource(Quote, '/quote')
 
-jwt = JWT(app, authenticate, identity) #creates new endpoint: /auth
-
-
-api.add_resource(Quote, '/quote')
+@app.route('/')
+def hello_world():
+  return 'Hello, World!'
 
 
 if __name__ == '__main__':
