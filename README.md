@@ -14,4 +14,5 @@ API, etc.).
 - Commit: "removed imports from resources, ..."
 THIS WORKS!
 
--
+- Commit: "added import from quote"
+uncommented: from resources.quote import Quote_test (not used)
