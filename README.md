@@ -37,4 +37,8 @@ prometheon-rest-api-cli-2.azurewebsites.net
 - removed the import from resources to check whether the git push to azure works
 Deployment with CLI works! (postman and chrome: "hello, world!")
 
-- also with import from resources.quote: WORKS!
+- also with import from resources.quote (but without using it):
+WORKS
+
+- Commit: " resource of api from quote: Quote_test": with the actual resource from resources
+WORKS!
