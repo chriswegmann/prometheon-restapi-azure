@@ -26,7 +26,7 @@ class Quote(Resource):
                         help="'Timestamp' cannot be left blank")
 
     @classmethod
-    @jwt_required() # NB: start without authentification
+    @jwt_required() # Authentication required
     def post(cls):
         # First check if this is a valid post ("Error-first approach")
         # NB: next takes the first element from the generator
@@ -45,6 +45,18 @@ class Quote(Resource):
                     "details": quote_reply}, 200
         else:
             return message, 400
+
+class Quote_test(Resource):
+    parser = reqparse.RequestParser()
+    parser.add_argument('amount', type=float, required=True,
+                        help="'Amount' cannot be left blank")
+    # def get():
+    #     return 'App is working', 200
+
+    def post(cls):
+        premium_request = cls.parser.parse_args() #premium_request is a dict
+        premium_request['premium'] = 5000
+        return premium_request, 200
 
 
 
