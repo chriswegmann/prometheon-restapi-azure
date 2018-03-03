@@ -9,6 +9,7 @@ from flask import Flask
 from flask_restful import Api
 
 # from flask_jwt import JWT
+
 from resources.quote import Quote_test
 # from security import authenticate, identity
 
