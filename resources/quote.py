@@ -26,7 +26,7 @@ class Quote(Resource):
                         help="'Timestamp' cannot be left blank")
 
     @classmethod
-    @jwt_required() # Authentication required
+    # @jwt_required() # Authentication required
     def post(cls):
         # First check if this is a valid post ("Error-first approach")
         # NB: next takes the first element from the generator
