@@ -6,11 +6,11 @@ Created on Wed Jan 10 23:03:49 2018
 @author: ernst
 """
 from flask import Flask
-from flask_restful import Api
-from flask_jwt import JWT
-from resources.quote import Quote
+# from flask_restful import Api
 
-from security import authenticate, identity
+# from flask_jwt import JWT
+# from resources.quote import Quote
+# from security import authenticate, identity
 
 app = Flask(__name__)
 app.secret_key = 'mothys9410prim'
@@ -18,7 +18,7 @@ app.secret_key = 'mothys9410prim'
 #
 # jwt = JWT(app, authenticate, identity) #creates new endpoint: /auth
 #
-# 
+#
 # api.add_resource(Quote, '/quote')
 
 @app.route('/')
