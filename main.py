@@ -28,7 +28,7 @@ api = Api(app)
 
 # jwt = JWT(app, authenticate, identity) #creates new endpoint: /auth
 api.add_resource(Quote, '/quote')
-api.add_resource(Quote_test, '/quote_test')
+# api.add_resource(Quote_test, '/quote_test')
 
 
 

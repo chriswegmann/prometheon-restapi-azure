@@ -15,11 +15,7 @@ Created on Sun Jan  7 14:15 2018
 ######################################################
 
 ## General imports
-import pyodbc
-
-
-
-
+# import pyodbc
 import sqlite3
 import os.path
 from numpy import array as nparray
@@ -39,35 +35,35 @@ from project_config.config import (sql_parameter_tablename_dict,
 
 # NB: base_rate should go into the db
 
-def testquery_azure(premium_request):
-    """
-    Test function for Azure SQL
-
-    """
-    database = 'Prometheon'
-    username = 'wegmannc'
-    password = 'Aphathi_96'
-    driver= '{ODBC Driver 13 for SQL Server}'
-    #cnxn = pyodbc.connect('DRIVER='+driver+';PORT='+port+'1433;SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
-    cnxn = pyodbc.connect((r"DRIVER={driver};PORT={port};SERVER={server};"
-                           r"DATABASE={database};UID={username};PWD={password}").format(driver=driver,
-                                                    port=AZURE_PORT,
-                                                    server=AZURE_SERVER,
-                                                    database=AZURE_DATABASE,
-                                                    username=AZURE_USERNAME,
-                                                    password=AZURE_PASSWORD))
-    cursor = cnxn.cursor()
-    # cursor.execute("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'")
-    cursor.execute('SELECT * FROM Reference_Data_Value WHERE Reference_Data_ID=575')
-    row = cursor.fetchone()
-    cnxn.close()
-    quote_reply = [{'date':'01-01-0000',
-                    'amount':row[9],
-                    'text': row[6],
-                    'type':'TEST_RESULT',
-                    'parameter_id': 575,
-                    'factor': '1.23456' }]
-    return (1234, quote_reply)
+# def testquery_azure(premium_request):
+#     """
+#     Test function for Azure SQL
+#
+#     """
+#     database = 'Prometheon'
+#     username = 'wegmannc'
+#     password = 'Aphathi_96'
+#     driver= '{ODBC Driver 13 for SQL Server}'
+#     #cnxn = pyodbc.connect('DRIVER='+driver+';PORT='+port+'1433;SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
+#     cnxn = pyodbc.connect((r"DRIVER={driver};PORT={port};SERVER={server};"
+#                            r"DATABASE={database};UID={username};PWD={password}").format(driver=driver,
+#                                                     port=AZURE_PORT,
+#                                                     server=AZURE_SERVER,
+#                                                     database=AZURE_DATABASE,
+#                                                     username=AZURE_USERNAME,
+#                                                     password=AZURE_PASSWORD))
+#     cursor = cnxn.cursor()
+#     # cursor.execute("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'")
+#     cursor.execute('SELECT * FROM Reference_Data_Value WHERE Reference_Data_ID=575')
+#     row = cursor.fetchone()
+#     cnxn.close()
+#     quote_reply = [{'date':'01-01-0000',
+#                     'amount':row[9],
+#                     'text': row[6],
+#                     'type':'TEST_RESULT',
+#                     'parameter_id': 575,
+#                     'factor': '1.23456' }]
+#     return (1234, quote_reply)
 
 def calculate_premium(premium_request):
     """
