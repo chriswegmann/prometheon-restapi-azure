@@ -1,0 +1,3 @@
+Followed the steps outlined here:
+
+https://www.microsoft.com/en-us/sql-server/developer-get-started/python/ubuntu/

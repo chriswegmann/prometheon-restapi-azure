@@ -8,6 +8,12 @@ DATA_PATH = data.__path__[0]
 db_path = os.path.join(DATA_PATH, "pricing.db")
 excel_path = os.path.join(DATA_PATH, "pricing_data.xlsx")
 
+AZURE_PORT = 1433
+AZURE_SERVER = os.environ['AZURE_SERVER']
+AZURE_USERNAME = os.environ['AZURE_USERNAME']
+AZURE_PASSWORD = os.environ['AZURE_PASSWORD']
+AZURE_DATABASE = os.environ['AZURE_DATABASE']
+
 ## SQL PARAMS
 table_name_list = ['MAPPING_PAR_REF_AIRPORT', 'MAPPING_PAR_REF_GROUND_HANDLER',
                    'PAR_AIRPORT', 'PAR_GROUND_HANDLER']
