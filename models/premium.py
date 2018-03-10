@@ -19,7 +19,7 @@ import pyodbc
 import sqlite3
 import os.path
 
-# from numpy import product as npproduct
+from numpy import product as npproduct
 # from numpy import array as nparray
 from datetime import datetime
 
