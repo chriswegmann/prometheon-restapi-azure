@@ -15,7 +15,7 @@ Created on Sun Jan  7 14:15 2018
 ######################################################
 
 ## General imports
-# import pyodbc
+import pyodbc
 import sqlite3
 import os.path
 

@@ -44,7 +44,7 @@ class Quote(Resource):
             print(e)
             # If quote_reply is missing, this means some error occurred
             # This is communicated by a message
-            message = calculate_premium(premium_request)
+            message = testquery_azure(premium_request)
 
         if not quote_reply is None:
             return {"premium": premium,
