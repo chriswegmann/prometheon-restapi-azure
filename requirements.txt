@@ -2,4 +2,4 @@ Flask==0.12.1
 Flask-RESTful
 Flask-JWT
 numpy
-# pyodbc
+pyodbc

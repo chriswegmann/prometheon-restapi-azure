@@ -46,7 +46,6 @@ WORKS!
 - Commit: "Added imports in resources.quote and class definition Quote (not used)"
 
 - Managed to access Azure SQL in Python with environment variables, locally
-On azure, problem installing pyodbc with pip. Did manage to set AZURE_database environment variables
- on Azure
+On azure, problem installing pyodbc with pip. Did manage to set AZURE_database environment variables on Azure
 
- 
+- On Azure: added the python 3.6 extension that allows pip install pyodbc
