@@ -49,3 +49,5 @@ WORKS!
 On azure, problem installing pyodbc with pip. Did manage to set AZURE_database environment variables on Azure
 
 - On Azure: added the python 3.6 extension that allows pip install pyodbc
+
+- Changes to web.config to point to the python3.6 extension. Also: errormode: Detailed to give better error message. on Azure: did pip install -r requirements D:\home ...\requirements.txt to install numpy, pyodbc, Flask etc. Seems successfull.
