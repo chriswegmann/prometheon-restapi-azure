@@ -9,7 +9,7 @@ class Quote is the contact point for the API:
 from flask_jwt import JWT, jwt_required
 from flask import Flask, request
 from flask_restful import Resource, reqparse
-from models.premium import calculate_premium #, testquery_azure
+from models.premium import calculate_premium#, testquery_azure
 
 class Quote(Resource):
     """
@@ -39,6 +39,7 @@ class Quote(Resource):
         quote_reply = None
         try:
             premium, quote_reply = calculate_premium(premium_request)
+            # premium, quote_reply = testquery_azure(premium_request)
         except Exception as e:
             print(e)
             # If quote_reply is missing, this means some error occurred

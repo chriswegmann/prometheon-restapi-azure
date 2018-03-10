@@ -40,9 +40,6 @@ from project_config.config import (sql_parameter_tablename_dict,
 #     Test function for Azure SQL
 #
 #     """
-#     database = 'Prometheon'
-#     username = 'wegmannc'
-#     password = 'Aphathi_96'
 #     driver= '{ODBC Driver 13 for SQL Server}'
 #     #cnxn = pyodbc.connect('DRIVER='+driver+';PORT='+port+'1433;SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
 #     cnxn = pyodbc.connect((r"DRIVER={driver};PORT={port};SERVER={server};"
