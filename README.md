@@ -24,7 +24,7 @@ In models/premium the premium_calculation function is defined.
 In models/user a user interface is defined, which is most likely not needed
 
 To interact with the Azure SQL database, the pyodbc package is used. This package
-installs directly with pip only for Python3.6. Azure does not support 3.6 by default.
+cannot be easily installed for Python 3.4. Azure only supports 2.7 or 3.4 by default.
 By adding the Py3.6 extension on Azure, modifying web.config, getting rid of runtime.txt, and adding
 .skipPythonDeployment (which tries to pip install -r requirements.txt with Python 3.4),
 and doing the pip install on Azure using the KUDU command line interface, the app runs
