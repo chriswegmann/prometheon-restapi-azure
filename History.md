@@ -48,8 +48,13 @@ WORKS!
 - Managed to access Azure SQL in Python with environment variables, locally
 On azure, problem installing pyodbc with pip. Did manage to set AZURE_database environment variables on Azure
 
+### 10. March 2018:
 - On Azure: added the python 3.6 extension that allows pip install pyodbc
 
 - Changes to web.config to point to the python3.6 extension. Also: errormode: Detailed to give better error message. on Azure: did pip install -r requirements D:\home ...\requirements.txt to install numpy, pyodbc, Flask etc. Seems successful.
 
 - Numpy gives problems upon import. After removing (is not needed for Azure test function), the API WORKS! (with testquery_azure)
+
+### 12. March
+API works with "real" query. Needs some work (nomenclature, including timedate,
+checks, error catching, messages, ...)

@@ -1,7 +1,7 @@
 import os
 import data
 from collections import namedtuple
-
+# NB: get rid of table definitions here
 ## PATHS
 
 DATA_PATH = data.__path__[0]
@@ -30,7 +30,7 @@ TableNames = namedtuple('TableNames', 'table_a table_b column_name')
 sql_parameter_tablename_dict = {}
 
 # The following definitions are a duplicate from SQL.
-# Leave only the keys, get rest from
+# Leave only the keys, get rest from SQL
 sql_parameter_tablename_dict['airports'] = TableNames('MAPPING_PAR_REF_AIRPORT',
                             'PAR_AIRPORT',
                             'AIRPORT_ID')
