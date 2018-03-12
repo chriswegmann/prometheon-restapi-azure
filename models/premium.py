@@ -125,9 +125,9 @@ def calculate_premium(premium_request):
                                         'ref_data_name': ref_data_name})
             except Exception as e:
                 print(e)
-                return {'message': ('parameter_id {} for key {} for date'
-                                '{} not found').format(
-                                    parameter_id, key, timestamp_str)}
+                # return {'message': ('parameter_id {} for key {} for date'
+                #                 '{} not found').format(
+                #                     parameter_id, key, timestamp_str)}
             finally:
                 db_connection.close()
         else:
