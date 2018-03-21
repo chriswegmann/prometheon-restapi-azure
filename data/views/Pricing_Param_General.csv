@@ -1,0 +1,15 @@
+﻿Pricing_Parameter_Value;Product_ID;Product_Description;Pricing_Parameter_Type_ID;Pricing_Parameter_Type_Name;Pricing_Parameter_ID;Pricing_Parameter_Name;Valid_From;Valid_To
+1.05;1;Temperature only;8;General Pricing Parameter;8;Loss adjustment expense;2018-01-01;9999-12-31
+1.26;2;Freight insurance;8;General Pricing Parameter;8;Loss adjustment expense;2018-01-01;9999-12-31
+50;1;Temperature only;8;General Pricing Parameter;17;Administration (fixed);2018-01-01;9999-12-31
+60;2;Freight insurance;8;General Pricing Parameter;17;Administration (fixed);2018-01-01;9999-12-31
+0.03;1;Temperature only;8;General Pricing Parameter;26;Administration (variable);2018-01-01;9999-12-31
+0.036;2;Freight insurance;8;General Pricing Parameter;26;Administration (variable);2018-01-01;9999-12-31
+0.03;1;Temperature only;8;General Pricing Parameter;30;Taxes;2018-01-01;9999-12-31
+0.036;2;Freight insurance;8;General Pricing Parameter;30;Taxes;2018-01-01;9999-12-31
+0.01;1;Temperature only;8;General Pricing Parameter;34;Fees;2018-01-01;9999-12-31
+0.012;2;Freight insurance;8;General Pricing Parameter;34;Fees;2018-01-01;9999-12-31
+0.2;1;Temperature only;8;General Pricing Parameter;38;Target profit;2018-01-01;9999-12-31
+0.24;2;Freight insurance;8;General Pricing Parameter;38;Target profit;2018-01-01;9999-12-31
+50;1;Temperature only;8;General Pricing Parameter;45;Base factor;2018-01-01;9999-12-31
+160;2;Freight insurance;8;General Pricing Parameter;45;Base factor;2018-01-01;9999-12-31

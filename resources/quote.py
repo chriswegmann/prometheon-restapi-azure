@@ -10,7 +10,20 @@ from flask_jwt import JWT, jwt_required
 from flask import Flask, request
 from flask_restful import Resource, reqparse
 from models.premium import calculate_premium
-
+{
+  "sum_insured" : 360000,
+  "product_id" : 1,
+  "temperature_range" : 1405,
+  "container_ type": 1151,
+  "forwarder" : 91,
+  "start_trucking_time" : 1457,
+  "start_country" : 1266,
+  "airport" : "580, 647, 712",
+  "ground_handler" : "10, 25, 58",
+  "end_trucking_time" : 1455,
+  "end_country" : 1293,
+  "timestamp":"2018-01-28"
+}
 class Quote(Resource):
     """
     Resource that uses SQLITE database to determine premium
@@ -20,21 +33,36 @@ class Quote(Resource):
     # parser for the JSON, to ensure the form of the JSON payload
     # NB: action='append' receives a list
     parser = reqparse.RequestParser()
+
+    ## All integers
     parser.add_argument('sum_insured', type=float, required=True,
                         help="'sum_insured' cannot be left blank")
     parser.add_argument('product_id', type=int, required=True,
                         help="'product_id' cannot be left blank")
-    parser.add_argument('country', type=int, action='append', required=True,
-                            help="'sum_insured' cannot be left blank")
-    parser.add_argument('container type', type=int, required=True,
-                            help="'container type' cannot be left blank")
-    parser.add_argument('ground_handlers', type=int, action='append',
-                        required=False)
-    parser.add_argument('airport', type=int, action='append', required=False,
-                        help="'airport' cannot be left blank")
-    parser.add_argument('timestamp', type=str, required=True,
-                        help="'timestamp' cannot be left blank")
+    parser.add_argument('temperature_range', type=int, required=True,
+                        help="'temperature_range' cannot be left blank")
+    parser.add_argument('container_type', type=int, required=True,
+                        help="'container_type' cannot be left blank")
+    parser.add_argument('forwarder', type=int, required=True,
+                        help="'forwarder' cannot be left blank")
+    parser.add_argument('start_trucking_time', type=int, required=True,
+                        help="'start_trucking_time' cannot be left blank")
+    parser.add_argument('start_country', type=int, action='append', required=True,
+                        help="'start_country' cannot be left blank")
+    parser.add_argument('end_trucking_time', type=int, required=True,
+                        help="'end_trucking_time' cannot be left blank")
+    parser.add_argument('end_country', type=int, required=True,
+                        help="'end_country' cannot be left blank")
+    parser.add_argument('details', type=int, required=False,
+                        help="'details has to be an integer (1: include details)")
 
+    ## All lists, formatted as comma separated strings
+    parser.add_argument('airport', type=str, required=False,
+                        help="'airport' has to be a string (comma separated array)")
+    parser.add_argument('timestamp', type=str, required=True,
+                        help="'timestamp' has to be a string (yyyy-mm-dd)")
+    parser.add_argument('ground_handler', type=str, required=False,
+                        help="'ground_handler' has to be a string (comma separated array)")
     @classmethod
     # @jwt_required() # Authentication required
     def post(cls):

@@ -1,0 +1,1717 @@
+﻿Reference_Data_ID;Product_ID;Pricing_Parameter_Value;Product_Description;Pricing_Parameter_Type_ID;Pricing_Parameter_Type_Name;Pricing_Parameter_ID;Pricing_Parameter_Name;Reference_Data_Type;Reference_Data_Name;Valid_From;Valid_To
+575;1;1;Temperature only;4;Airport;4;Low risk;Airport;Mar de Cortés International Airport;2018-01-01;9999-12-31
+575;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Mar de Cortés International Airport;2018-01-01;9999-12-31
+576;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Port Moresby Jacksons International Airport;2018-01-01;9999-12-31
+576;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Port Moresby Jacksons International Airport;2018-01-01;9999-12-31
+577;1;2;Temperature only;4;Airport;22;High risk;Airport;Keflavik International Airport;2018-01-01;9999-12-31
+577;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Keflavik International Airport;2018-01-01;9999-12-31
+578;1;1;Temperature only;4;Airport;4;Low risk;Airport;Priština International Airport;2018-01-01;9999-12-31
+578;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Priština International Airport;2018-01-01;9999-12-31
+579;1;1;Temperature only;4;Airport;4;Low risk;Airport;Edmonton International Airport;2018-01-01;9999-12-31
+579;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Edmonton International Airport;2018-01-01;9999-12-31
+580;1;1;Temperature only;4;Airport;4;Low risk;Airport;Halifax / Stanfield International Airport;2018-01-01;9999-12-31
+580;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Halifax / Stanfield International Airport;2018-01-01;9999-12-31
+581;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Ottawa Macdonald-Cartier International Airport;2018-01-01;9999-12-31
+581;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Ottawa Macdonald-Cartier International Airport;2018-01-01;9999-12-31
+582;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Montreal / Pierre Elliott Trudeau International Airport;2018-01-01;9999-12-31
+582;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Montreal / Pierre Elliott Trudeau International Airport;2018-01-01;9999-12-31
+583;1;1;Temperature only;4;Airport;4;Low risk;Airport;Vancouver International Airport;2018-01-01;9999-12-31
+583;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Vancouver International Airport;2018-01-01;9999-12-31
+584;1;1;Temperature only;4;Airport;4;Low risk;Airport;Winnipeg / James Armstrong Richardson International Airport;2018-01-01;9999-12-31
+584;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Winnipeg / James Armstrong Richardson International Airport;2018-01-01;9999-12-31
+585;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Calgary International Airport;2018-01-01;9999-12-31
+585;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Calgary International Airport;2018-01-01;9999-12-31
+586;1;2;Temperature only;4;Airport;22;High risk;Airport;Victoria International Airport;2018-01-01;9999-12-31
+586;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Victoria International Airport;2018-01-01;9999-12-31
+587;1;2;Temperature only;4;Airport;22;High risk;Airport;St. John's International Airport;2018-01-01;9999-12-31
+587;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;St. John's International Airport;2018-01-01;9999-12-31
+588;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Lester B. Pearson International Airport;2018-01-01;9999-12-31
+588;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Lester B. Pearson International Airport;2018-01-01;9999-12-31
+589;1;1;Temperature only;4;Airport;4;Low risk;Airport;Houari Boumediene Airport;2018-01-01;9999-12-31
+589;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Houari Boumediene Airport;2018-01-01;9999-12-31
+590;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Kotoka International Airport;2018-01-01;9999-12-31
+590;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Kotoka International Airport;2018-01-01;9999-12-31
+591;1;1;Temperature only;4;Airport;4;Low risk;Airport;Nnamdi Azikiwe International Airport;2018-01-01;9999-12-31
+591;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Nnamdi Azikiwe International Airport;2018-01-01;9999-12-31
+592;1;1;Temperature only;4;Airport;4;Low risk;Airport;Akwa Ibom International Airport;2018-01-01;9999-12-31
+592;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Akwa Ibom International Airport;2018-01-01;9999-12-31
+593;1;1;Temperature only;4;Airport;4;Low risk;Airport;Murtala Muhammed International Airport;2018-01-01;9999-12-31
+593;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Murtala Muhammed International Airport;2018-01-01;9999-12-31
+594;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tunis Carthage International Airport;2018-01-01;9999-12-31
+594;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tunis Carthage International Airport;2018-01-01;9999-12-31
+595;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Brussels Airport;2018-01-01;9999-12-31
+595;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Brussels Airport;2018-01-01;9999-12-31
+596;1;2;Temperature only;4;Airport;22;High risk;Airport;Brussels South Charleroi Airport;2018-01-01;9999-12-31
+596;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Brussels South Charleroi Airport;2018-01-01;9999-12-31
+597;1;1;Temperature only;4;Airport;4;Low risk;Airport;Liège Airport;2018-01-01;9999-12-31
+597;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Liège Airport;2018-01-01;9999-12-31
+598;1;2;Temperature only;4;Airport;22;High risk;Airport;Berlin-Schönefeld Airport;2018-01-01;9999-12-31
+598;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Berlin-Schönefeld Airport;2018-01-01;9999-12-31
+599;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dresden Airport;2018-01-01;9999-12-31
+599;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dresden Airport;2018-01-01;9999-12-31
+600;1;1;Temperature only;4;Airport;4;Low risk;Airport;Frankfurt am Main Airport;2018-01-01;9999-12-31
+600;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Frankfurt am Main Airport;2018-01-01;9999-12-31
+601;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Münster Osnabrück Airport;2018-01-01;9999-12-31
+601;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Münster Osnabrück Airport;2018-01-01;9999-12-31
+602;1;1;Temperature only;4;Airport;4;Low risk;Airport;Hamburg Airport;2018-01-01;9999-12-31
+602;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Hamburg Airport;2018-01-01;9999-12-31
+603;1;1;Temperature only;4;Airport;4;Low risk;Airport;Cologne Bonn Airport;2018-01-01;9999-12-31
+603;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Cologne Bonn Airport;2018-01-01;9999-12-31
+604;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Düsseldorf Airport;2018-01-01;9999-12-31
+604;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Düsseldorf Airport;2018-01-01;9999-12-31
+605;1;2;Temperature only;4;Airport;22;High risk;Airport;Munich Airport;2018-01-01;9999-12-31
+605;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Munich Airport;2018-01-01;9999-12-31
+606;1;1;Temperature only;4;Airport;4;Low risk;Airport;Nuremberg Airport;2018-01-01;9999-12-31
+606;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Nuremberg Airport;2018-01-01;9999-12-31
+607;1;1;Temperature only;4;Airport;4;Low risk;Airport;Leipzig/Halle Airport;2018-01-01;9999-12-31
+607;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Leipzig/Halle Airport;2018-01-01;9999-12-31
+608;1;1;Temperature only;4;Airport;4;Low risk;Airport;Stuttgart Airport;2018-01-01;9999-12-31
+608;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Stuttgart Airport;2018-01-01;9999-12-31
+609;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Berlin-Tegel Airport;2018-01-01;9999-12-31
+609;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Berlin-Tegel Airport;2018-01-01;9999-12-31
+610;1;1;Temperature only;4;Airport;4;Low risk;Airport;Hannover Airport;2018-01-01;9999-12-31
+610;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Hannover Airport;2018-01-01;9999-12-31
+611;1;1;Temperature only;4;Airport;4;Low risk;Airport;Bremen Airport;2018-01-01;9999-12-31
+611;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Bremen Airport;2018-01-01;9999-12-31
+612;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Dortmund Airport;2018-01-01;9999-12-31
+612;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Dortmund Airport;2018-01-01;9999-12-31
+613;1;2;Temperature only;4;Airport;22;High risk;Airport;Karlsruhe Baden-Baden Airport;2018-01-01;9999-12-31
+613;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Karlsruhe Baden-Baden Airport;2018-01-01;9999-12-31
+614;1;1;Temperature only;4;Airport;4;Low risk;Airport;Lennart Meri Tallinn Airport;2018-01-01;9999-12-31
+614;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Lennart Meri Tallinn Airport;2018-01-01;9999-12-31
+615;1;1;Temperature only;4;Airport;4;Low risk;Airport;Helsinki Vantaa Airport;2018-01-01;9999-12-31
+615;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Helsinki Vantaa Airport;2018-01-01;9999-12-31
+616;1;1;Temperature only;4;Airport;4;Low risk;Airport;Belfast International Airport;2018-01-01;9999-12-31
+616;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Belfast International Airport;2018-01-01;9999-12-31
+617;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;George Best Belfast City Airport;2018-01-01;9999-12-31
+617;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;George Best Belfast City Airport;2018-01-01;9999-12-31
+618;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Birmingham International Airport;2018-01-01;9999-12-31
+618;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Birmingham International Airport;2018-01-01;9999-12-31
+619;1;1;Temperature only;4;Airport;4;Low risk;Airport;Manchester Airport;2018-01-01;9999-12-31
+619;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Manchester Airport;2018-01-01;9999-12-31
+620;1;1;Temperature only;4;Airport;4;Low risk;Airport;Robin Hood Doncaster Sheffield Airport;2018-01-01;9999-12-31
+620;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Robin Hood Doncaster Sheffield Airport;2018-01-01;9999-12-31
+621;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Cardiff International Airport;2018-01-01;9999-12-31
+621;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Cardiff International Airport;2018-01-01;9999-12-31
+622;1;2;Temperature only;4;Airport;22;High risk;Airport;Bristol Airport;2018-01-01;9999-12-31
+622;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Bristol Airport;2018-01-01;9999-12-31
+623;1;2;Temperature only;4;Airport;22;High risk;Airport;Liverpool John Lennon Airport;2018-01-01;9999-12-31
+623;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Liverpool John Lennon Airport;2018-01-01;9999-12-31
+624;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;London Luton Airport;2018-01-01;9999-12-31
+624;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;London Luton Airport;2018-01-01;9999-12-31
+625;1;1;Temperature only;4;Airport;4;Low risk;Airport;Bournemouth Airport;2018-01-01;9999-12-31
+625;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Bournemouth Airport;2018-01-01;9999-12-31
+626;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Southampton Airport;2018-01-01;9999-12-31
+626;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Southampton Airport;2018-01-01;9999-12-31
+627;1;1;Temperature only;4;Airport;4;Low risk;Airport;London Gatwick Airport;2018-01-01;9999-12-31
+627;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;London Gatwick Airport;2018-01-01;9999-12-31
+628;1;1;Temperature only;4;Airport;4;Low risk;Airport;London Heathrow Airport;2018-01-01;9999-12-31
+628;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;London Heathrow Airport;2018-01-01;9999-12-31
+629;1;1;Temperature only;4;Airport;4;Low risk;Airport;Leeds Bradford Airport;2018-01-01;9999-12-31
+629;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Leeds Bradford Airport;2018-01-01;9999-12-31
+630;1;1;Temperature only;4;Airport;4;Low risk;Airport;Newcastle Airport;2018-01-01;9999-12-31
+630;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Newcastle Airport;2018-01-01;9999-12-31
+631;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;East Midlands Airport;2018-01-01;9999-12-31
+631;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;East Midlands Airport;2018-01-01;9999-12-31
+632;1;2;Temperature only;4;Airport;22;High risk;Airport;Aberdeen Dyce Airport;2018-01-01;9999-12-31
+632;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Aberdeen Dyce Airport;2018-01-01;9999-12-31
+633;1;1;Temperature only;4;Airport;4;Low risk;Airport;Glasgow International Airport;2018-01-01;9999-12-31
+633;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Glasgow International Airport;2018-01-01;9999-12-31
+634;1;2;Temperature only;4;Airport;22;High risk;Airport;Edinburgh Airport;2018-01-01;9999-12-31
+634;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Edinburgh Airport;2018-01-01;9999-12-31
+635;1;1;Temperature only;4;Airport;4;Low risk;Airport;Norwich International Airport;2018-01-01;9999-12-31
+635;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Norwich International Airport;2018-01-01;9999-12-31
+636;1;1;Temperature only;4;Airport;4;Low risk;Airport;London Stansted Airport;2018-01-01;9999-12-31
+636;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;London Stansted Airport;2018-01-01;9999-12-31
+637;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Exeter International Airport;2018-01-01;9999-12-31
+637;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Exeter International Airport;2018-01-01;9999-12-31
+638;1;1;Temperature only;4;Airport;4;Low risk;Airport;RAF Lakenheath;2018-01-01;9999-12-31
+638;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;RAF Lakenheath;2018-01-01;9999-12-31
+639;1;1;Temperature only;4;Airport;4;Low risk;Airport;RAF Mildenhall;2018-01-01;9999-12-31
+639;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;RAF Mildenhall;2018-01-01;9999-12-31
+640;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;RAF Fairford;2018-01-01;9999-12-31
+640;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;RAF Fairford;2018-01-01;9999-12-31
+641;1;2;Temperature only;4;Airport;22;High risk;Airport;RAF Brize Norton;2018-01-01;9999-12-31
+641;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;RAF Brize Norton;2018-01-01;9999-12-31
+642;1;1;Temperature only;4;Airport;4;Low risk;Airport;Amsterdam Airport Schiphol;2018-01-01;9999-12-31
+642;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Amsterdam Airport Schiphol;2018-01-01;9999-12-31
+643;1;1;Temperature only;4;Airport;4;Low risk;Airport;Maastricht Aachen Airport;2018-01-01;9999-12-31
+643;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Maastricht Aachen Airport;2018-01-01;9999-12-31
+644;1;1;Temperature only;4;Airport;4;Low risk;Airport;Eindhoven Airport;2018-01-01;9999-12-31
+644;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Eindhoven Airport;2018-01-01;9999-12-31
+645;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Cork Airport;2018-01-01;9999-12-31
+645;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Cork Airport;2018-01-01;9999-12-31
+646;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dublin Airport;2018-01-01;9999-12-31
+646;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dublin Airport;2018-01-01;9999-12-31
+647;1;1;Temperature only;4;Airport;4;Low risk;Airport;Shannon Airport;2018-01-01;9999-12-31
+647;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Shannon Airport;2018-01-01;9999-12-31
+648;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Billund Airport;2018-01-01;9999-12-31
+648;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Billund Airport;2018-01-01;9999-12-31
+649;1;2;Temperature only;4;Airport;22;High risk;Airport;Copenhagen Kastrup Airport;2018-01-01;9999-12-31
+649;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Copenhagen Kastrup Airport;2018-01-01;9999-12-31
+650;1;1;Temperature only;4;Airport;4;Low risk;Airport;Aalborg Airport;2018-01-01;9999-12-31
+650;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Aalborg Airport;2018-01-01;9999-12-31
+651;1;1;Temperature only;4;Airport;4;Low risk;Airport;Luxembourg-Findel International Airport;2018-01-01;9999-12-31
+651;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Luxembourg-Findel International Airport;2018-01-01;9999-12-31
+652;1;1;Temperature only;4;Airport;4;Low risk;Airport;Bodø Airport;2018-01-01;9999-12-31
+652;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Bodø Airport;2018-01-01;9999-12-31
+653;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Bergen Airport Flesland;2018-01-01;9999-12-31
+653;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Bergen Airport Flesland;2018-01-01;9999-12-31
+654;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Oslo Gardermoen Airport;2018-01-01;9999-12-31
+654;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Oslo Gardermoen Airport;2018-01-01;9999-12-31
+655;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tromsø Airport;2018-01-01;9999-12-31
+655;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tromsø Airport;2018-01-01;9999-12-31
+656;1;1;Temperature only;4;Airport;4;Low risk;Airport;Trondheim Airport Værnes;2018-01-01;9999-12-31
+656;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Trondheim Airport Værnes;2018-01-01;9999-12-31
+657;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Stavanger Airport Sola;2018-01-01;9999-12-31
+657;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Stavanger Airport Sola;2018-01-01;9999-12-31
+658;1;2;Temperature only;4;Airport;22;High risk;Airport;Gda?sk Lech Wa??sa Airport;2018-01-01;9999-12-31
+658;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Gda?sk Lech Wa??sa Airport;2018-01-01;9999-12-31
+659;1;2;Temperature only;4;Airport;22;High risk;Airport;John Paul II International Airport Kraków-Balice Airport;2018-01-01;9999-12-31
+659;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;John Paul II International Airport Kraków-Balice Airport;2018-01-01;9999-12-31
+660;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Katowice International Airport;2018-01-01;9999-12-31
+660;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Katowice International Airport;2018-01-01;9999-12-31
+661;1;1;Temperature only;4;Airport;4;Low risk;Airport;Modlin Airport;2018-01-01;9999-12-31
+661;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Modlin Airport;2018-01-01;9999-12-31
+662;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Pozna?-?awica Airport;2018-01-01;9999-12-31
+662;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Pozna?-?awica Airport;2018-01-01;9999-12-31
+663;1;1;Temperature only;4;Airport;4;Low risk;Airport;Warsaw Chopin Airport;2018-01-01;9999-12-31
+663;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Warsaw Chopin Airport;2018-01-01;9999-12-31
+664;1;1;Temperature only;4;Airport;4;Low risk;Airport;Copernicus Wroc?aw Airport;2018-01-01;9999-12-31
+664;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Copernicus Wroc?aw Airport;2018-01-01;9999-12-31
+665;1;1;Temperature only;4;Airport;4;Low risk;Airport;Gothenburg-Landvetter Airport;2018-01-01;9999-12-31
+665;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Gothenburg-Landvetter Airport;2018-01-01;9999-12-31
+666;1;1;Temperature only;4;Airport;4;Low risk;Airport;Malmö Sturup Airport;2018-01-01;9999-12-31
+666;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Malmö Sturup Airport;2018-01-01;9999-12-31
+667;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Luleå Airport;2018-01-01;9999-12-31
+667;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Luleå Airport;2018-01-01;9999-12-31
+668;1;2;Temperature only;4;Airport;22;High risk;Airport;Stockholm-Arlanda Airport;2018-01-01;9999-12-31
+668;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Stockholm-Arlanda Airport;2018-01-01;9999-12-31
+669;1;1;Temperature only;4;Airport;4;Low risk;Airport;Ramstein Air Base;2018-01-01;9999-12-31
+669;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Ramstein Air Base;2018-01-01;9999-12-31
+670;1;2;Temperature only;4;Airport;22;High risk;Airport;Riga International Airport;2018-01-01;9999-12-31
+670;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Riga International Airport;2018-01-01;9999-12-31
+671;1;1;Temperature only;4;Airport;4;Low risk;Airport;Vilnius International Airport;2018-01-01;9999-12-31
+671;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Vilnius International Airport;2018-01-01;9999-12-31
+672;1;1;Temperature only;4;Airport;4;Low risk;Airport;Cape Town International Airport;2018-01-01;9999-12-31
+672;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Cape Town International Airport;2018-01-01;9999-12-31
+673;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;George Airport;2018-01-01;9999-12-31
+673;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;George Airport;2018-01-01;9999-12-31
+674;1;1;Temperature only;4;Airport;4;Low risk;Airport;OR Tambo International Airport;2018-01-01;9999-12-31
+674;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;OR Tambo International Airport;2018-01-01;9999-12-31
+675;1;1;Temperature only;4;Airport;4;Low risk;Airport;King Shaka International Airport;2018-01-01;9999-12-31
+675;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;King Shaka International Airport;2018-01-01;9999-12-31
+676;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Sir Charles Gaetan Duval Airport;2018-01-01;9999-12-31
+676;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Sir Charles Gaetan Duval Airport;2018-01-01;9999-12-31
+677;1;2;Temperature only;4;Airport;22;High risk;Airport;Kenneth Kaunda International Airport Lusaka;2018-01-01;9999-12-31
+677;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Kenneth Kaunda International Airport Lusaka;2018-01-01;9999-12-31
+678;1;1;Temperature only;4;Airport;4;Low risk;Airport;Gran Canaria Airport;2018-01-01;9999-12-31
+678;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Gran Canaria Airport;2018-01-01;9999-12-31
+679;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tenerife South Airport;2018-01-01;9999-12-31
+679;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tenerife South Airport;2018-01-01;9999-12-31
+680;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tenerife Norte Airport;2018-01-01;9999-12-31
+680;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tenerife Norte Airport;2018-01-01;9999-12-31
+681;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Mohammed V International Airport;2018-01-01;9999-12-31
+681;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Mohammed V International Airport;2018-01-01;9999-12-31
+682;1;1;Temperature only;4;Airport;4;Low risk;Airport;Diass-Thies Blaise Diagne International Airport;2018-01-01;9999-12-31
+682;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Diass-Thies Blaise Diagne International Airport;2018-01-01;9999-12-31
+683;1;1;Temperature only;4;Airport;4;Low risk;Airport;Léopold Sédar Senghor International Airport;2018-01-01;9999-12-31
+683;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Léopold Sédar Senghor International Airport;2018-01-01;9999-12-31
+684;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Nouakchott–Oumtounsy International Airport;2018-01-01;9999-12-31
+684;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Nouakchott–Oumtounsy International Airport;2018-01-01;9999-12-31
+685;1;2;Temperature only;4;Airport;22;High risk;Airport;Addis Ababa Bole International Airport;2018-01-01;9999-12-31
+685;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Addis Ababa Bole International Airport;2018-01-01;9999-12-31
+686;1;1;Temperature only;4;Airport;4;Low risk;Airport;Cairo International Airport;2018-01-01;9999-12-31
+686;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Cairo International Airport;2018-01-01;9999-12-31
+687;1;1;Temperature only;4;Airport;4;Low risk;Airport;Hurghada International Airport;2018-01-01;9999-12-31
+687;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Hurghada International Airport;2018-01-01;9999-12-31
+688;1;1;Temperature only;4;Airport;4;Low risk;Airport;Luxor International Airport;2018-01-01;9999-12-31
+688;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Luxor International Airport;2018-01-01;9999-12-31
+689;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Jomo Kenyatta International Airport;2018-01-01;9999-12-31
+689;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Jomo Kenyatta International Airport;2018-01-01;9999-12-31
+690;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Mombasa Moi International Airport;2018-01-01;9999-12-31
+690;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Mombasa Moi International Airport;2018-01-01;9999-12-31
+691;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tripoli International Airport;2018-01-01;9999-12-31
+691;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tripoli International Airport;2018-01-01;9999-12-31
+692;1;1;Temperature only;4;Airport;4;Low risk;Airport;Juba International Airport;2018-01-01;9999-12-31
+692;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Juba International Airport;2018-01-01;9999-12-31
+693;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Khartoum International Airport;2018-01-01;9999-12-31
+693;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Khartoum International Airport;2018-01-01;9999-12-31
+694;1;2;Temperature only;4;Airport;22;High risk;Airport;Julius Nyerere International Airport;2018-01-01;9999-12-31
+694;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Julius Nyerere International Airport;2018-01-01;9999-12-31
+695;1;2;Temperature only;4;Airport;22;High risk;Airport;Albuquerque International Sunport Airport;2018-01-01;9999-12-31
+695;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Albuquerque International Sunport Airport;2018-01-01;9999-12-31
+696;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Andrews Air Force Base;2018-01-01;9999-12-31
+696;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Andrews Air Force Base;2018-01-01;9999-12-31
+697;1;1;Temperature only;4;Airport;4;Low risk;Airport;Fort Worth Alliance Airport;2018-01-01;9999-12-31
+697;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Fort Worth Alliance Airport;2018-01-01;9999-12-31
+698;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Augusta Regional At Bush Field;2018-01-01;9999-12-31
+698;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Augusta Regional At Bush Field;2018-01-01;9999-12-31
+699;1;1;Temperature only;4;Airport;4;Low risk;Airport;Rick Husband Amarillo International Airport;2018-01-01;9999-12-31
+699;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Rick Husband Amarillo International Airport;2018-01-01;9999-12-31
+700;1;1;Temperature only;4;Airport;4;Low risk;Airport;Hartsfield Jackson Atlanta International Airport;2018-01-01;9999-12-31
+700;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Hartsfield Jackson Atlanta International Airport;2018-01-01;9999-12-31
+701;1;1;Temperature only;4;Airport;4;Low risk;Airport;Austin Bergstrom International Airport;2018-01-01;9999-12-31
+701;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Austin Bergstrom International Airport;2018-01-01;9999-12-31
+702;1;1;Temperature only;4;Airport;4;Low risk;Airport;Asheville Regional Airport;2018-01-01;9999-12-31
+702;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Asheville Regional Airport;2018-01-01;9999-12-31
+703;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Beale Air Force Base;2018-01-01;9999-12-31
+703;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Beale Air Force Base;2018-01-01;9999-12-31
+704;1;2;Temperature only;4;Airport;22;High risk;Airport;Barksdale Air Force Base;2018-01-01;9999-12-31
+704;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Barksdale Air Force Base;2018-01-01;9999-12-31
+705;1;1;Temperature only;4;Airport;4;Low risk;Airport;Bradley International Airport;2018-01-01;9999-12-31
+705;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Bradley International Airport;2018-01-01;9999-12-31
+706;1;2;Temperature only;4;Airport;22;High risk;Airport;Boeing Field King County International Airport;2018-01-01;9999-12-31
+706;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Boeing Field King County International Airport;2018-01-01;9999-12-31
+707;1;1;Temperature only;4;Airport;4;Low risk;Airport;Bangor International Airport;2018-01-01;9999-12-31
+707;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Bangor International Airport;2018-01-01;9999-12-31
+708;1;1;Temperature only;4;Airport;4;Low risk;Airport;Birmingham-Shuttlesworth International Airport;2018-01-01;9999-12-31
+708;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Birmingham-Shuttlesworth International Airport;2018-01-01;9999-12-31
+709;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Billings Logan International Airport;2018-01-01;9999-12-31
+709;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Billings Logan International Airport;2018-01-01;9999-12-31
+710;1;1;Temperature only;4;Airport;4;Low risk;Airport;Scott AFB/Midamerica Airport;2018-01-01;9999-12-31
+710;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Scott AFB/Midamerica Airport;2018-01-01;9999-12-31
+711;1;1;Temperature only;4;Airport;4;Low risk;Airport;Central Illinois Regional Airport at Bloomington-Normal;2018-01-01;9999-12-31
+711;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Central Illinois Regional Airport at Bloomington-Normal;2018-01-01;9999-12-31
+712;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Nashville International Airport;2018-01-01;9999-12-31
+712;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Nashville International Airport;2018-01-01;9999-12-31
+713;1;2;Temperature only;4;Airport;22;High risk;Airport;Boise Air Terminal/Gowen field;2018-01-01;9999-12-31
+713;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Boise Air Terminal/Gowen field;2018-01-01;9999-12-31
+714;1;1;Temperature only;4;Airport;4;Low risk;Airport;General Edward Lawrence Logan International Airport;2018-01-01;9999-12-31
+714;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;General Edward Lawrence Logan International Airport;2018-01-01;9999-12-31
+715;1;1;Temperature only;4;Airport;4;Low risk;Airport;Baton Rouge Metropolitan;2018-01-01;9999-12-31
+715;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Baton Rouge Metropolitan;2018-01-01;9999-12-31
+716;1;1;Temperature only;4;Airport;4;Low risk;Airport;Buffalo Niagara International Airport;2018-01-01;9999-12-31
+716;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Buffalo Niagara International Airport;2018-01-01;9999-12-31
+717;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Baltimore/Washington International Thurgood Marshall Airport;2018-01-01;9999-12-31
+717;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Baltimore/Washington International Thurgood Marshall Airport;2018-01-01;9999-12-31
+718;1;1;Temperature only;4;Airport;4;Low risk;Airport;Columbia Metropolitan Airport;2018-01-01;9999-12-31
+718;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Columbia Metropolitan Airport;2018-01-01;9999-12-31
+719;1;1;Temperature only;4;Airport;4;Low risk;Airport;Columbus Air Force Base;2018-01-01;9999-12-31
+719;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Columbus Air Force Base;2018-01-01;9999-12-31
+720;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Lovell Field;2018-01-01;9999-12-31
+720;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Lovell Field;2018-01-01;9999-12-31
+721;1;2;Temperature only;4;Airport;22;High risk;Airport;Charleston Air Force Base-International Airport;2018-01-01;9999-12-31
+721;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Charleston Air Force Base-International Airport;2018-01-01;9999-12-31
+722;1;1;Temperature only;4;Airport;4;Low risk;Airport;The Eastern Iowa Airport;2018-01-01;9999-12-31
+722;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;The Eastern Iowa Airport;2018-01-01;9999-12-31
+723;1;1;Temperature only;4;Airport;4;Low risk;Airport;Cleveland Hopkins International Airport;2018-01-01;9999-12-31
+723;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Cleveland Hopkins International Airport;2018-01-01;9999-12-31
+724;1;1;Temperature only;4;Airport;4;Low risk;Airport;Charlotte Douglas International Airport;2018-01-01;9999-12-31
+724;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Charlotte Douglas International Airport;2018-01-01;9999-12-31
+725;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Port Columbus International Airport;2018-01-01;9999-12-31
+725;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Port Columbus International Airport;2018-01-01;9999-12-31
+726;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;City of Colorado Springs Municipal Airport;2018-01-01;9999-12-31
+726;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;City of Colorado Springs Municipal Airport;2018-01-01;9999-12-31
+727;1;1;Temperature only;4;Airport;4;Low risk;Airport;Casper-Natrona County International Airport;2018-01-01;9999-12-31
+727;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Casper-Natrona County International Airport;2018-01-01;9999-12-31
+728;1;1;Temperature only;4;Airport;4;Low risk;Airport;Corpus Christi International Airport;2018-01-01;9999-12-31
+728;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Corpus Christi International Airport;2018-01-01;9999-12-31
+729;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Yeager Airport;2018-01-01;9999-12-31
+729;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Yeager Airport;2018-01-01;9999-12-31
+730;1;2;Temperature only;4;Airport;22;High risk;Airport;Cincinnati Northern Kentucky International Airport;2018-01-01;9999-12-31
+730;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Cincinnati Northern Kentucky International Airport;2018-01-01;9999-12-31
+731;1;2;Temperature only;4;Airport;22;High risk;Airport;Cannon Air Force Base;2018-01-01;9999-12-31
+731;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Cannon Air Force Base;2018-01-01;9999-12-31
+732;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Daytona Beach International Airport;2018-01-01;9999-12-31
+732;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Daytona Beach International Airport;2018-01-01;9999-12-31
+733;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dallas Love Field;2018-01-01;9999-12-31
+733;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dallas Love Field;2018-01-01;9999-12-31
+734;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;James M Cox Dayton International Airport;2018-01-01;9999-12-31
+734;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;James M Cox Dayton International Airport;2018-01-01;9999-12-31
+735;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dubuque Regional Airport;2018-01-01;9999-12-31
+735;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dubuque Regional Airport;2018-01-01;9999-12-31
+736;1;1;Temperature only;4;Airport;4;Low risk;Airport;Ronald Reagan Washington National Airport;2018-01-01;9999-12-31
+736;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Ronald Reagan Washington National Airport;2018-01-01;9999-12-31
+737;1;1;Temperature only;4;Airport;4;Low risk;Airport;Denver International Airport;2018-01-01;9999-12-31
+737;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Denver International Airport;2018-01-01;9999-12-31
+738;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dallas Fort Worth International Airport;2018-01-01;9999-12-31
+738;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dallas Fort Worth International Airport;2018-01-01;9999-12-31
+739;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Laughlin Air Force Base;2018-01-01;9999-12-31
+739;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Laughlin Air Force Base;2018-01-01;9999-12-31
+740;1;2;Temperature only;4;Airport;22;High risk;Airport;Duluth International Airport;2018-01-01;9999-12-31
+740;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Duluth International Airport;2018-01-01;9999-12-31
+741;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dover Air Force Base;2018-01-01;9999-12-31
+741;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dover Air Force Base;2018-01-01;9999-12-31
+742;1;2;Temperature only;4;Airport;22;High risk;Airport;Des Moines International Airport;2018-01-01;9999-12-31
+742;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Des Moines International Airport;2018-01-01;9999-12-31
+743;1;1;Temperature only;4;Airport;4;Low risk;Airport;Detroit Metropolitan Wayne County Airport;2018-01-01;9999-12-31
+743;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Detroit Metropolitan Wayne County Airport;2018-01-01;9999-12-31
+744;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dyess Air Force Base;2018-01-01;9999-12-31
+744;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dyess Air Force Base;2018-01-01;9999-12-31
+745;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Edwards Air Force Base;2018-01-01;9999-12-31
+745;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Edwards Air Force Base;2018-01-01;9999-12-31
+746;1;1;Temperature only;4;Airport;4;Low risk;Airport;Vance Air Force Base;2018-01-01;9999-12-31
+746;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Vance Air Force Base;2018-01-01;9999-12-31
+747;1;1;Temperature only;4;Airport;4;Low risk;Airport;Erie International Tom Ridge Field;2018-01-01;9999-12-31
+747;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Erie International Tom Ridge Field;2018-01-01;9999-12-31
+748;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Newark Liberty International Airport;2018-01-01;9999-12-31
+748;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Newark Liberty International Airport;2018-01-01;9999-12-31
+749;1;2;Temperature only;4;Airport;22;High risk;Airport;Wright-Patterson Air Force Base;2018-01-01;9999-12-31
+749;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Wright-Patterson Air Force Base;2018-01-01;9999-12-31
+750;1;1;Temperature only;4;Airport;4;Low risk;Airport;Fort Lauderdale Hollywood International Airport;2018-01-01;9999-12-31
+750;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Fort Lauderdale Hollywood International Airport;2018-01-01;9999-12-31
+751;1;1;Temperature only;4;Airport;4;Low risk;Airport;Fort Smith Regional Airport;2018-01-01;9999-12-31
+751;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Fort Smith Regional Airport;2018-01-01;9999-12-31
+752;1;1;Temperature only;4;Airport;4;Low risk;Airport;Fort Worth Meacham International Airport;2018-01-01;9999-12-31
+752;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Fort Worth Meacham International Airport;2018-01-01;9999-12-31
+753;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Fort Wayne International Airport;2018-01-01;9999-12-31
+753;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Fort Wayne International Airport;2018-01-01;9999-12-31
+754;1;1;Temperature only;4;Airport;4;Low risk;Airport;Spokane International Airport;2018-01-01;9999-12-31
+754;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Spokane International Airport;2018-01-01;9999-12-31
+755;1;1;Temperature only;4;Airport;4;Low risk;Airport;Gulfport Biloxi International Airport;2018-01-01;9999-12-31
+755;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Gulfport Biloxi International Airport;2018-01-01;9999-12-31
+756;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Austin Straubel International Airport;2018-01-01;9999-12-31
+756;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Austin Straubel International Airport;2018-01-01;9999-12-31
+757;1;2;Temperature only;4;Airport;22;High risk;Airport;Seymour Johnson Air Force Base;2018-01-01;9999-12-31
+757;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Seymour Johnson Air Force Base;2018-01-01;9999-12-31
+758;1;1;Temperature only;4;Airport;4;Low risk;Airport;Piedmont Triad International Airport;2018-01-01;9999-12-31
+758;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Piedmont Triad International Airport;2018-01-01;9999-12-31
+759;1;1;Temperature only;4;Airport;4;Low risk;Airport;Greenville Spartanburg International Airport;2018-01-01;9999-12-31
+759;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Greenville Spartanburg International Airport;2018-01-01;9999-12-31
+760;1;1;Temperature only;4;Airport;4;Low risk;Airport;Grissom Air Reserve Base;2018-01-01;9999-12-31
+760;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Grissom Air Reserve Base;2018-01-01;9999-12-31
+761;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Range Regional Airport;2018-01-01;9999-12-31
+761;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Range Regional Airport;2018-01-01;9999-12-31
+762;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Holloman Air Force Base;2018-01-01;9999-12-31
+762;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Holloman Air Force Base;2018-01-01;9999-12-31
+763;1;1;Temperature only;4;Airport;4;Low risk;Airport;William P Hobby Airport;2018-01-01;9999-12-31
+763;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;William P Hobby Airport;2018-01-01;9999-12-31
+764;1;1;Temperature only;4;Airport;4;Low risk;Airport;Huntsville International Carl T Jones Field;2018-01-01;9999-12-31
+764;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Huntsville International Carl T Jones Field;2018-01-01;9999-12-31
+765;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Tri-State/Milton J. Ferguson Field;2018-01-01;9999-12-31
+765;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Tri-State/Milton J. Ferguson Field;2018-01-01;9999-12-31
+766;1;2;Temperature only;4;Airport;22;High risk;Airport;Washington Dulles International Airport;2018-01-01;9999-12-31
+766;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Washington Dulles International Airport;2018-01-01;9999-12-31
+767;1;2;Temperature only;4;Airport;22;High risk;Airport;George Bush Intercontinental Houston Airport;2018-01-01;9999-12-31
+767;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;George Bush Intercontinental Houston Airport;2018-01-01;9999-12-31
+768;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Wichita Mid Continent Airport;2018-01-01;9999-12-31
+768;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Wichita Mid Continent Airport;2018-01-01;9999-12-31
+769;1;1;Temperature only;4;Airport;4;Low risk;Airport;Indianapolis International Airport;2018-01-01;9999-12-31
+769;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Indianapolis International Airport;2018-01-01;9999-12-31
+770;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Jackson-Medgar Wiley Evers International Airport;2018-01-01;9999-12-31
+770;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Jackson-Medgar Wiley Evers International Airport;2018-01-01;9999-12-31
+771;1;1;Temperature only;4;Airport;4;Low risk;Airport;Jacksonville International Airport;2018-01-01;9999-12-31
+771;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Jacksonville International Airport;2018-01-01;9999-12-31
+772;1;1;Temperature only;4;Airport;4;Low risk;Airport;John F Kennedy International Airport;2018-01-01;9999-12-31
+772;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;John F Kennedy International Airport;2018-01-01;9999-12-31
+773;1;1;Temperature only;4;Airport;4;Low risk;Airport;Joplin Regional Airport;2018-01-01;9999-12-31
+773;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Joplin Regional Airport;2018-01-01;9999-12-31
+774;1;1;Temperature only;4;Airport;4;Low risk;Airport;McCarran International Airport;2018-01-01;9999-12-31
+774;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;McCarran International Airport;2018-01-01;9999-12-31
+775;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Los Angeles International Airport;2018-01-01;9999-12-31
+775;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Los Angeles International Airport;2018-01-01;9999-12-31
+776;1;2;Temperature only;4;Airport;22;High risk;Airport;Lubbock Preston Smith International Airport;2018-01-01;9999-12-31
+776;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Lubbock Preston Smith International Airport;2018-01-01;9999-12-31
+777;1;1;Temperature only;4;Airport;4;Low risk;Airport;Rickenbacker International Airport;2018-01-01;9999-12-31
+777;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Rickenbacker International Airport;2018-01-01;9999-12-31
+778;1;2;Temperature only;4;Airport;22;High risk;Airport;Blue Grass Airport;2018-01-01;9999-12-31
+778;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Blue Grass Airport;2018-01-01;9999-12-31
+779;1;1;Temperature only;4;Airport;4;Low risk;Airport;Langley Air Force Base;2018-01-01;9999-12-31
+779;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Langley Air Force Base;2018-01-01;9999-12-31
+780;1;1;Temperature only;4;Airport;4;Low risk;Airport;Lafayette Regional Airport;2018-01-01;9999-12-31
+780;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Lafayette Regional Airport;2018-01-01;9999-12-31
+781;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;La Guardia Airport;2018-01-01;9999-12-31
+781;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;La Guardia Airport;2018-01-01;9999-12-31
+782;1;1;Temperature only;4;Airport;4;Low risk;Airport;Bill & Hillary Clinton National Airport/Adams Field;2018-01-01;9999-12-31
+782;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Bill & Hillary Clinton National Airport/Adams Field;2018-01-01;9999-12-31
+783;1;1;Temperature only;4;Airport;4;Low risk;Airport;Altus Air Force Base;2018-01-01;9999-12-31
+783;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Altus Air Force Base;2018-01-01;9999-12-31
+784;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Luke Air Force Base;2018-01-01;9999-12-31
+784;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Luke Air Force Base;2018-01-01;9999-12-31
+785;1;2;Temperature only;4;Airport;22;High risk;Airport;MBS International Airport;2018-01-01;9999-12-31
+785;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;MBS International Airport;2018-01-01;9999-12-31
+786;1;1;Temperature only;4;Airport;4;Low risk;Airport;Mac Dill Air Force Base;2018-01-01;9999-12-31
+786;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Mac Dill Air Force Base;2018-01-01;9999-12-31
+787;1;1;Temperature only;4;Airport;4;Low risk;Airport;Kansas City International Airport;2018-01-01;9999-12-31
+787;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Kansas City International Airport;2018-01-01;9999-12-31
+788;1;1;Temperature only;4;Airport;4;Low risk;Airport;Orlando International Airport;2018-01-01;9999-12-31
+788;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Orlando International Airport;2018-01-01;9999-12-31
+789;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Chicago Midway International Airport;2018-01-01;9999-12-31
+789;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Chicago Midway International Airport;2018-01-01;9999-12-31
+790;1;1;Temperature only;4;Airport;4;Low risk;Airport;Memphis International Airport;2018-01-01;9999-12-31
+790;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Memphis International Airport;2018-01-01;9999-12-31
+791;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dobbins Air Reserve Base;2018-01-01;9999-12-31
+791;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dobbins Air Reserve Base;2018-01-01;9999-12-31
+792;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Montgomery Regional (Dannelly Field) Airport;2018-01-01;9999-12-31
+792;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Montgomery Regional (Dannelly Field) Airport;2018-01-01;9999-12-31
+793;1;2;Temperature only;4;Airport;22;High risk;Airport;Manchester Airport;2018-01-01;9999-12-31
+793;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Manchester Airport;2018-01-01;9999-12-31
+794;1;1;Temperature only;4;Airport;4;Low risk;Airport;Miami International Airport;2018-01-01;9999-12-31
+794;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Miami International Airport;2018-01-01;9999-12-31
+795;1;1;Temperature only;4;Airport;4;Low risk;Airport;General Mitchell International Airport;2018-01-01;9999-12-31
+795;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;General Mitchell International Airport;2018-01-01;9999-12-31
+796;1;1;Temperature only;4;Airport;4;Low risk;Airport;Quad City International Airport;2018-01-01;9999-12-31
+796;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Quad City International Airport;2018-01-01;9999-12-31
+797;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Monroe Regional Airport;2018-01-01;9999-12-31
+797;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Monroe Regional Airport;2018-01-01;9999-12-31
+798;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Mobile Regional Airport;2018-01-01;9999-12-31
+798;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Mobile Regional Airport;2018-01-01;9999-12-31
+799;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dane County Regional Truax Field;2018-01-01;9999-12-31
+799;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dane County Regional Truax Field;2018-01-01;9999-12-31
+800;1;1;Temperature only;4;Airport;4;Low risk;Airport;Minneapolis-St Paul International/Wold-Chamberlain Airport;2018-01-01;9999-12-31
+800;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Minneapolis-St Paul International/Wold-Chamberlain Airport;2018-01-01;9999-12-31
+801;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Louis Armstrong New Orleans International Airport;2018-01-01;9999-12-31
+801;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Louis Armstrong New Orleans International Airport;2018-01-01;9999-12-31
+802;1;2;Temperature only;4;Airport;22;High risk;Airport;Mountain Home Air Force Base;2018-01-01;9999-12-31
+802;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Mountain Home Air Force Base;2018-01-01;9999-12-31
+803;1;2;Temperature only;4;Airport;22;High risk;Airport;Metropolitan Oakland International Airport;2018-01-01;9999-12-31
+803;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Metropolitan Oakland International Airport;2018-01-01;9999-12-31
+804;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Will Rogers World Airport;2018-01-01;9999-12-31
+804;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Will Rogers World Airport;2018-01-01;9999-12-31
+805;1;1;Temperature only;4;Airport;4;Low risk;Airport;Ontario International Airport;2018-01-01;9999-12-31
+805;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Ontario International Airport;2018-01-01;9999-12-31
+806;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Chicago O'Hare International Airport;2018-01-01;9999-12-31
+806;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Chicago O'Hare International Airport;2018-01-01;9999-12-31
+807;1;1;Temperature only;4;Airport;4;Low risk;Airport;Norfolk International Airport;2018-01-01;9999-12-31
+807;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Norfolk International Airport;2018-01-01;9999-12-31
+808;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tyndall Air Force Base;2018-01-01;9999-12-31
+808;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tyndall Air Force Base;2018-01-01;9999-12-31
+809;1;1;Temperature only;4;Airport;4;Low risk;Airport;Palm Beach International Airport;2018-01-01;9999-12-31
+809;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Palm Beach International Airport;2018-01-01;9999-12-31
+810;1;1;Temperature only;4;Airport;4;Low risk;Airport;Portland International Airport;2018-01-01;9999-12-31
+810;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Portland International Airport;2018-01-01;9999-12-31
+811;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Newport News Williamsburg International Airport;2018-01-01;9999-12-31
+811;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Newport News Williamsburg International Airport;2018-01-01;9999-12-31
+812;1;2;Temperature only;4;Airport;22;High risk;Airport;Philadelphia International Airport;2018-01-01;9999-12-31
+812;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Philadelphia International Airport;2018-01-01;9999-12-31
+813;1;1;Temperature only;4;Airport;4;Low risk;Airport;Phoenix Sky Harbor International Airport;2018-01-01;9999-12-31
+813;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Phoenix Sky Harbor International Airport;2018-01-01;9999-12-31
+814;1;2;Temperature only;4;Airport;22;High risk;Airport;General Wayne A. Downing Peoria International Airport;2018-01-01;9999-12-31
+814;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;General Wayne A. Downing Peoria International Airport;2018-01-01;9999-12-31
+815;1;1;Temperature only;4;Airport;4;Low risk;Airport;Pittsburgh International Airport;2018-01-01;9999-12-31
+815;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Pittsburgh International Airport;2018-01-01;9999-12-31
+816;1;1;Temperature only;4;Airport;4;Low risk;Airport;Portland International Jetport Airport;2018-01-01;9999-12-31
+816;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Portland International Jetport Airport;2018-01-01;9999-12-31
+817;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Raleigh Durham International Airport;2018-01-01;9999-12-31
+817;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Raleigh Durham International Airport;2018-01-01;9999-12-31
+818;1;1;Temperature only;4;Airport;4;Low risk;Airport;Chicago Rockford International Airport;2018-01-01;9999-12-31
+818;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Chicago Rockford International Airport;2018-01-01;9999-12-31
+819;1;1;Temperature only;4;Airport;4;Low risk;Airport;Richmond International Airport;2018-01-01;9999-12-31
+819;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Richmond International Airport;2018-01-01;9999-12-31
+820;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Randolph Air Force Base;2018-01-01;9999-12-31
+820;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Randolph Air Force Base;2018-01-01;9999-12-31
+821;1;2;Temperature only;4;Airport;22;High risk;Airport;Reno Tahoe International Airport;2018-01-01;9999-12-31
+821;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Reno Tahoe International Airport;2018-01-01;9999-12-31
+822;1;1;Temperature only;4;Airport;4;Low risk;Airport;Roanoke–Blacksburg Regional Airport;2018-01-01;9999-12-31
+822;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Roanoke–Blacksburg Regional Airport;2018-01-01;9999-12-31
+823;1;1;Temperature only;4;Airport;4;Low risk;Airport;Greater Rochester International Airport;2018-01-01;9999-12-31
+823;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Greater Rochester International Airport;2018-01-01;9999-12-31
+824;1;1;Temperature only;4;Airport;4;Low risk;Airport;Rochester International Airport;2018-01-01;9999-12-31
+824;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Rochester International Airport;2018-01-01;9999-12-31
+825;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Southwest Florida International Airport;2018-01-01;9999-12-31
+825;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Southwest Florida International Airport;2018-01-01;9999-12-31
+826;1;1;Temperature only;4;Airport;4;Low risk;Airport;San Diego International Airport;2018-01-01;9999-12-31
+826;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;San Diego International Airport;2018-01-01;9999-12-31
+827;1;1;Temperature only;4;Airport;4;Low risk;Airport;San Antonio International Airport;2018-01-01;9999-12-31
+827;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;San Antonio International Airport;2018-01-01;9999-12-31
+828;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Savannah Hilton Head International Airport;2018-01-01;9999-12-31
+828;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Savannah Hilton Head International Airport;2018-01-01;9999-12-31
+829;1;2;Temperature only;4;Airport;22;High risk;Airport;South Bend Regional Airport;2018-01-01;9999-12-31
+829;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;South Bend Regional Airport;2018-01-01;9999-12-31
+830;1;1;Temperature only;4;Airport;4;Low risk;Airport;Louisville International Standiford Field;2018-01-01;9999-12-31
+830;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Louisville International Standiford Field;2018-01-01;9999-12-31
+831;1;1;Temperature only;4;Airport;4;Low risk;Airport;Seattle Tacoma International Airport;2018-01-01;9999-12-31
+831;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Seattle Tacoma International Airport;2018-01-01;9999-12-31
+832;1;1;Temperature only;4;Airport;4;Low risk;Airport;Orlando Sanford International Airport;2018-01-01;9999-12-31
+832;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Orlando Sanford International Airport;2018-01-01;9999-12-31
+833;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;San Francisco International Airport;2018-01-01;9999-12-31
+833;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;San Francisco International Airport;2018-01-01;9999-12-31
+834;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Springfield Branson National Airport;2018-01-01;9999-12-31
+834;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Springfield Branson National Airport;2018-01-01;9999-12-31
+835;1;1;Temperature only;4;Airport;4;Low risk;Airport;Shreveport Regional Airport;2018-01-01;9999-12-31
+835;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Shreveport Regional Airport;2018-01-01;9999-12-31
+836;1;1;Temperature only;4;Airport;4;Low risk;Airport;Norman Y. Mineta San Jose International Airport;2018-01-01;9999-12-31
+836;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Norman Y. Mineta San Jose International Airport;2018-01-01;9999-12-31
+837;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Fairchild Air Force Base;2018-01-01;9999-12-31
+837;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Fairchild Air Force Base;2018-01-01;9999-12-31
+838;1;2;Temperature only;4;Airport;22;High risk;Airport;Salt Lake City International Airport;2018-01-01;9999-12-31
+838;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Salt Lake City International Airport;2018-01-01;9999-12-31
+839;1;2;Temperature only;4;Airport;22;High risk;Airport;Sacramento International Airport;2018-01-01;9999-12-31
+839;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Sacramento International Airport;2018-01-01;9999-12-31
+840;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;John Wayne Airport-Orange County Airport;2018-01-01;9999-12-31
+840;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;John Wayne Airport-Orange County Airport;2018-01-01;9999-12-31
+841;1;1;Temperature only;4;Airport;4;Low risk;Airport;Abraham Lincoln Capital Airport;2018-01-01;9999-12-31
+841;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Abraham Lincoln Capital Airport;2018-01-01;9999-12-31
+842;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Sheppard Air Force Base-Wichita Falls Municipal Airport;2018-01-01;9999-12-31
+842;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Sheppard Air Force Base-Wichita Falls Municipal Airport;2018-01-01;9999-12-31
+843;1;1;Temperature only;4;Airport;4;Low risk;Airport;Sarasota Bradenton International Airport;2018-01-01;9999-12-31
+843;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Sarasota Bradenton International Airport;2018-01-01;9999-12-31
+844;1;1;Temperature only;4;Airport;4;Low risk;Airport;Shaw Air Force Base;2018-01-01;9999-12-31
+844;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Shaw Air Force Base;2018-01-01;9999-12-31
+845;1;1;Temperature only;4;Airport;4;Low risk;Airport;St Louis Lambert International Airport;2018-01-01;9999-12-31
+845;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;St Louis Lambert International Airport;2018-01-01;9999-12-31
+846;1;1;Temperature only;4;Airport;4;Low risk;Airport;Spirit of St Louis Airport;2018-01-01;9999-12-31
+846;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Spirit of St Louis Airport;2018-01-01;9999-12-31
+847;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Travis Air Force Base;2018-01-01;9999-12-31
+847;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Travis Air Force Base;2018-01-01;9999-12-31
+848;1;2;Temperature only;4;Airport;22;High risk;Airport;Sioux Gateway Col. Bud Day Field;2018-01-01;9999-12-31
+848;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Sioux Gateway Col. Bud Day Field;2018-01-01;9999-12-31
+849;1;1;Temperature only;4;Airport;4;Low risk;Airport;Syracuse Hancock International Airport;2018-01-01;9999-12-31
+849;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Syracuse Hancock International Airport;2018-01-01;9999-12-31
+850;1;2;Temperature only;4;Airport;22;High risk;Airport;Whiteman Air Force Base;2018-01-01;9999-12-31
+850;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Whiteman Air Force Base;2018-01-01;9999-12-31
+851;1;1;Temperature only;4;Airport;4;Low risk;Airport;McChord Air Force Base;2018-01-01;9999-12-31
+851;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;McChord Air Force Base;2018-01-01;9999-12-31
+852;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tinker Air Force Base;2018-01-01;9999-12-31
+852;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tinker Air Force Base;2018-01-01;9999-12-31
+853;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Tallahassee Regional Airport;2018-01-01;9999-12-31
+853;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Tallahassee Regional Airport;2018-01-01;9999-12-31
+854;1;1;Temperature only;4;Airport;4;Low risk;Airport;Toledo Express Airport;2018-01-01;9999-12-31
+854;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Toledo Express Airport;2018-01-01;9999-12-31
+855;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tampa International Airport;2018-01-01;9999-12-31
+855;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tampa International Airport;2018-01-01;9999-12-31
+856;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Tri-Cities Regional TN/VA Airport;2018-01-01;9999-12-31
+856;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Tri-Cities Regional TN/VA Airport;2018-01-01;9999-12-31
+857;1;2;Temperature only;4;Airport;22;High risk;Airport;Tulsa International Airport;2018-01-01;9999-12-31
+857;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Tulsa International Airport;2018-01-01;9999-12-31
+858;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tucson International Airport;2018-01-01;9999-12-31
+858;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tucson International Airport;2018-01-01;9999-12-31
+859;1;1;Temperature only;4;Airport;4;Low risk;Airport;McGhee Tyson Airport;2018-01-01;9999-12-31
+859;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;McGhee Tyson Airport;2018-01-01;9999-12-31
+860;1;1;Temperature only;4;Airport;4;Low risk;Airport;Vandenberg Air Force Base;2018-01-01;9999-12-31
+860;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Vandenberg Air Force Base;2018-01-01;9999-12-31
+861;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Destin-Ft Walton Beach Airport;2018-01-01;9999-12-31
+861;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Destin-Ft Walton Beach Airport;2018-01-01;9999-12-31
+862;1;1;Temperature only;4;Airport;4;Low risk;Airport;Robins Air Force Base;2018-01-01;9999-12-31
+862;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Robins Air Force Base;2018-01-01;9999-12-31
+863;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tirana International Airport Mother Teresa;2018-01-01;9999-12-31
+863;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tirana International Airport Mother Teresa;2018-01-01;9999-12-31
+864;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Burgas Airport;2018-01-01;9999-12-31
+864;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Burgas Airport;2018-01-01;9999-12-31
+865;1;2;Temperature only;4;Airport;22;High risk;Airport;Sofia Airport;2018-01-01;9999-12-31
+865;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Sofia Airport;2018-01-01;9999-12-31
+866;1;1;Temperature only;4;Airport;4;Low risk;Airport;Varna Airport;2018-01-01;9999-12-31
+866;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Varna Airport;2018-01-01;9999-12-31
+867;1;1;Temperature only;4;Airport;4;Low risk;Airport;Larnaca International Airport;2018-01-01;9999-12-31
+867;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Larnaca International Airport;2018-01-01;9999-12-31
+868;1;1;Temperature only;4;Airport;4;Low risk;Airport;Paphos International Airport;2018-01-01;9999-12-31
+868;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Paphos International Airport;2018-01-01;9999-12-31
+869;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;RAF Akrotiri;2018-01-01;9999-12-31
+869;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;RAF Akrotiri;2018-01-01;9999-12-31
+870;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Zagreb Airport;2018-01-01;9999-12-31
+870;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Zagreb Airport;2018-01-01;9999-12-31
+871;1;1;Temperature only;4;Airport;4;Low risk;Airport;Alicante International Airport;2018-01-01;9999-12-31
+871;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Alicante International Airport;2018-01-01;9999-12-31
+872;1;1;Temperature only;4;Airport;4;Low risk;Airport;Barcelona International Airport;2018-01-01;9999-12-31
+872;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Barcelona International Airport;2018-01-01;9999-12-31
+873;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Adolfo Suárez Madrid–Barajas Airport;2018-01-01;9999-12-31
+873;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Adolfo Suárez Madrid–Barajas Airport;2018-01-01;9999-12-31
+874;1;2;Temperature only;4;Airport;22;High risk;Airport;Málaga Airport;2018-01-01;9999-12-31
+874;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Málaga Airport;2018-01-01;9999-12-31
+875;1;2;Temperature only;4;Airport;22;High risk;Airport;Palma De Mallorca Airport;2018-01-01;9999-12-31
+875;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Palma De Mallorca Airport;2018-01-01;9999-12-31
+876;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Santiago de Compostela Airport;2018-01-01;9999-12-31
+876;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Santiago de Compostela Airport;2018-01-01;9999-12-31
+877;1;1;Temperature only;4;Airport;4;Low risk;Airport;Bordeaux-Mérignac Airport;2018-01-01;9999-12-31
+877;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Bordeaux-Mérignac Airport;2018-01-01;9999-12-31
+878;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Toulouse-Blagnac Airport;2018-01-01;9999-12-31
+878;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Toulouse-Blagnac Airport;2018-01-01;9999-12-31
+879;1;1;Temperature only;4;Airport;4;Low risk;Airport;Marseille Provence Airport;2018-01-01;9999-12-31
+879;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Marseille Provence Airport;2018-01-01;9999-12-31
+880;1;1;Temperature only;4;Airport;4;Low risk;Airport;Nice-Côte d'Azur Airport;2018-01-01;9999-12-31
+880;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Nice-Côte d'Azur Airport;2018-01-01;9999-12-31
+881;1;1;Temperature only;4;Airport;4;Low risk;Airport;Charles de Gaulle International Airport;2018-01-01;9999-12-31
+881;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Charles de Gaulle International Airport;2018-01-01;9999-12-31
+882;1;1;Temperature only;4;Airport;4;Low risk;Airport;Paris-Orly Airport;2018-01-01;9999-12-31
+882;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Paris-Orly Airport;2018-01-01;9999-12-31
+883;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;EuroAirport Basel-Mulhouse-Freiburg Airport;2018-01-01;9999-12-31
+883;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;EuroAirport Basel-Mulhouse-Freiburg Airport;2018-01-01;9999-12-31
+884;1;2;Temperature only;4;Airport;22;High risk;Airport;Eleftherios Venizelos International Airport;2018-01-01;9999-12-31
+884;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Eleftherios Venizelos International Airport;2018-01-01;9999-12-31
+885;1;1;Temperature only;4;Airport;4;Low risk;Airport;Heraklion International Nikos Kazantzakis Airport;2018-01-01;9999-12-31
+885;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Heraklion International Nikos Kazantzakis Airport;2018-01-01;9999-12-31
+886;1;2;Temperature only;4;Airport;22;High risk;Airport;Thessaloniki Macedonia International Airport;2018-01-01;9999-12-31
+886;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Thessaloniki Macedonia International Airport;2018-01-01;9999-12-31
+887;1;1;Temperature only;4;Airport;4;Low risk;Airport;Budapest Ferenc Liszt International Airport;2018-01-01;9999-12-31
+887;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Budapest Ferenc Liszt International Airport;2018-01-01;9999-12-31
+888;1;1;Temperature only;4;Airport;4;Low risk;Airport;Bari Karol Wojty?a Airport;2018-01-01;9999-12-31
+888;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Bari Karol Wojty?a Airport;2018-01-01;9999-12-31
+889;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Catania-Fontanarossa Airport;2018-01-01;9999-12-31
+889;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Catania-Fontanarossa Airport;2018-01-01;9999-12-31
+890;1;1;Temperature only;4;Airport;4;Low risk;Airport;Falcone–Borsellino Airport;2018-01-01;9999-12-31
+890;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Falcone–Borsellino Airport;2018-01-01;9999-12-31
+891;1;1;Temperature only;4;Airport;4;Low risk;Airport;Cagliari Elmas Airport;2018-01-01;9999-12-31
+891;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Cagliari Elmas Airport;2018-01-01;9999-12-31
+892;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Malpensa International Airport;2018-01-01;9999-12-31
+892;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Malpensa International Airport;2018-01-01;9999-12-31
+893;1;2;Temperature only;4;Airport;22;High risk;Airport;Il Caravaggio International Airport;2018-01-01;9999-12-31
+893;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Il Caravaggio International Airport;2018-01-01;9999-12-31
+894;1;1;Temperature only;4;Airport;4;Low risk;Airport;Turin Airport;2018-01-01;9999-12-31
+894;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Turin Airport;2018-01-01;9999-12-31
+895;1;1;Temperature only;4;Airport;4;Low risk;Airport;Genoa Cristoforo Colombo Airport;2018-01-01;9999-12-31
+895;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Genoa Cristoforo Colombo Airport;2018-01-01;9999-12-31
+896;1;1;Temperature only;4;Airport;4;Low risk;Airport;Milano Linate Airport;2018-01-01;9999-12-31
+896;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Milano Linate Airport;2018-01-01;9999-12-31
+897;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Bologna Guglielmo Marconi Airport;2018-01-01;9999-12-31
+897;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Bologna Guglielmo Marconi Airport;2018-01-01;9999-12-31
+898;1;1;Temperature only;4;Airport;4;Low risk;Airport;Treviso-Sant'Angelo Airport;2018-01-01;9999-12-31
+898;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Treviso-Sant'Angelo Airport;2018-01-01;9999-12-31
+899;1;1;Temperature only;4;Airport;4;Low risk;Airport;Verona Villafranca Airport;2018-01-01;9999-12-31
+899;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Verona Villafranca Airport;2018-01-01;9999-12-31
+900;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Venice Marco Polo Airport;2018-01-01;9999-12-31
+900;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Venice Marco Polo Airport;2018-01-01;9999-12-31
+901;1;2;Temperature only;4;Airport;22;High risk;Airport;Ciampino–G. B. Pastine International Airport;2018-01-01;9999-12-31
+901;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Ciampino–G. B. Pastine International Airport;2018-01-01;9999-12-31
+902;1;1;Temperature only;4;Airport;4;Low risk;Airport;Leonardo da Vinci–Fiumicino Airport;2018-01-01;9999-12-31
+902;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Leonardo da Vinci–Fiumicino Airport;2018-01-01;9999-12-31
+903;1;1;Temperature only;4;Airport;4;Low risk;Airport;Naples International Airport;2018-01-01;9999-12-31
+903;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Naples International Airport;2018-01-01;9999-12-31
+904;1;1;Temperature only;4;Airport;4;Low risk;Airport;Pisa International Airport;2018-01-01;9999-12-31
+904;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Pisa International Airport;2018-01-01;9999-12-31
+905;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Ljubljana Jože Pu?nik Airport;2018-01-01;9999-12-31
+905;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Ljubljana Jože Pu?nik Airport;2018-01-01;9999-12-31
+906;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Václav Havel Airport Prague;2018-01-01;9999-12-31
+906;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Václav Havel Airport Prague;2018-01-01;9999-12-31
+907;1;1;Temperature only;4;Airport;4;Low risk;Airport;Ben Gurion International Airport;2018-01-01;9999-12-31
+907;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Ben Gurion International Airport;2018-01-01;9999-12-31
+908;1;1;Temperature only;4;Airport;4;Low risk;Airport;Ovda International Airport;2018-01-01;9999-12-31
+908;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Ovda International Airport;2018-01-01;9999-12-31
+909;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Malta International Airport;2018-01-01;9999-12-31
+909;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Malta International Airport;2018-01-01;9999-12-31
+910;1;2;Temperature only;4;Airport;22;High risk;Airport;Vienna International Airport;2018-01-01;9999-12-31
+910;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Vienna International Airport;2018-01-01;9999-12-31
+911;1;2;Temperature only;4;Airport;22;High risk;Airport;Faro Airport;2018-01-01;9999-12-31
+911;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Faro Airport;2018-01-01;9999-12-31
+912;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Lajes Airport;2018-01-01;9999-12-31
+912;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Lajes Airport;2018-01-01;9999-12-31
+913;1;1;Temperature only;4;Airport;4;Low risk;Airport;João Paulo II Airport;2018-01-01;9999-12-31
+913;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;João Paulo II Airport;2018-01-01;9999-12-31
+914;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Francisco de Sá Carneiro Airport;2018-01-01;9999-12-31
+914;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Francisco de Sá Carneiro Airport;2018-01-01;9999-12-31
+915;1;1;Temperature only;4;Airport;4;Low risk;Airport;Lisbon Portela Airport;2018-01-01;9999-12-31
+915;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Lisbon Portela Airport;2018-01-01;9999-12-31
+916;1;1;Temperature only;4;Airport;4;Low risk;Airport;Sarajevo International Airport;2018-01-01;9999-12-31
+916;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Sarajevo International Airport;2018-01-01;9999-12-31
+917;1;1;Temperature only;4;Airport;4;Low risk;Airport;Henri Coand? International Airport;2018-01-01;9999-12-31
+917;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Henri Coand? International Airport;2018-01-01;9999-12-31
+918;1;1;Temperature only;4;Airport;4;Low risk;Airport;Geneva Cointrin International Airport;2018-01-01;9999-12-31
+918;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Geneva Cointrin International Airport;2018-01-01;9999-12-31
+919;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Zürich Airport;2018-01-01;9999-12-31
+919;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Zürich Airport;2018-01-01;9999-12-31
+920;1;2;Temperature only;4;Airport;22;High risk;Airport;Esenbo?a International Airport;2018-01-01;9999-12-31
+920;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Esenbo?a International Airport;2018-01-01;9999-12-31
+921;1;1;Temperature only;4;Airport;4;Low risk;Airport;Adana Airport;2018-01-01;9999-12-31
+921;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Adana Airport;2018-01-01;9999-12-31
+922;1;2;Temperature only;4;Airport;22;High risk;Airport;Antalya International Airport;2018-01-01;9999-12-31
+922;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Antalya International Airport;2018-01-01;9999-12-31
+923;1;1;Temperature only;4;Airport;4;Low risk;Airport;Gaziantep International Airport;2018-01-01;9999-12-31
+923;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Gaziantep International Airport;2018-01-01;9999-12-31
+924;1;1;Temperature only;4;Airport;4;Low risk;Airport;Atatürk International Airport;2018-01-01;9999-12-31
+924;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Atatürk International Airport;2018-01-01;9999-12-31
+925;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Adnan Menderes International Airport;2018-01-01;9999-12-31
+925;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Adnan Menderes International Airport;2018-01-01;9999-12-31
+926;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dalaman International Airport;2018-01-01;9999-12-31
+926;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dalaman International Airport;2018-01-01;9999-12-31
+927;1;1;Temperature only;4;Airport;4;Low risk;Airport;Erzurum International Airport;2018-01-01;9999-12-31
+927;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Erzurum International Airport;2018-01-01;9999-12-31
+928;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Trabzon International Airport;2018-01-01;9999-12-31
+928;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Trabzon International Airport;2018-01-01;9999-12-31
+929;1;2;Temperature only;4;Airport;22;High risk;Airport;Süleyman Demirel International Airport;2018-01-01;9999-12-31
+929;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Süleyman Demirel International Airport;2018-01-01;9999-12-31
+930;1;1;Temperature only;4;Airport;4;Low risk;Airport;Milas Bodrum International Airport;2018-01-01;9999-12-31
+930;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Milas Bodrum International Airport;2018-01-01;9999-12-31
+931;1;1;Temperature only;4;Airport;4;Low risk;Airport;Sabiha Gökçen International Airport;2018-01-01;9999-12-31
+931;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Sabiha Gökçen International Airport;2018-01-01;9999-12-31
+932;1;1;Temperature only;4;Airport;4;Low risk;Airport;Belgrade Nikola Tesla Airport;2018-01-01;9999-12-31
+932;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Belgrade Nikola Tesla Airport;2018-01-01;9999-12-31
+933;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Podgorica Airport;2018-01-01;9999-12-31
+933;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Podgorica Airport;2018-01-01;9999-12-31
+934;1;1;Temperature only;4;Airport;4;Low risk;Airport;M. R. Štefánik Airport;2018-01-01;9999-12-31
+934;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;M. R. Štefánik Airport;2018-01-01;9999-12-31
+935;1;1;Temperature only;4;Airport;4;Low risk;Airport;Punta Cana International Airport;2018-01-01;9999-12-31
+935;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Punta Cana International Airport;2018-01-01;9999-12-31
+936;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Las Américas International Airport;2018-01-01;9999-12-31
+936;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Las Américas International Airport;2018-01-01;9999-12-31
+937;1;2;Temperature only;4;Airport;22;High risk;Airport;Norman Manley International Airport;2018-01-01;9999-12-31
+937;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Norman Manley International Airport;2018-01-01;9999-12-31
+938;1;1;Temperature only;4;Airport;4;Low risk;Airport;General Juan N Alvarez International Airport;2018-01-01;9999-12-31
+938;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;General Juan N Alvarez International Airport;2018-01-01;9999-12-31
+939;1;1;Temperature only;4;Airport;4;Low risk;Airport;Don Miguel Hidalgo Y Costilla International Airport;2018-01-01;9999-12-31
+939;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Don Miguel Hidalgo Y Costilla International Airport;2018-01-01;9999-12-31
+940;1;1;Temperature only;4;Airport;4;Low risk;Airport;General Ignacio P. Garcia International Airport;2018-01-01;9999-12-31
+940;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;General Ignacio P. Garcia International Airport;2018-01-01;9999-12-31
+941;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Licenciado Benito Juarez International Airport;2018-01-01;9999-12-31
+941;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Licenciado Benito Juarez International Airport;2018-01-01;9999-12-31
+942;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;General Mariano Escobedo International Airport;2018-01-01;9999-12-31
+942;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;General Mariano Escobedo International Airport;2018-01-01;9999-12-31
+943;1;1;Temperature only;4;Airport;4;Low risk;Airport;Licenciado Gustavo Díaz Ordaz International Airport;2018-01-01;9999-12-31
+943;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Licenciado Gustavo Díaz Ordaz International Airport;2018-01-01;9999-12-31
+944;1;1;Temperature only;4;Airport;4;Low risk;Airport;Los Cabos International Airport;2018-01-01;9999-12-31
+944;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Los Cabos International Airport;2018-01-01;9999-12-31
+945;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;General Abelardo L. Rodríguez International Airport;2018-01-01;9999-12-31
+945;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;General Abelardo L. Rodríguez International Airport;2018-01-01;9999-12-31
+946;1;2;Temperature only;4;Airport;22;High risk;Airport;Cancún International Airport;2018-01-01;9999-12-31
+946;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Cancún International Airport;2018-01-01;9999-12-31
+947;1;2;Temperature only;4;Airport;22;High risk;Airport;Tocumen International Airport;2018-01-01;9999-12-31
+947;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Tocumen International Airport;2018-01-01;9999-12-31
+948;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Monseñor Óscar Arnulfo Romero International Airport;2018-01-01;9999-12-31
+948;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Monseñor Óscar Arnulfo Romero International Airport;2018-01-01;9999-12-31
+949;1;1;Temperature only;4;Airport;4;Low risk;Airport;José Martí International Airport;2018-01-01;9999-12-31
+949;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;José Martí International Airport;2018-01-01;9999-12-31
+950;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Juan Gualberto Gomez International Airport;2018-01-01;9999-12-31
+950;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Juan Gualberto Gomez International Airport;2018-01-01;9999-12-31
+951;1;1;Temperature only;4;Airport;4;Low risk;Airport;Owen Roberts International Airport;2018-01-01;9999-12-31
+951;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Owen Roberts International Airport;2018-01-01;9999-12-31
+952;1;1;Temperature only;4;Airport;4;Low risk;Airport;Lynden Pindling International Airport;2018-01-01;9999-12-31
+952;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Lynden Pindling International Airport;2018-01-01;9999-12-31
+953;1;1;Temperature only;4;Airport;4;Low risk;Airport;Philip S. W. Goldson International Airport;2018-01-01;9999-12-31
+953;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Philip S. W. Goldson International Airport;2018-01-01;9999-12-31
+954;1;1;Temperature only;4;Airport;4;Low risk;Airport;Rarotonga International Airport;2018-01-01;9999-12-31
+954;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Rarotonga International Airport;2018-01-01;9999-12-31
+955;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Auckland International Airport;2018-01-01;9999-12-31
+955;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Auckland International Airport;2018-01-01;9999-12-31
+956;1;2;Temperature only;4;Airport;22;High risk;Airport;Christchurch International Airport;2018-01-01;9999-12-31
+956;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Christchurch International Airport;2018-01-01;9999-12-31
+957;1;1;Temperature only;4;Airport;4;Low risk;Airport;Wellington International Airport;2018-01-01;9999-12-31
+957;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Wellington International Airport;2018-01-01;9999-12-31
+958;1;2;Temperature only;4;Airport;22;High risk;Airport;Bahrain International Airport;2018-01-01;9999-12-31
+958;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Bahrain International Airport;2018-01-01;9999-12-31
+959;1;1;Temperature only;4;Airport;4;Low risk;Airport;King Fahd International Airport;2018-01-01;9999-12-31
+959;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;King Fahd International Airport;2018-01-01;9999-12-31
+960;1;1;Temperature only;4;Airport;4;Low risk;Airport;King Abdulaziz Air Base;2018-01-01;9999-12-31
+960;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;King Abdulaziz Air Base;2018-01-01;9999-12-31
+961;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;King Abdulaziz International Airport;2018-01-01;9999-12-31
+961;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;King Abdulaziz International Airport;2018-01-01;9999-12-31
+962;1;1;Temperature only;4;Airport;4;Low risk;Airport;Prince Mohammad Bin Abdulaziz Airport;2018-01-01;9999-12-31
+962;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Prince Mohammad Bin Abdulaziz Airport;2018-01-01;9999-12-31
+963;1;1;Temperature only;4;Airport;4;Low risk;Airport;King Khaled International Airport;2018-01-01;9999-12-31
+963;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;King Khaled International Airport;2018-01-01;9999-12-31
+964;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Imam Khomeini International Airport;2018-01-01;9999-12-31
+964;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Imam Khomeini International Airport;2018-01-01;9999-12-31
+965;1;2;Temperature only;4;Airport;22;High risk;Airport;Mehrabad International Airport;2018-01-01;9999-12-31
+965;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Mehrabad International Airport;2018-01-01;9999-12-31
+966;1;1;Temperature only;4;Airport;4;Low risk;Airport;Mashhad International Airport;2018-01-01;9999-12-31
+966;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Mashhad International Airport;2018-01-01;9999-12-31
+967;1;1;Temperature only;4;Airport;4;Low risk;Airport;Shiraz Shahid Dastghaib International Airport;2018-01-01;9999-12-31
+967;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Shiraz Shahid Dastghaib International Airport;2018-01-01;9999-12-31
+968;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tabriz International Airport;2018-01-01;9999-12-31
+968;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tabriz International Airport;2018-01-01;9999-12-31
+969;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Queen Alia International Airport;2018-01-01;9999-12-31
+969;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Queen Alia International Airport;2018-01-01;9999-12-31
+970;1;1;Temperature only;4;Airport;4;Low risk;Airport;Kuwait International Airport;2018-01-01;9999-12-31
+970;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Kuwait International Airport;2018-01-01;9999-12-31
+971;1;1;Temperature only;4;Airport;4;Low risk;Airport;Beirut Rafic Hariri International Airport;2018-01-01;9999-12-31
+971;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Beirut Rafic Hariri International Airport;2018-01-01;9999-12-31
+972;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Duqm Jaaluni Airport;2018-01-01;9999-12-31
+972;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Duqm Jaaluni Airport;2018-01-01;9999-12-31
+973;1;2;Temperature only;4;Airport;22;High risk;Airport;Rustaq Airport;2018-01-01;9999-12-31
+973;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Rustaq Airport;2018-01-01;9999-12-31
+974;1;1;Temperature only;4;Airport;4;Low risk;Airport;Abu Dhabi International Airport;2018-01-01;9999-12-31
+974;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Abu Dhabi International Airport;2018-01-01;9999-12-31
+975;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dubai International Airport;2018-01-01;9999-12-31
+975;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dubai International Airport;2018-01-01;9999-12-31
+976;1;1;Temperature only;4;Airport;4;Low risk;Airport;Al Maktoum International Airport;2018-01-01;9999-12-31
+976;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Al Maktoum International Airport;2018-01-01;9999-12-31
+977;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Sharjah International Airport;2018-01-01;9999-12-31
+977;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Sharjah International Airport;2018-01-01;9999-12-31
+978;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Muscat International Airport;2018-01-01;9999-12-31
+978;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Muscat International Airport;2018-01-01;9999-12-31
+979;1;1;Temperature only;4;Airport;4;Low risk;Airport;Benazir Bhutto International Airport;2018-01-01;9999-12-31
+979;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Benazir Bhutto International Airport;2018-01-01;9999-12-31
+980;1;1;Temperature only;4;Airport;4;Low risk;Airport;Sialkot Airport;2018-01-01;9999-12-31
+980;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Sialkot Airport;2018-01-01;9999-12-31
+981;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Baghdad International Airport;2018-01-01;9999-12-31
+981;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Baghdad International Airport;2018-01-01;9999-12-31
+982;1;2;Temperature only;4;Airport;22;High risk;Airport;Basrah International Airport;2018-01-01;9999-12-31
+982;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Basrah International Airport;2018-01-01;9999-12-31
+983;1;2;Temperature only;4;Airport;22;High risk;Airport;Aleppo International Airport;2018-01-01;9999-12-31
+983;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Aleppo International Airport;2018-01-01;9999-12-31
+984;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Damascus International Airport;2018-01-01;9999-12-31
+984;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Damascus International Airport;2018-01-01;9999-12-31
+985;1;1;Temperature only;4;Airport;4;Low risk;Airport;Bassel Al-Assad International Airport;2018-01-01;9999-12-31
+985;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Bassel Al-Assad International Airport;2018-01-01;9999-12-31
+986;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Fairbanks International Airport;2018-01-01;9999-12-31
+986;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Fairbanks International Airport;2018-01-01;9999-12-31
+987;1;1;Temperature only;4;Airport;4;Low risk;Airport;Ted Stevens Anchorage International Airport;2018-01-01;9999-12-31
+987;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Ted Stevens Anchorage International Airport;2018-01-01;9999-12-31
+988;1;1;Temperature only;4;Airport;4;Low risk;Airport;Antonio B. Won Pat International Airport;2018-01-01;9999-12-31
+988;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Antonio B. Won Pat International Airport;2018-01-01;9999-12-31
+989;1;1;Temperature only;4;Airport;4;Low risk;Airport;Laguindingan Airport;2018-01-01;9999-12-31
+989;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Laguindingan Airport;2018-01-01;9999-12-31
+990;1;1;Temperature only;4;Airport;4;Low risk;Airport;Daniel K Inouye International Airport;2018-01-01;9999-12-31
+990;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Daniel K Inouye International Airport;2018-01-01;9999-12-31
+991;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Hamad International Airport;2018-01-01;9999-12-31
+991;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Hamad International Airport;2018-01-01;9999-12-31
+992;1;2;Temperature only;4;Airport;22;High risk;Airport;Kinmen Airport;2018-01-01;9999-12-31
+992;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Kinmen Airport;2018-01-01;9999-12-31
+993;1;1;Temperature only;4;Airport;4;Low risk;Airport;Kaohsiung International Airport;2018-01-01;9999-12-31
+993;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Kaohsiung International Airport;2018-01-01;9999-12-31
+994;1;2;Temperature only;4;Airport;22;High risk;Airport;Taiwan Taoyuan International Airport;2018-01-01;9999-12-31
+994;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Taiwan Taoyuan International Airport;2018-01-01;9999-12-31
+995;1;1;Temperature only;4;Airport;4;Low risk;Airport;Narita International Airport;2018-01-01;9999-12-31
+995;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Narita International Airport;2018-01-01;9999-12-31
+996;1;1;Temperature only;4;Airport;4;Low risk;Airport;Kansai International Airport;2018-01-01;9999-12-31
+996;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Kansai International Airport;2018-01-01;9999-12-31
+997;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;New Chitose Airport;2018-01-01;9999-12-31
+997;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;New Chitose Airport;2018-01-01;9999-12-31
+998;1;1;Temperature only;4;Airport;4;Low risk;Airport;Fukuoka Airport;2018-01-01;9999-12-31
+998;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Fukuoka Airport;2018-01-01;9999-12-31
+999;1;1;Temperature only;4;Airport;4;Low risk;Airport;Kagoshima Airport;2018-01-01;9999-12-31
+999;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Kagoshima Airport;2018-01-01;9999-12-31
+1000;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Chubu Centrair International Airport;2018-01-01;9999-12-31
+1000;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Chubu Centrair International Airport;2018-01-01;9999-12-31
+1001;1;2;Temperature only;4;Airport;22;High risk;Airport;Mt. Fuji Shizuoka Airport;2018-01-01;9999-12-31
+1001;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Mt. Fuji Shizuoka Airport;2018-01-01;9999-12-31
+1002;1;1;Temperature only;4;Airport;4;Low risk;Airport;Osaka International Airport;2018-01-01;9999-12-31
+1002;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Osaka International Airport;2018-01-01;9999-12-31
+1003;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tokyo Haneda International Airport;2018-01-01;9999-12-31
+1003;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tokyo Haneda International Airport;2018-01-01;9999-12-31
+1004;1;1;Temperature only;4;Airport;4;Low risk;Airport;Yokota Air Base;2018-01-01;9999-12-31
+1004;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Yokota Air Base;2018-01-01;9999-12-31
+1005;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Muan International Airport;2018-01-01;9999-12-31
+1005;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Muan International Airport;2018-01-01;9999-12-31
+1006;1;1;Temperature only;4;Airport;4;Low risk;Airport;Kunsan Air Base;2018-01-01;9999-12-31
+1006;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Kunsan Air Base;2018-01-01;9999-12-31
+1007;1;1;Temperature only;4;Airport;4;Low risk;Airport;Jeju International Airport;2018-01-01;9999-12-31
+1007;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Jeju International Airport;2018-01-01;9999-12-31
+1008;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Gimhae International Airport;2018-01-01;9999-12-31
+1008;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Gimhae International Airport;2018-01-01;9999-12-31
+1009;1;2;Temperature only;4;Airport;22;High risk;Airport;Incheon International Airport;2018-01-01;9999-12-31
+1009;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Incheon International Airport;2018-01-01;9999-12-31
+1010;1;1;Temperature only;4;Airport;4;Low risk;Airport;Osan Air Base;2018-01-01;9999-12-31
+1010;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Osan Air Base;2018-01-01;9999-12-31
+1011;1;1;Temperature only;4;Airport;4;Low risk;Airport;Gimpo International Airport;2018-01-01;9999-12-31
+1011;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Gimpo International Airport;2018-01-01;9999-12-31
+1012;1;1;Temperature only;4;Airport;4;Low risk;Airport;Cheongju International Airport/Cheongju Air Base (K-59/G-513);2018-01-01;9999-12-31
+1012;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Cheongju International Airport/Cheongju Air Base (K-59/G-513);2018-01-01;9999-12-31
+1013;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Naha Airport;2018-01-01;9999-12-31
+1013;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Naha Airport;2018-01-01;9999-12-31
+1014;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Kadena Air Base;2018-01-01;9999-12-31
+1014;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Kadena Air Base;2018-01-01;9999-12-31
+1015;1;1;Temperature only;4;Airport;4;Low risk;Airport;Clark International Airport;2018-01-01;9999-12-31
+1015;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Clark International Airport;2018-01-01;9999-12-31
+1016;1;1;Temperature only;4;Airport;4;Low risk;Airport;Ninoy Aquino International Airport;2018-01-01;9999-12-31
+1016;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Ninoy Aquino International Airport;2018-01-01;9999-12-31
+1017;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Francisco Bangoy International Airport;2018-01-01;9999-12-31
+1017;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Francisco Bangoy International Airport;2018-01-01;9999-12-31
+1018;1;2;Temperature only;4;Airport;22;High risk;Airport;Mactan Cebu International Airport;2018-01-01;9999-12-31
+1018;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Mactan Cebu International Airport;2018-01-01;9999-12-31
+1019;1;2;Temperature only;4;Airport;22;High risk;Airport;Grozny North Airport;2018-01-01;9999-12-31
+1019;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Grozny North Airport;2018-01-01;9999-12-31
+1020;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Ministro Pistarini International Airport;2018-01-01;9999-12-31
+1020;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Ministro Pistarini International Airport;2018-01-01;9999-12-31
+1021;1;1;Temperature only;4;Airport;4;Low risk;Airport;Val de Cans/Júlio Cezar Ribeiro International Airport;2018-01-01;9999-12-31
+1021;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Val de Cans/Júlio Cezar Ribeiro International Airport;2018-01-01;9999-12-31
+1022;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Presidente Juscelino Kubistschek International Airport;2018-01-01;9999-12-31
+1022;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Presidente Juscelino Kubistschek International Airport;2018-01-01;9999-12-31
+1023;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tancredo Neves International Airport;2018-01-01;9999-12-31
+1023;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tancredo Neves International Airport;2018-01-01;9999-12-31
+1024;1;1;Temperature only;4;Airport;4;Low risk;Airport;Afonso Pena Airport;2018-01-01;9999-12-31
+1024;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Afonso Pena Airport;2018-01-01;9999-12-31
+1025;1;1;Temperature only;4;Airport;4;Low risk;Airport;Hercílio Luz International Airport;2018-01-01;9999-12-31
+1025;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Hercílio Luz International Airport;2018-01-01;9999-12-31
+1026;1;1;Temperature only;4;Airport;4;Low risk;Airport;Rio Galeão – Tom Jobim International Airport;2018-01-01;9999-12-31
+1026;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Rio Galeão – Tom Jobim International Airport;2018-01-01;9999-12-31
+1027;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Guarulhos - Governador André Franco Montoro International Airport;2018-01-01;9999-12-31
+1027;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Guarulhos - Governador André Franco Montoro International Airport;2018-01-01;9999-12-31
+1028;1;2;Temperature only;4;Airport;22;High risk;Airport;Governador Aluízio Alves International Airport;2018-01-01;9999-12-31
+1028;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Governador Aluízio Alves International Airport;2018-01-01;9999-12-31
+1029;1;1;Temperature only;4;Airport;4;Low risk;Airport;Congonhas Airport;2018-01-01;9999-12-31
+1029;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Congonhas Airport;2018-01-01;9999-12-31
+1030;1;2;Temperature only;4;Airport;22;High risk;Airport;Deputado Luiz Eduardo Magalhães International Airport;2018-01-01;9999-12-31
+1030;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Deputado Luiz Eduardo Magalhães International Airport;2018-01-01;9999-12-31
+1031;1;1;Temperature only;4;Airport;4;Low risk;Airport;Comodoro Arturo Merino Benítez International Airport;2018-01-01;9999-12-31
+1031;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Comodoro Arturo Merino Benítez International Airport;2018-01-01;9999-12-31
+1032;1;1;Temperature only;4;Airport;4;Low risk;Airport;Cotopaxi International Airport;2018-01-01;9999-12-31
+1032;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Cotopaxi International Airport;2018-01-01;9999-12-31
+1033;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Mariscal Sucre International Airport;2018-01-01;9999-12-31
+1033;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Mariscal Sucre International Airport;2018-01-01;9999-12-31
+1034;1;1;Temperature only;4;Airport;4;Low risk;Airport;El Dorado International Airport;2018-01-01;9999-12-31
+1034;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;El Dorado International Airport;2018-01-01;9999-12-31
+1035;1;1;Temperature only;4;Airport;4;Low risk;Airport;Jorge Chávez International Airport;2018-01-01;9999-12-31
+1035;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Jorge Chávez International Airport;2018-01-01;9999-12-31
+1036;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Alejandro Velasco Astete International Airport;2018-01-01;9999-12-31
+1036;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Alejandro Velasco Astete International Airport;2018-01-01;9999-12-31
+1037;1;2;Temperature only;4;Airport;22;High risk;Airport;Carrasco International /General C L Berisso Airport;2018-01-01;9999-12-31
+1037;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Carrasco International /General C L Berisso Airport;2018-01-01;9999-12-31
+1038;1;1;Temperature only;4;Airport;4;Low risk;Airport;General José Antonio Anzoategui International Airport;2018-01-01;9999-12-31
+1038;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;General José Antonio Anzoategui International Airport;2018-01-01;9999-12-31
+1039;1;1;Temperature only;4;Airport;4;Low risk;Airport;Simón Bolívar International Airport;2018-01-01;9999-12-31
+1039;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Simón Bolívar International Airport;2018-01-01;9999-12-31
+1040;1;1;Temperature only;4;Airport;4;Low risk;Airport;Pointe-à-Pitre Le Raizet;2018-01-01;9999-12-31
+1040;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Pointe-à-Pitre Le Raizet;2018-01-01;9999-12-31
+1041;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Luis Munoz Marin International Airport;2018-01-01;9999-12-31
+1041;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Luis Munoz Marin International Airport;2018-01-01;9999-12-31
+1042;1;1;Temperature only;4;Airport;4;Low risk;Airport;Enfidha - Hammamet International Airport;2018-01-01;9999-12-31
+1042;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Enfidha - Hammamet International Airport;2018-01-01;9999-12-31
+1043;1;1;Temperature only;4;Airport;4;Low risk;Airport;Princess Juliana International Airport;2018-01-01;9999-12-31
+1043;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Princess Juliana International Airport;2018-01-01;9999-12-31
+1044;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Almaty Airport;2018-01-01;9999-12-31
+1044;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Almaty Airport;2018-01-01;9999-12-31
+1045;1;2;Temperature only;4;Airport;22;High risk;Airport;Astana International Airport;2018-01-01;9999-12-31
+1045;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Astana International Airport;2018-01-01;9999-12-31
+1046;1;1;Temperature only;4;Airport;4;Low risk;Airport;Manas International Airport;2018-01-01;9999-12-31
+1046;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Manas International Airport;2018-01-01;9999-12-31
+1047;1;1;Temperature only;4;Airport;4;Low risk;Airport;Sary-Arka Airport;2018-01-01;9999-12-31
+1047;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Sary-Arka Airport;2018-01-01;9999-12-31
+1048;1;1;Temperature only;4;Airport;4;Low risk;Airport;Heydar Aliyev International Airport;2018-01-01;9999-12-31
+1048;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Heydar Aliyev International Airport;2018-01-01;9999-12-31
+1049;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Zvartnots International Airport;2018-01-01;9999-12-31
+1049;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Zvartnots International Airport;2018-01-01;9999-12-31
+1050;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Tbilisi International Airport;2018-01-01;9999-12-31
+1050;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Tbilisi International Airport;2018-01-01;9999-12-31
+1051;1;1;Temperature only;4;Airport;4;Low risk;Airport;Khabarovsk-Novy Airport;2018-01-01;9999-12-31
+1051;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Khabarovsk-Novy Airport;2018-01-01;9999-12-31
+1052;1;1;Temperature only;4;Airport;4;Low risk;Airport;Boryspil International Airport;2018-01-01;9999-12-31
+1052;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Boryspil International Airport;2018-01-01;9999-12-31
+1053;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Donetsk International Airport;2018-01-01;9999-12-31
+1053;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Donetsk International Airport;2018-01-01;9999-12-31
+1054;1;2;Temperature only;4;Airport;22;High risk;Airport;Simferopol International Airport;2018-01-01;9999-12-31
+1054;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Simferopol International Airport;2018-01-01;9999-12-31
+1055;1;2;Temperature only;4;Airport;22;High risk;Airport;Kharkiv International Airport;2018-01-01;9999-12-31
+1055;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Kharkiv International Airport;2018-01-01;9999-12-31
+1056;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Odessa International Airport;2018-01-01;9999-12-31
+1056;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Odessa International Airport;2018-01-01;9999-12-31
+1057;1;1;Temperature only;4;Airport;4;Low risk;Airport;Pulkovo Airport;2018-01-01;9999-12-31
+1057;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Pulkovo Airport;2018-01-01;9999-12-31
+1058;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Minsk National Airport;2018-01-01;9999-12-31
+1058;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Minsk National Airport;2018-01-01;9999-12-31
+1059;1;1;Temperature only;4;Airport;4;Low risk;Airport;Yemelyanovo Airport;2018-01-01;9999-12-31
+1059;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Yemelyanovo Airport;2018-01-01;9999-12-31
+1060;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tolmachevo Airport;2018-01-01;9999-12-31
+1060;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tolmachevo Airport;2018-01-01;9999-12-31
+1061;1;1;Temperature only;4;Airport;4;Low risk;Airport;Rostov-on-Don Airport;2018-01-01;9999-12-31
+1061;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Rostov-on-Don Airport;2018-01-01;9999-12-31
+1062;1;1;Temperature only;4;Airport;4;Low risk;Airport;Sochi International Airport;2018-01-01;9999-12-31
+1062;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Sochi International Airport;2018-01-01;9999-12-31
+1063;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Koltsovo Airport;2018-01-01;9999-12-31
+1063;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Koltsovo Airport;2018-01-01;9999-12-31
+1064;1;2;Temperature only;4;Airport;22;High risk;Airport;Tashkent International Airport;2018-01-01;9999-12-31
+1064;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Tashkent International Airport;2018-01-01;9999-12-31
+1065;1;1;Temperature only;4;Airport;4;Low risk;Airport;Zhukovsky International Airport;2018-01-01;9999-12-31
+1065;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Zhukovsky International Airport;2018-01-01;9999-12-31
+1066;1;2;Temperature only;4;Airport;22;High risk;Airport;Domodedovo International Airport;2018-01-01;9999-12-31
+1066;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Domodedovo International Airport;2018-01-01;9999-12-31
+1067;1;1;Temperature only;4;Airport;4;Low risk;Airport;Sheremetyevo International Airport;2018-01-01;9999-12-31
+1067;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Sheremetyevo International Airport;2018-01-01;9999-12-31
+1068;1;1;Temperature only;4;Airport;4;Low risk;Airport;Chkalovskiy Airport;2018-01-01;9999-12-31
+1068;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Chkalovskiy Airport;2018-01-01;9999-12-31
+1069;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Vnukovo International Airport;2018-01-01;9999-12-31
+1069;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Vnukovo International Airport;2018-01-01;9999-12-31
+1070;1;1;Temperature only;4;Airport;4;Low risk;Airport;Kazan International Airport;2018-01-01;9999-12-31
+1070;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Kazan International Airport;2018-01-01;9999-12-31
+1071;1;1;Temperature only;4;Airport;4;Low risk;Airport;Ufa International Airport;2018-01-01;9999-12-31
+1071;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Ufa International Airport;2018-01-01;9999-12-31
+1072;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Kurumoch International Airport;2018-01-01;9999-12-31
+1072;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Kurumoch International Airport;2018-01-01;9999-12-31
+1073;1;2;Temperature only;4;Airport;22;High risk;Airport;Chhatrapati Shivaji International Airport;2018-01-01;9999-12-31
+1073;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Chhatrapati Shivaji International Airport;2018-01-01;9999-12-31
+1074;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dabolim Airport;2018-01-01;9999-12-31
+1074;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dabolim Airport;2018-01-01;9999-12-31
+1075;1;1;Temperature only;4;Airport;4;Low risk;Airport;Bandaranaike International Colombo Airport;2018-01-01;9999-12-31
+1075;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Bandaranaike International Colombo Airport;2018-01-01;9999-12-31
+1076;1;1;Temperature only;4;Airport;4;Low risk;Airport;Mattala Rajapaksa International Airport;2018-01-01;9999-12-31
+1076;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Mattala Rajapaksa International Airport;2018-01-01;9999-12-31
+1077;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Phnom Penh International Airport;2018-01-01;9999-12-31
+1077;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Phnom Penh International Airport;2018-01-01;9999-12-31
+1078;1;1;Temperature only;4;Airport;4;Low risk;Airport;Siem Reap International Airport;2018-01-01;9999-12-31
+1078;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Siem Reap International Airport;2018-01-01;9999-12-31
+1079;1;1;Temperature only;4;Airport;4;Low risk;Airport;Netaji Subhash Chandra Bose International Airport;2018-01-01;9999-12-31
+1079;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Netaji Subhash Chandra Bose International Airport;2018-01-01;9999-12-31
+1080;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Chek Lap Kok International Airport;2018-01-01;9999-12-31
+1080;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Chek Lap Kok International Airport;2018-01-01;9999-12-31
+1081;1;2;Temperature only;4;Airport;22;High risk;Airport;Sri Guru Ram Dass Jee International Airport;2018-01-01;9999-12-31
+1081;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Sri Guru Ram Dass Jee International Airport;2018-01-01;9999-12-31
+1082;1;1;Temperature only;4;Airport;4;Low risk;Airport;Indira Gandhi International Airport;2018-01-01;9999-12-31
+1082;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Indira Gandhi International Airport;2018-01-01;9999-12-31
+1083;1;1;Temperature only;4;Airport;4;Low risk;Airport;Macau International Airport;2018-01-01;9999-12-31
+1083;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Macau International Airport;2018-01-01;9999-12-31
+1084;1;1;Temperature only;4;Airport;4;Low risk;Airport;Kempegowda International Airport;2018-01-01;9999-12-31
+1084;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Kempegowda International Airport;2018-01-01;9999-12-31
+1085;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Cochin International Airport;2018-01-01;9999-12-31
+1085;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Cochin International Airport;2018-01-01;9999-12-31
+1086;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Calicut International Airport;2018-01-01;9999-12-31
+1086;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Calicut International Airport;2018-01-01;9999-12-31
+1087;1;1;Temperature only;4;Airport;4;Low risk;Airport;Rajiv Gandhi International Airport;2018-01-01;9999-12-31
+1087;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Rajiv Gandhi International Airport;2018-01-01;9999-12-31
+1088;1;1;Temperature only;4;Airport;4;Low risk;Airport;Chennai International Airport;2018-01-01;9999-12-31
+1088;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Chennai International Airport;2018-01-01;9999-12-31
+1089;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Trivandrum International Airport;2018-01-01;9999-12-31
+1089;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Trivandrum International Airport;2018-01-01;9999-12-31
+1090;1;2;Temperature only;4;Airport;22;High risk;Airport;Malé International Airport;2018-01-01;9999-12-31
+1090;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Malé International Airport;2018-01-01;9999-12-31
+1091;1;2;Temperature only;4;Airport;22;High risk;Airport;Don Mueang International Airport;2018-01-01;9999-12-31
+1091;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Don Mueang International Airport;2018-01-01;9999-12-31
+1092;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Suvarnabhumi Airport;2018-01-01;9999-12-31
+1092;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Suvarnabhumi Airport;2018-01-01;9999-12-31
+1093;1;1;Temperature only;4;Airport;4;Low risk;Airport;Chiang Mai International Airport;2018-01-01;9999-12-31
+1093;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Chiang Mai International Airport;2018-01-01;9999-12-31
+1094;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Phuket International Airport;2018-01-01;9999-12-31
+1094;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Phuket International Airport;2018-01-01;9999-12-31
+1095;1;1;Temperature only;4;Airport;4;Low risk;Airport;Da Nang International Airport;2018-01-01;9999-12-31
+1095;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Da Nang International Airport;2018-01-01;9999-12-31
+1096;1;1;Temperature only;4;Airport;4;Low risk;Airport;Noi Bai International Airport;2018-01-01;9999-12-31
+1096;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Noi Bai International Airport;2018-01-01;9999-12-31
+1097;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tan Son Nhat International Airport;2018-01-01;9999-12-31
+1097;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tan Son Nhat International Airport;2018-01-01;9999-12-31
+1098;1;1;Temperature only;4;Airport;4;Low risk;Airport;Mandalay International Airport;2018-01-01;9999-12-31
+1098;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Mandalay International Airport;2018-01-01;9999-12-31
+1099;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Yangon International Airport;2018-01-01;9999-12-31
+1099;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Yangon International Airport;2018-01-01;9999-12-31
+1100;1;2;Temperature only;4;Airport;22;High risk;Airport;Hasanuddin International Airport;2018-01-01;9999-12-31
+1100;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Hasanuddin International Airport;2018-01-01;9999-12-31
+1101;1;1;Temperature only;4;Airport;4;Low risk;Airport;Ngurah Rai (Bali) International Airport;2018-01-01;9999-12-31
+1101;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Ngurah Rai (Bali) International Airport;2018-01-01;9999-12-31
+1102;1;2;Temperature only;4;Airport;22;High risk;Airport;Juanda International Airport;2018-01-01;9999-12-31
+1102;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Juanda International Airport;2018-01-01;9999-12-31
+1103;1;1;Temperature only;4;Airport;4;Low risk;Airport;Dominique Edward Osok Airport;2018-01-01;9999-12-31
+1103;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Dominique Edward Osok Airport;2018-01-01;9999-12-31
+1104;1;1;Temperature only;4;Airport;4;Low risk;Airport;Brunei International Airport;2018-01-01;9999-12-31
+1104;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Brunei International Airport;2018-01-01;9999-12-31
+1105;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Soekarno-Hatta International Airport;2018-01-01;9999-12-31
+1105;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Soekarno-Hatta International Airport;2018-01-01;9999-12-31
+1106;1;1;Temperature only;4;Airport;4;Low risk;Airport;Kualanamu International Airport;2018-01-01;9999-12-31
+1106;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Kualanamu International Airport;2018-01-01;9999-12-31
+1107;1;1;Temperature only;4;Airport;4;Low risk;Airport;Kuala Lumpur International Airport;2018-01-01;9999-12-31
+1107;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Kuala Lumpur International Airport;2018-01-01;9999-12-31
+1108;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Singapore Changi Airport;2018-01-01;9999-12-31
+1108;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Singapore Changi Airport;2018-01-01;9999-12-31
+1109;1;2;Temperature only;4;Airport;22;High risk;Airport;Brisbane International Airport;2018-01-01;9999-12-31
+1109;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Brisbane International Airport;2018-01-01;9999-12-31
+1110;1;1;Temperature only;4;Airport;4;Low risk;Airport;Melbourne International Airport;2018-01-01;9999-12-31
+1110;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Melbourne International Airport;2018-01-01;9999-12-31
+1111;1;1;Temperature only;4;Airport;4;Low risk;Airport;Adelaide International Airport;2018-01-01;9999-12-31
+1111;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Adelaide International Airport;2018-01-01;9999-12-31
+1112;1;1;Temperature only;4;Airport;4;Low risk;Airport;Perth International Airport;2018-01-01;9999-12-31
+1112;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Perth International Airport;2018-01-01;9999-12-31
+1113;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Canberra International Airport;2018-01-01;9999-12-31
+1113;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Canberra International Airport;2018-01-01;9999-12-31
+1114;1;1;Temperature only;4;Airport;4;Low risk;Airport;Sydney Kingsford Smith International Airport;2018-01-01;9999-12-31
+1114;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Sydney Kingsford Smith International Airport;2018-01-01;9999-12-31
+1115;1;1;Temperature only;4;Airport;4;Low risk;Airport;Beijing Capital International Airport;2018-01-01;9999-12-31
+1115;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Beijing Capital International Airport;2018-01-01;9999-12-31
+1116;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Baita International Airport;2018-01-01;9999-12-31
+1116;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Baita International Airport;2018-01-01;9999-12-31
+1117;1;2;Temperature only;4;Airport;22;High risk;Airport;Beijing Nanyuan Airport;2018-01-01;9999-12-31
+1117;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Beijing Nanyuan Airport;2018-01-01;9999-12-31
+1118;1;1;Temperature only;4;Airport;4;Low risk;Airport;Tianjin Binhai International Airport;2018-01-01;9999-12-31
+1118;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Tianjin Binhai International Airport;2018-01-01;9999-12-31
+1119;1;1;Temperature only;4;Airport;4;Low risk;Airport;Taiyuan Wusu Airport;2018-01-01;9999-12-31
+1119;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Taiyuan Wusu Airport;2018-01-01;9999-12-31
+1120;1;1;Temperature only;4;Airport;4;Low risk;Airport;Guangzhou Baiyun International Airport;2018-01-01;9999-12-31
+1120;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Guangzhou Baiyun International Airport;2018-01-01;9999-12-31
+1121;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Changsha Huanghua International Airport;2018-01-01;9999-12-31
+1121;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Changsha Huanghua International Airport;2018-01-01;9999-12-31
+1122;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Guilin Liangjiang International Airport;2018-01-01;9999-12-31
+1122;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Guilin Liangjiang International Airport;2018-01-01;9999-12-31
+1123;1;1;Temperature only;4;Airport;4;Low risk;Airport;Nanning Wuxu Airport;2018-01-01;9999-12-31
+1123;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Nanning Wuxu Airport;2018-01-01;9999-12-31
+1124;1;1;Temperature only;4;Airport;4;Low risk;Airport;Shenzhen Bao'an International Airport;2018-01-01;9999-12-31
+1124;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Shenzhen Bao'an International Airport;2018-01-01;9999-12-31
+1125;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Zhengzhou Xinzheng International Airport;2018-01-01;9999-12-31
+1125;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Zhengzhou Xinzheng International Airport;2018-01-01;9999-12-31
+1126;1;2;Temperature only;4;Airport;22;High risk;Airport;Wuhan Tianhe International Airport;2018-01-01;9999-12-31
+1126;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Wuhan Tianhe International Airport;2018-01-01;9999-12-31
+1127;1;2;Temperature only;4;Airport;22;High risk;Airport;Haikou Meilan International Airport;2018-01-01;9999-12-31
+1127;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Haikou Meilan International Airport;2018-01-01;9999-12-31
+1128;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Sanya Phoenix International Airport;2018-01-01;9999-12-31
+1128;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Sanya Phoenix International Airport;2018-01-01;9999-12-31
+1129;1;1;Temperature only;4;Airport;4;Low risk;Airport;Xi'an Xianyang International Airport;2018-01-01;9999-12-31
+1129;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Xi'an Xianyang International Airport;2018-01-01;9999-12-31
+1130;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Kunming Changshui International Airport;2018-01-01;9999-12-31
+1130;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Kunming Changshui International Airport;2018-01-01;9999-12-31
+1131;1;1;Temperature only;4;Airport;4;Low risk;Airport;Xiamen Gaoqi International Airport;2018-01-01;9999-12-31
+1131;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Xiamen Gaoqi International Airport;2018-01-01;9999-12-31
+1132;1;1;Temperature only;4;Airport;4;Low risk;Airport;Fuzhou Changle International Airport;2018-01-01;9999-12-31
+1132;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Fuzhou Changle International Airport;2018-01-01;9999-12-31
+1133;1;1;Temperature only;4;Airport;4;Low risk;Airport;Hangzhou Xiaoshan International Airport;2018-01-01;9999-12-31
+1133;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Hangzhou Xiaoshan International Airport;2018-01-01;9999-12-31
+1134;1;1;Temperature only;4;Airport;4;Low risk;Airport;Yaoqiang Airport;2018-01-01;9999-12-31
+1134;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Yaoqiang Airport;2018-01-01;9999-12-31
+1135;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Ningbo Lishe International Airport;2018-01-01;9999-12-31
+1135;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Ningbo Lishe International Airport;2018-01-01;9999-12-31
+1136;1;2;Temperature only;4;Airport;22;High risk;Airport;Nanjing Lukou Airport;2018-01-01;9999-12-31
+1136;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Nanjing Lukou Airport;2018-01-01;9999-12-31
+1137;1;1;Temperature only;4;Airport;4;Low risk;Airport;Shanghai Pudong International Airport;2018-01-01;9999-12-31
+1137;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Shanghai Pudong International Airport;2018-01-01;9999-12-31
+1138;1;2;Temperature only;4;Airport;22;High risk;Airport;Shanghai Hongqiao International Airport;2018-01-01;9999-12-31
+1138;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Shanghai Hongqiao International Airport;2018-01-01;9999-12-31
+1139;1;1;Temperature only;4;Airport;4;Low risk;Airport;Wenzhou Yongqiang Airport;2018-01-01;9999-12-31
+1139;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Wenzhou Yongqiang Airport;2018-01-01;9999-12-31
+1140;1;1;Temperature only;4;Airport;4;Low risk;Airport;Chongqing Jiangbei International Airport;2018-01-01;9999-12-31
+1140;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Chongqing Jiangbei International Airport;2018-01-01;9999-12-31
+1141;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Longdongbao Airport;2018-01-01;9999-12-31
+1141;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Longdongbao Airport;2018-01-01;9999-12-31
+1142;1;1;Temperature only;4;Airport;4;Low risk;Airport;Chengdu Shuangliu International Airport;2018-01-01;9999-12-31
+1142;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Chengdu Shuangliu International Airport;2018-01-01;9999-12-31
+1143;1;1;Temperature only;4;Airport;4;Low risk;Airport;Ürümqi Diwopu International Airport;2018-01-01;9999-12-31
+1143;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Ürümqi Diwopu International Airport;2018-01-01;9999-12-31
+1144;1;1.5;Temperature only;4;Airport;13;Medium risk;Airport;Taiping Airport;2018-01-01;9999-12-31
+1144;2;1.8;Freight insurance;4;Airport;13;Medium risk;Airport;Taiping Airport;2018-01-01;9999-12-31
+1145;1;2;Temperature only;4;Airport;22;High risk;Airport;Zhoushuizi Airport;2018-01-01;9999-12-31
+1145;2;2.4;Freight insurance;4;Airport;22;High risk;Airport;Zhoushuizi Airport;2018-01-01;9999-12-31
+1146;1;1;Temperature only;4;Airport;4;Low risk;Airport;Taoxian Airport;2018-01-01;9999-12-31
+1146;2;1.2;Freight insurance;4;Airport;4;Low risk;Airport;Taoxian Airport;2018-01-01;9999-12-31
+1147;1;5.5;Temperature only;3;Container Type;3;Envirotainer RAP e2;Container Type;Envirotainer RAP e2;2018-01-01;9999-12-31
+1147;2;6.6;Freight insurance;3;Container Type;3;Envirotainer RAP e2;Container Type;Envirotainer RAP e2;2018-01-01;9999-12-31
+1148;1;4.3;Temperature only;3;Container Type;12;Envirotainer RKN e1;Container Type;Envirotainer RKN e1;2018-01-01;9999-12-31
+1148;2;5.16;Freight insurance;3;Container Type;12;Envirotainer RKN e1;Container Type;Envirotainer RKN e1;2018-01-01;9999-12-31
+1149;1;4.1;Temperature only;3;Container Type;21;Envirotainer RAP t2;Container Type;Envirotainer RAP t2;2018-01-01;9999-12-31
+1149;2;4.92;Freight insurance;3;Container Type;21;Envirotainer RAP t2;Container Type;Envirotainer RAP t2;2018-01-01;9999-12-31
+1150;1;5.2;Temperature only;3;Container Type;27;Envirotainer RKN t2;Container Type;Envirotainer RKN t2;2018-01-01;9999-12-31
+1150;2;6.24;Freight insurance;3;Container Type;27;Envirotainer RKN t2;Container Type;Envirotainer RKN t2;2018-01-01;9999-12-31
+1151;1;1.2;Temperature only;3;Container Type;31;SkyCell 770C;Container Type;SkyCell 770C;2018-01-01;9999-12-31
+1151;2;1.44;Freight insurance;3;Container Type;31;SkyCell 770C;Container Type;SkyCell 770C;2018-01-01;9999-12-31
+1152;1;1.6;Temperature only;3;Container Type;35;SkyCell 770CRT;Container Type;SkyCell 770CRT;2018-01-01;9999-12-31
+1152;2;1.92;Freight insurance;3;Container Type;35;SkyCell 770CRT;Container Type;SkyCell 770CRT;2018-01-01;9999-12-31
+1153;1;0.7;Temperature only;3;Container Type;39;SkyCell 1500C;Container Type;SkyCell 1500C;2018-01-01;9999-12-31
+1153;2;0.84;Freight insurance;3;Container Type;39;SkyCell 1500C;Container Type;SkyCell 1500C;2018-01-01;9999-12-31
+1154;1;0.8;Temperature only;3;Container Type;41;SkyCell 1500CRT;Container Type;SkyCell 1500CRT;2018-01-01;9999-12-31
+1154;2;0.96;Freight insurance;3;Container Type;41;SkyCell 1500CRT;Container Type;SkyCell 1500CRT;2018-01-01;9999-12-31
+1155;1;1.1;Temperature only;3;Container Type;43;SkyCell 2500C;Container Type;SkyCell 2500C;2018-01-01;9999-12-31
+1155;2;1.32;Freight insurance;3;Container Type;43;SkyCell 2500C;Container Type;SkyCell 2500C;2018-01-01;9999-12-31
+1156;1;1;Temperature only;3;Container Type;44;SkyCell 2500CRT;Container Type;SkyCell 2500CRT;2018-01-01;9999-12-31
+1156;2;1.2;Freight insurance;3;Container Type;44;SkyCell 2500CRT;Container Type;SkyCell 2500CRT;2018-01-01;9999-12-31
+1157;1;2;Temperature only;5;Country;23;High risk;Country;Afghanistan;2018-01-01;9999-12-31
+1157;2;2.4;Freight insurance;5;Country;23;High risk;Country;Afghanistan;2018-01-01;9999-12-31
+1158;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Aland Islands;2018-01-01;9999-12-31
+1158;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Aland Islands;2018-01-01;9999-12-31
+1159;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Albania;2018-01-01;9999-12-31
+1159;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Albania;2018-01-01;9999-12-31
+1160;1;1;Temperature only;5;Country;5;Low risk;Country;Algeria;2018-01-01;9999-12-31
+1160;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Algeria;2018-01-01;9999-12-31
+1161;1;1;Temperature only;5;Country;5;Low risk;Country;American Samoa;2018-01-01;9999-12-31
+1161;2;1.2;Freight insurance;5;Country;5;Low risk;Country;American Samoa;2018-01-01;9999-12-31
+1162;1;1;Temperature only;5;Country;5;Low risk;Country;Andorra;2018-01-01;9999-12-31
+1162;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Andorra;2018-01-01;9999-12-31
+1163;1;1;Temperature only;5;Country;5;Low risk;Country;Angola;2018-01-01;9999-12-31
+1163;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Angola;2018-01-01;9999-12-31
+1164;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Anguilla;2018-01-01;9999-12-31
+1164;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Anguilla;2018-01-01;9999-12-31
+1165;1;2;Temperature only;5;Country;23;High risk;Country;Antarctica;2018-01-01;9999-12-31
+1165;2;2.4;Freight insurance;5;Country;23;High risk;Country;Antarctica;2018-01-01;9999-12-31
+1166;1;1;Temperature only;5;Country;5;Low risk;Country;Antigua and Barbuda;2018-01-01;9999-12-31
+1166;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Antigua and Barbuda;2018-01-01;9999-12-31
+1167;1;1;Temperature only;5;Country;5;Low risk;Country;Argentina;2018-01-01;9999-12-31
+1167;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Argentina;2018-01-01;9999-12-31
+1168;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Armenia;2018-01-01;9999-12-31
+1168;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Armenia;2018-01-01;9999-12-31
+1169;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Aruba;2018-01-01;9999-12-31
+1169;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Aruba;2018-01-01;9999-12-31
+1170;1;1;Temperature only;5;Country;5;Low risk;Country;Australia;2018-01-01;9999-12-31
+1170;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Australia;2018-01-01;9999-12-31
+1171;1;1;Temperature only;5;Country;5;Low risk;Country;Austria;2018-01-01;9999-12-31
+1171;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Austria;2018-01-01;9999-12-31
+1172;1;2;Temperature only;5;Country;23;High risk;Country;Azerbaijan;2018-01-01;9999-12-31
+1172;2;2.4;Freight insurance;5;Country;23;High risk;Country;Azerbaijan;2018-01-01;9999-12-31
+1173;1;2;Temperature only;5;Country;23;High risk;Country;Bahamas;2018-01-01;9999-12-31
+1173;2;2.4;Freight insurance;5;Country;23;High risk;Country;Bahamas;2018-01-01;9999-12-31
+1174;1;1;Temperature only;5;Country;5;Low risk;Country;Bahrain;2018-01-01;9999-12-31
+1174;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Bahrain;2018-01-01;9999-12-31
+1175;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Bangladesh;2018-01-01;9999-12-31
+1175;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Bangladesh;2018-01-01;9999-12-31
+1176;1;1;Temperature only;5;Country;5;Low risk;Country;Barbados;2018-01-01;9999-12-31
+1176;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Barbados;2018-01-01;9999-12-31
+1177;1;1;Temperature only;5;Country;5;Low risk;Country;Belarus;2018-01-01;9999-12-31
+1177;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Belarus;2018-01-01;9999-12-31
+1178;1;1;Temperature only;5;Country;5;Low risk;Country;Belgium;2018-01-01;9999-12-31
+1178;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Belgium;2018-01-01;9999-12-31
+1179;1;1;Temperature only;5;Country;5;Low risk;Country;Belize;2018-01-01;9999-12-31
+1179;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Belize;2018-01-01;9999-12-31
+1180;1;1;Temperature only;5;Country;5;Low risk;Country;Benin;2018-01-01;9999-12-31
+1180;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Benin;2018-01-01;9999-12-31
+1181;1;2;Temperature only;5;Country;23;High risk;Country;Bermuda;2018-01-01;9999-12-31
+1181;2;2.4;Freight insurance;5;Country;23;High risk;Country;Bermuda;2018-01-01;9999-12-31
+1182;1;1;Temperature only;5;Country;5;Low risk;Country;Bhutan;2018-01-01;9999-12-31
+1182;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Bhutan;2018-01-01;9999-12-31
+1183;1;1;Temperature only;5;Country;5;Low risk;Country;Bolivia;2018-01-01;9999-12-31
+1183;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Bolivia;2018-01-01;9999-12-31
+1184;1;1;Temperature only;5;Country;5;Low risk;Country;Bosnia and Herzegovina;2018-01-01;9999-12-31
+1184;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Bosnia and Herzegovina;2018-01-01;9999-12-31
+1185;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Botswana;2018-01-01;9999-12-31
+1185;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Botswana;2018-01-01;9999-12-31
+1186;1;1;Temperature only;5;Country;5;Low risk;Country;Bouvet Island;2018-01-01;9999-12-31
+1186;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Bouvet Island;2018-01-01;9999-12-31
+1187;1;1;Temperature only;5;Country;5;Low risk;Country;Brazil;2018-01-01;9999-12-31
+1187;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Brazil;2018-01-01;9999-12-31
+1188;1;1;Temperature only;5;Country;5;Low risk;Country;British Virgin Islands;2018-01-01;9999-12-31
+1188;2;1.2;Freight insurance;5;Country;5;Low risk;Country;British Virgin Islands;2018-01-01;9999-12-31
+1189;1;2;Temperature only;5;Country;23;High risk;Country;British Indian Ocean Territory;2018-01-01;9999-12-31
+1189;2;2.4;Freight insurance;5;Country;23;High risk;Country;British Indian Ocean Territory;2018-01-01;9999-12-31
+1190;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Brunei Darussalam;2018-01-01;9999-12-31
+1190;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Brunei Darussalam;2018-01-01;9999-12-31
+1191;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Bulgaria;2018-01-01;9999-12-31
+1191;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Bulgaria;2018-01-01;9999-12-31
+1192;1;1;Temperature only;5;Country;5;Low risk;Country;Burkina Faso;2018-01-01;9999-12-31
+1192;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Burkina Faso;2018-01-01;9999-12-31
+1193;1;1;Temperature only;5;Country;5;Low risk;Country;Burundi;2018-01-01;9999-12-31
+1193;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Burundi;2018-01-01;9999-12-31
+1194;1;1;Temperature only;5;Country;5;Low risk;Country;Cambodia;2018-01-01;9999-12-31
+1194;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Cambodia;2018-01-01;9999-12-31
+1195;1;1;Temperature only;5;Country;5;Low risk;Country;Cameroon;2018-01-01;9999-12-31
+1195;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Cameroon;2018-01-01;9999-12-31
+1196;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Canada;2018-01-01;9999-12-31
+1196;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Canada;2018-01-01;9999-12-31
+1197;1;2;Temperature only;5;Country;23;High risk;Country;Cape Verde;2018-01-01;9999-12-31
+1197;2;2.4;Freight insurance;5;Country;23;High risk;Country;Cape Verde;2018-01-01;9999-12-31
+1198;1;1;Temperature only;5;Country;5;Low risk;Country;Cayman Islands;2018-01-01;9999-12-31
+1198;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Cayman Islands;2018-01-01;9999-12-31
+1199;1;1;Temperature only;5;Country;5;Low risk;Country;Central African Republic;2018-01-01;9999-12-31
+1199;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Central African Republic;2018-01-01;9999-12-31
+1200;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Chad;2018-01-01;9999-12-31
+1200;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Chad;2018-01-01;9999-12-31
+1201;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Chile;2018-01-01;9999-12-31
+1201;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Chile;2018-01-01;9999-12-31
+1202;1;1;Temperature only;5;Country;5;Low risk;Country;China;2018-01-01;9999-12-31
+1202;2;1.2;Freight insurance;5;Country;5;Low risk;Country;China;2018-01-01;9999-12-31
+1203;1;1;Temperature only;5;Country;5;Low risk;Country;Hong Kong, SAR China;2018-01-01;9999-12-31
+1203;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Hong Kong, SAR China;2018-01-01;9999-12-31
+1204;1;2;Temperature only;5;Country;23;High risk;Country;Macao, SAR China;2018-01-01;9999-12-31
+1204;2;2.4;Freight insurance;5;Country;23;High risk;Country;Macao, SAR China;2018-01-01;9999-12-31
+1205;1;2;Temperature only;5;Country;23;High risk;Country;Christmas Island;2018-01-01;9999-12-31
+1205;2;2.4;Freight insurance;5;Country;23;High risk;Country;Christmas Island;2018-01-01;9999-12-31
+1206;1;1;Temperature only;5;Country;5;Low risk;Country;Cocos (Keeling) Islands;2018-01-01;9999-12-31
+1206;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Cocos (Keeling) Islands;2018-01-01;9999-12-31
+1207;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Colombia;2018-01-01;9999-12-31
+1207;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Colombia;2018-01-01;9999-12-31
+1208;1;1;Temperature only;5;Country;5;Low risk;Country;Comoros;2018-01-01;9999-12-31
+1208;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Comoros;2018-01-01;9999-12-31
+1209;1;1;Temperature only;5;Country;5;Low risk;Country;Congo (Brazzaville);2018-01-01;9999-12-31
+1209;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Congo (Brazzaville);2018-01-01;9999-12-31
+1210;1;1;Temperature only;5;Country;5;Low risk;Country;Congo, (Kinshasa);2018-01-01;9999-12-31
+1210;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Congo, (Kinshasa);2018-01-01;9999-12-31
+1211;1;1;Temperature only;5;Country;5;Low risk;Country;Cook Islands;2018-01-01;9999-12-31
+1211;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Cook Islands;2018-01-01;9999-12-31
+1212;1;1;Temperature only;5;Country;5;Low risk;Country;Costa Rica;2018-01-01;9999-12-31
+1212;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Costa Rica;2018-01-01;9999-12-31
+1213;1;2;Temperature only;5;Country;23;High risk;Country;C¶te d'Ivoire;2018-01-01;9999-12-31
+1213;2;2.4;Freight insurance;5;Country;23;High risk;Country;C¶te d'Ivoire;2018-01-01;9999-12-31
+1214;1;1;Temperature only;5;Country;5;Low risk;Country;Croatia;2018-01-01;9999-12-31
+1214;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Croatia;2018-01-01;9999-12-31
+1215;1;1;Temperature only;5;Country;5;Low risk;Country;Cuba;2018-01-01;9999-12-31
+1215;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Cuba;2018-01-01;9999-12-31
+1216;1;1;Temperature only;5;Country;5;Low risk;Country;Cyprus;2018-01-01;9999-12-31
+1216;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Cyprus;2018-01-01;9999-12-31
+1217;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Czech Republic;2018-01-01;9999-12-31
+1217;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Czech Republic;2018-01-01;9999-12-31
+1218;1;1;Temperature only;5;Country;5;Low risk;Country;Denmark;2018-01-01;9999-12-31
+1218;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Denmark;2018-01-01;9999-12-31
+1219;1;1;Temperature only;5;Country;5;Low risk;Country;Djibouti;2018-01-01;9999-12-31
+1219;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Djibouti;2018-01-01;9999-12-31
+1220;1;1;Temperature only;5;Country;5;Low risk;Country;Dominica;2018-01-01;9999-12-31
+1220;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Dominica;2018-01-01;9999-12-31
+1221;1;2;Temperature only;5;Country;23;High risk;Country;Dominican Republic;2018-01-01;9999-12-31
+1221;2;2.4;Freight insurance;5;Country;23;High risk;Country;Dominican Republic;2018-01-01;9999-12-31
+1222;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Ecuador;2018-01-01;9999-12-31
+1222;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Ecuador;2018-01-01;9999-12-31
+1223;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Egypt;2018-01-01;9999-12-31
+1223;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Egypt;2018-01-01;9999-12-31
+1224;1;1;Temperature only;5;Country;5;Low risk;Country;El Salvador;2018-01-01;9999-12-31
+1224;2;1.2;Freight insurance;5;Country;5;Low risk;Country;El Salvador;2018-01-01;9999-12-31
+1225;1;1;Temperature only;5;Country;5;Low risk;Country;Equatorial Guinea;2018-01-01;9999-12-31
+1225;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Equatorial Guinea;2018-01-01;9999-12-31
+1226;1;1;Temperature only;5;Country;5;Low risk;Country;Eritrea;2018-01-01;9999-12-31
+1226;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Eritrea;2018-01-01;9999-12-31
+1227;1;1;Temperature only;5;Country;5;Low risk;Country;Estonia;2018-01-01;9999-12-31
+1227;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Estonia;2018-01-01;9999-12-31
+1228;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Ethiopia;2018-01-01;9999-12-31
+1228;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Ethiopia;2018-01-01;9999-12-31
+1229;1;2;Temperature only;5;Country;23;High risk;Country;Falkland Islands (Malvinas);2018-01-01;9999-12-31
+1229;2;2.4;Freight insurance;5;Country;23;High risk;Country;Falkland Islands (Malvinas);2018-01-01;9999-12-31
+1230;1;1;Temperature only;5;Country;5;Low risk;Country;Faroe Islands;2018-01-01;9999-12-31
+1230;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Faroe Islands;2018-01-01;9999-12-31
+1231;1;1;Temperature only;5;Country;5;Low risk;Country;Fiji;2018-01-01;9999-12-31
+1231;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Fiji;2018-01-01;9999-12-31
+1232;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Finland;2018-01-01;9999-12-31
+1232;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Finland;2018-01-01;9999-12-31
+1233;1;1.5;Temperature only;5;Country;14;Medium risk;Country;France;2018-01-01;9999-12-31
+1233;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;France;2018-01-01;9999-12-31
+1234;1;1;Temperature only;5;Country;5;Low risk;Country;French Guiana;2018-01-01;9999-12-31
+1234;2;1.2;Freight insurance;5;Country;5;Low risk;Country;French Guiana;2018-01-01;9999-12-31
+1235;1;1;Temperature only;5;Country;5;Low risk;Country;French Polynesia;2018-01-01;9999-12-31
+1235;2;1.2;Freight insurance;5;Country;5;Low risk;Country;French Polynesia;2018-01-01;9999-12-31
+1236;1;2;Temperature only;5;Country;23;High risk;Country;French Southern Territories;2018-01-01;9999-12-31
+1236;2;2.4;Freight insurance;5;Country;23;High risk;Country;French Southern Territories;2018-01-01;9999-12-31
+1237;1;2;Temperature only;5;Country;23;High risk;Country;Gabon;2018-01-01;9999-12-31
+1237;2;2.4;Freight insurance;5;Country;23;High risk;Country;Gabon;2018-01-01;9999-12-31
+1238;1;1;Temperature only;5;Country;5;Low risk;Country;Gambia;2018-01-01;9999-12-31
+1238;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Gambia;2018-01-01;9999-12-31
+1239;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Georgia;2018-01-01;9999-12-31
+1239;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Georgia;2018-01-01;9999-12-31
+1240;1;1;Temperature only;5;Country;5;Low risk;Country;Germany;2018-01-01;9999-12-31
+1240;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Germany;2018-01-01;9999-12-31
+1241;1;1;Temperature only;5;Country;5;Low risk;Country;Ghana;2018-01-01;9999-12-31
+1241;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Ghana;2018-01-01;9999-12-31
+1242;1;1;Temperature only;5;Country;5;Low risk;Country;Gibraltar;2018-01-01;9999-12-31
+1242;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Gibraltar;2018-01-01;9999-12-31
+1243;1;1;Temperature only;5;Country;5;Low risk;Country;Greece;2018-01-01;9999-12-31
+1243;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Greece;2018-01-01;9999-12-31
+1244;1;1;Temperature only;5;Country;5;Low risk;Country;Greenland;2018-01-01;9999-12-31
+1244;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Greenland;2018-01-01;9999-12-31
+1245;1;2;Temperature only;5;Country;23;High risk;Country;Grenada;2018-01-01;9999-12-31
+1245;2;2.4;Freight insurance;5;Country;23;High risk;Country;Grenada;2018-01-01;9999-12-31
+1246;1;1;Temperature only;5;Country;5;Low risk;Country;Guadeloupe;2018-01-01;9999-12-31
+1246;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Guadeloupe;2018-01-01;9999-12-31
+1247;1;1;Temperature only;5;Country;5;Low risk;Country;Guam;2018-01-01;9999-12-31
+1247;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Guam;2018-01-01;9999-12-31
+1248;1;1;Temperature only;5;Country;5;Low risk;Country;Guatemala;2018-01-01;9999-12-31
+1248;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Guatemala;2018-01-01;9999-12-31
+1249;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Guernsey;2018-01-01;9999-12-31
+1249;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Guernsey;2018-01-01;9999-12-31
+1250;1;1;Temperature only;5;Country;5;Low risk;Country;Guinea;2018-01-01;9999-12-31
+1250;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Guinea;2018-01-01;9999-12-31
+1251;1;1;Temperature only;5;Country;5;Low risk;Country;Guinea-Bissau;2018-01-01;9999-12-31
+1251;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Guinea-Bissau;2018-01-01;9999-12-31
+1252;1;1;Temperature only;5;Country;5;Low risk;Country;Guyana;2018-01-01;9999-12-31
+1252;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Guyana;2018-01-01;9999-12-31
+1253;1;2;Temperature only;5;Country;23;High risk;Country;Haiti;2018-01-01;9999-12-31
+1253;2;2.4;Freight insurance;5;Country;23;High risk;Country;Haiti;2018-01-01;9999-12-31
+1254;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Heard and Mcdonald Islands;2018-01-01;9999-12-31
+1254;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Heard and Mcdonald Islands;2018-01-01;9999-12-31
+1255;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Holy See (Vatican City State);2018-01-01;9999-12-31
+1255;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Holy See (Vatican City State);2018-01-01;9999-12-31
+1256;1;1;Temperature only;5;Country;5;Low risk;Country;Honduras;2018-01-01;9999-12-31
+1256;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Honduras;2018-01-01;9999-12-31
+1257;1;1;Temperature only;5;Country;5;Low risk;Country;Hungary;2018-01-01;9999-12-31
+1257;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Hungary;2018-01-01;9999-12-31
+1258;1;1;Temperature only;5;Country;5;Low risk;Country;Iceland;2018-01-01;9999-12-31
+1258;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Iceland;2018-01-01;9999-12-31
+1259;1;1;Temperature only;5;Country;5;Low risk;Country;India;2018-01-01;9999-12-31
+1259;2;1.2;Freight insurance;5;Country;5;Low risk;Country;India;2018-01-01;9999-12-31
+1260;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Indonesia;2018-01-01;9999-12-31
+1260;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Indonesia;2018-01-01;9999-12-31
+1261;1;2;Temperature only;5;Country;23;High risk;Country;Iran, Islamic Republic of;2018-01-01;9999-12-31
+1261;2;2.4;Freight insurance;5;Country;23;High risk;Country;Iran, Islamic Republic of;2018-01-01;9999-12-31
+1262;1;1;Temperature only;5;Country;5;Low risk;Country;Iraq;2018-01-01;9999-12-31
+1262;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Iraq;2018-01-01;9999-12-31
+1263;1;1;Temperature only;5;Country;5;Low risk;Country;Ireland;2018-01-01;9999-12-31
+1263;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Ireland;2018-01-01;9999-12-31
+1264;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Isle of Man;2018-01-01;9999-12-31
+1264;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Isle of Man;2018-01-01;9999-12-31
+1265;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Israel;2018-01-01;9999-12-31
+1265;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Israel;2018-01-01;9999-12-31
+1266;1;1;Temperature only;5;Country;5;Low risk;Country;Italy;2018-01-01;9999-12-31
+1266;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Italy;2018-01-01;9999-12-31
+1267;1;1;Temperature only;5;Country;5;Low risk;Country;Jamaica;2018-01-01;9999-12-31
+1267;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Jamaica;2018-01-01;9999-12-31
+1268;1;2;Temperature only;5;Country;23;High risk;Country;Japan;2018-01-01;9999-12-31
+1268;2;2.4;Freight insurance;5;Country;23;High risk;Country;Japan;2018-01-01;9999-12-31
+1269;1;2;Temperature only;5;Country;23;High risk;Country;Jersey;2018-01-01;9999-12-31
+1269;2;2.4;Freight insurance;5;Country;23;High risk;Country;Jersey;2018-01-01;9999-12-31
+1270;1;1;Temperature only;5;Country;5;Low risk;Country;Jordan;2018-01-01;9999-12-31
+1270;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Jordan;2018-01-01;9999-12-31
+1271;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Kazakhstan;2018-01-01;9999-12-31
+1271;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Kazakhstan;2018-01-01;9999-12-31
+1272;1;1;Temperature only;5;Country;5;Low risk;Country;Kenya;2018-01-01;9999-12-31
+1272;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Kenya;2018-01-01;9999-12-31
+1273;1;1;Temperature only;5;Country;5;Low risk;Country;Kiribati;2018-01-01;9999-12-31
+1273;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Kiribati;2018-01-01;9999-12-31
+1274;1;1;Temperature only;5;Country;5;Low risk;Country;Korea (North);2018-01-01;9999-12-31
+1274;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Korea (North);2018-01-01;9999-12-31
+1275;1;1;Temperature only;5;Country;5;Low risk;Country;Korea (South);2018-01-01;9999-12-31
+1275;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Korea (South);2018-01-01;9999-12-31
+1276;1;1;Temperature only;5;Country;5;Low risk;Country;Kuwait;2018-01-01;9999-12-31
+1276;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Kuwait;2018-01-01;9999-12-31
+1277;1;2;Temperature only;5;Country;23;High risk;Country;Kyrgyzstan;2018-01-01;9999-12-31
+1277;2;2.4;Freight insurance;5;Country;23;High risk;Country;Kyrgyzstan;2018-01-01;9999-12-31
+1278;1;1;Temperature only;5;Country;5;Low risk;Country;Lao PDR;2018-01-01;9999-12-31
+1278;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Lao PDR;2018-01-01;9999-12-31
+1279;1;1;Temperature only;5;Country;5;Low risk;Country;Latvia;2018-01-01;9999-12-31
+1279;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Latvia;2018-01-01;9999-12-31
+1280;1;1;Temperature only;5;Country;5;Low risk;Country;Lebanon;2018-01-01;9999-12-31
+1280;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Lebanon;2018-01-01;9999-12-31
+1281;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Lesotho;2018-01-01;9999-12-31
+1281;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Lesotho;2018-01-01;9999-12-31
+1282;1;1;Temperature only;5;Country;5;Low risk;Country;Liberia;2018-01-01;9999-12-31
+1282;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Liberia;2018-01-01;9999-12-31
+1283;1;1;Temperature only;5;Country;5;Low risk;Country;Libya;2018-01-01;9999-12-31
+1283;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Libya;2018-01-01;9999-12-31
+1284;1;1;Temperature only;5;Country;5;Low risk;Country;Liechtenstein;2018-01-01;9999-12-31
+1284;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Liechtenstein;2018-01-01;9999-12-31
+1285;1;2;Temperature only;5;Country;23;High risk;Country;Lithuania;2018-01-01;9999-12-31
+1285;2;2.4;Freight insurance;5;Country;23;High risk;Country;Lithuania;2018-01-01;9999-12-31
+1286;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Luxembourg;2018-01-01;9999-12-31
+1286;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Luxembourg;2018-01-01;9999-12-31
+1287;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Macedonia, Republic of;2018-01-01;9999-12-31
+1287;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Macedonia, Republic of;2018-01-01;9999-12-31
+1288;1;1;Temperature only;5;Country;5;Low risk;Country;Madagascar;2018-01-01;9999-12-31
+1288;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Madagascar;2018-01-01;9999-12-31
+1289;1;1;Temperature only;5;Country;5;Low risk;Country;Malawi;2018-01-01;9999-12-31
+1289;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Malawi;2018-01-01;9999-12-31
+1290;1;1;Temperature only;5;Country;5;Low risk;Country;Malaysia;2018-01-01;9999-12-31
+1290;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Malaysia;2018-01-01;9999-12-31
+1291;1;1;Temperature only;5;Country;5;Low risk;Country;Maldives;2018-01-01;9999-12-31
+1291;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Maldives;2018-01-01;9999-12-31
+1292;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Mali;2018-01-01;9999-12-31
+1292;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Mali;2018-01-01;9999-12-31
+1293;1;2;Temperature only;5;Country;23;High risk;Country;Malta;2018-01-01;9999-12-31
+1293;2;2.4;Freight insurance;5;Country;23;High risk;Country;Malta;2018-01-01;9999-12-31
+1294;1;1;Temperature only;5;Country;5;Low risk;Country;Marshall Islands;2018-01-01;9999-12-31
+1294;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Marshall Islands;2018-01-01;9999-12-31
+1295;1;1;Temperature only;5;Country;5;Low risk;Country;Martinique;2018-01-01;9999-12-31
+1295;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Martinique;2018-01-01;9999-12-31
+1296;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Mauritania;2018-01-01;9999-12-31
+1296;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Mauritania;2018-01-01;9999-12-31
+1297;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Mauritius;2018-01-01;9999-12-31
+1297;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Mauritius;2018-01-01;9999-12-31
+1298;1;1;Temperature only;5;Country;5;Low risk;Country;Mayotte;2018-01-01;9999-12-31
+1298;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Mayotte;2018-01-01;9999-12-31
+1299;1;1;Temperature only;5;Country;5;Low risk;Country;Mexico;2018-01-01;9999-12-31
+1299;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Mexico;2018-01-01;9999-12-31
+1300;1;2;Temperature only;5;Country;23;High risk;Country;Micronesia, Federated States of;2018-01-01;9999-12-31
+1300;2;2.4;Freight insurance;5;Country;23;High risk;Country;Micronesia, Federated States of;2018-01-01;9999-12-31
+1301;1;2;Temperature only;5;Country;23;High risk;Country;Moldova;2018-01-01;9999-12-31
+1301;2;2.4;Freight insurance;5;Country;23;High risk;Country;Moldova;2018-01-01;9999-12-31
+1302;1;1;Temperature only;5;Country;5;Low risk;Country;Monaco;2018-01-01;9999-12-31
+1302;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Monaco;2018-01-01;9999-12-31
+1303;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Mongolia;2018-01-01;9999-12-31
+1303;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Mongolia;2018-01-01;9999-12-31
+1304;1;1;Temperature only;5;Country;5;Low risk;Country;Montenegro;2018-01-01;9999-12-31
+1304;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Montenegro;2018-01-01;9999-12-31
+1305;1;1;Temperature only;5;Country;5;Low risk;Country;Montserrat;2018-01-01;9999-12-31
+1305;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Montserrat;2018-01-01;9999-12-31
+1306;1;1;Temperature only;5;Country;5;Low risk;Country;Morocco;2018-01-01;9999-12-31
+1306;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Morocco;2018-01-01;9999-12-31
+1307;1;1;Temperature only;5;Country;5;Low risk;Country;Mozambique;2018-01-01;9999-12-31
+1307;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Mozambique;2018-01-01;9999-12-31
+1308;1;1;Temperature only;5;Country;5;Low risk;Country;Myanmar;2018-01-01;9999-12-31
+1308;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Myanmar;2018-01-01;9999-12-31
+1309;1;2;Temperature only;5;Country;23;High risk;Country;Namibia;2018-01-01;9999-12-31
+1309;2;2.4;Freight insurance;5;Country;23;High risk;Country;Namibia;2018-01-01;9999-12-31
+1310;1;1;Temperature only;5;Country;5;Low risk;Country;Nauru;2018-01-01;9999-12-31
+1310;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Nauru;2018-01-01;9999-12-31
+1311;1;1;Temperature only;5;Country;5;Low risk;Country;Nepal;2018-01-01;9999-12-31
+1311;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Nepal;2018-01-01;9999-12-31
+1312;1;1;Temperature only;5;Country;5;Low risk;Country;Netherlands;2018-01-01;9999-12-31
+1312;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Netherlands;2018-01-01;9999-12-31
+1313;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Netherlands Antilles;2018-01-01;9999-12-31
+1313;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Netherlands Antilles;2018-01-01;9999-12-31
+1314;1;1;Temperature only;5;Country;5;Low risk;Country;New Caledonia;2018-01-01;9999-12-31
+1314;2;1.2;Freight insurance;5;Country;5;Low risk;Country;New Caledonia;2018-01-01;9999-12-31
+1315;1;1;Temperature only;5;Country;5;Low risk;Country;New Zealand;2018-01-01;9999-12-31
+1315;2;1.2;Freight insurance;5;Country;5;Low risk;Country;New Zealand;2018-01-01;9999-12-31
+1316;1;1;Temperature only;5;Country;5;Low risk;Country;Nicaragua;2018-01-01;9999-12-31
+1316;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Nicaragua;2018-01-01;9999-12-31
+1317;1;2;Temperature only;5;Country;23;High risk;Country;Niger;2018-01-01;9999-12-31
+1317;2;2.4;Freight insurance;5;Country;23;High risk;Country;Niger;2018-01-01;9999-12-31
+1318;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Nigeria;2018-01-01;9999-12-31
+1318;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Nigeria;2018-01-01;9999-12-31
+1319;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Niue;2018-01-01;9999-12-31
+1319;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Niue;2018-01-01;9999-12-31
+1320;1;1;Temperature only;5;Country;5;Low risk;Country;Norfolk Island;2018-01-01;9999-12-31
+1320;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Norfolk Island;2018-01-01;9999-12-31
+1321;1;1;Temperature only;5;Country;5;Low risk;Country;Northern Mariana Islands;2018-01-01;9999-12-31
+1321;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Northern Mariana Islands;2018-01-01;9999-12-31
+1322;1;1;Temperature only;5;Country;5;Low risk;Country;Norway;2018-01-01;9999-12-31
+1322;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Norway;2018-01-01;9999-12-31
+1323;1;1;Temperature only;5;Country;5;Low risk;Country;Oman;2018-01-01;9999-12-31
+1323;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Oman;2018-01-01;9999-12-31
+1324;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Pakistan;2018-01-01;9999-12-31
+1324;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Pakistan;2018-01-01;9999-12-31
+1325;1;2;Temperature only;5;Country;23;High risk;Country;Palau;2018-01-01;9999-12-31
+1325;2;2.4;Freight insurance;5;Country;23;High risk;Country;Palau;2018-01-01;9999-12-31
+1326;1;1;Temperature only;5;Country;5;Low risk;Country;Palestinian Territory;2018-01-01;9999-12-31
+1326;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Palestinian Territory;2018-01-01;9999-12-31
+1327;1;1;Temperature only;5;Country;5;Low risk;Country;Panama;2018-01-01;9999-12-31
+1327;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Panama;2018-01-01;9999-12-31
+1328;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Papua New Guinea;2018-01-01;9999-12-31
+1328;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Papua New Guinea;2018-01-01;9999-12-31
+1329;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Paraguay;2018-01-01;9999-12-31
+1329;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Paraguay;2018-01-01;9999-12-31
+1330;1;1;Temperature only;5;Country;5;Low risk;Country;Peru;2018-01-01;9999-12-31
+1330;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Peru;2018-01-01;9999-12-31
+1331;1;1;Temperature only;5;Country;5;Low risk;Country;Philippines;2018-01-01;9999-12-31
+1331;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Philippines;2018-01-01;9999-12-31
+1332;1;2;Temperature only;5;Country;23;High risk;Country;Pitcairn;2018-01-01;9999-12-31
+1332;2;2.4;Freight insurance;5;Country;23;High risk;Country;Pitcairn;2018-01-01;9999-12-31
+1333;1;2;Temperature only;5;Country;23;High risk;Country;Poland;2018-01-01;9999-12-31
+1333;2;2.4;Freight insurance;5;Country;23;High risk;Country;Poland;2018-01-01;9999-12-31
+1334;1;1;Temperature only;5;Country;5;Low risk;Country;Portugal;2018-01-01;9999-12-31
+1334;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Portugal;2018-01-01;9999-12-31
+1335;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Puerto Rico;2018-01-01;9999-12-31
+1335;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Puerto Rico;2018-01-01;9999-12-31
+1336;1;1;Temperature only;5;Country;5;Low risk;Country;Qatar;2018-01-01;9999-12-31
+1336;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Qatar;2018-01-01;9999-12-31
+1337;1;1;Temperature only;5;Country;5;Low risk;Country;RÚunion;2018-01-01;9999-12-31
+1337;2;1.2;Freight insurance;5;Country;5;Low risk;Country;RÚunion;2018-01-01;9999-12-31
+1338;1;1;Temperature only;5;Country;5;Low risk;Country;Romania;2018-01-01;9999-12-31
+1338;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Romania;2018-01-01;9999-12-31
+1339;1;1;Temperature only;5;Country;5;Low risk;Country;Russian Federation;2018-01-01;9999-12-31
+1339;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Russian Federation;2018-01-01;9999-12-31
+1340;1;1;Temperature only;5;Country;5;Low risk;Country;Rwanda;2018-01-01;9999-12-31
+1340;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Rwanda;2018-01-01;9999-12-31
+1341;1;2;Temperature only;5;Country;23;High risk;Country;Saint-BarthÚlemy;2018-01-01;9999-12-31
+1341;2;2.4;Freight insurance;5;Country;23;High risk;Country;Saint-BarthÚlemy;2018-01-01;9999-12-31
+1342;1;1;Temperature only;5;Country;5;Low risk;Country;Saint Helena;2018-01-01;9999-12-31
+1342;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Saint Helena;2018-01-01;9999-12-31
+1343;1;1;Temperature only;5;Country;5;Low risk;Country;Saint Kitts and Nevis;2018-01-01;9999-12-31
+1343;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Saint Kitts and Nevis;2018-01-01;9999-12-31
+1344;1;1;Temperature only;5;Country;5;Low risk;Country;Saint Lucia;2018-01-01;9999-12-31
+1344;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Saint Lucia;2018-01-01;9999-12-31
+1345;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Saint-Martin (French part);2018-01-01;9999-12-31
+1345;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Saint-Martin (French part);2018-01-01;9999-12-31
+1346;1;1;Temperature only;5;Country;5;Low risk;Country;Saint Pierre and Miquelon;2018-01-01;9999-12-31
+1346;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Saint Pierre and Miquelon;2018-01-01;9999-12-31
+1347;1;1;Temperature only;5;Country;5;Low risk;Country;Saint Vincent and Grenadines;2018-01-01;9999-12-31
+1347;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Saint Vincent and Grenadines;2018-01-01;9999-12-31
+1348;1;1;Temperature only;5;Country;5;Low risk;Country;Samoa;2018-01-01;9999-12-31
+1348;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Samoa;2018-01-01;9999-12-31
+1349;1;2;Temperature only;5;Country;23;High risk;Country;San Marino;2018-01-01;9999-12-31
+1349;2;2.4;Freight insurance;5;Country;23;High risk;Country;San Marino;2018-01-01;9999-12-31
+1350;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Sao Tome and Principe;2018-01-01;9999-12-31
+1350;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Sao Tome and Principe;2018-01-01;9999-12-31
+1351;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Saudi Arabia;2018-01-01;9999-12-31
+1351;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Saudi Arabia;2018-01-01;9999-12-31
+1352;1;1;Temperature only;5;Country;5;Low risk;Country;Senegal;2018-01-01;9999-12-31
+1352;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Senegal;2018-01-01;9999-12-31
+1353;1;1;Temperature only;5;Country;5;Low risk;Country;Serbia;2018-01-01;9999-12-31
+1353;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Serbia;2018-01-01;9999-12-31
+1354;1;1;Temperature only;5;Country;5;Low risk;Country;Seychelles;2018-01-01;9999-12-31
+1354;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Seychelles;2018-01-01;9999-12-31
+1355;1;1;Temperature only;5;Country;5;Low risk;Country;Sierra Leone;2018-01-01;9999-12-31
+1355;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Sierra Leone;2018-01-01;9999-12-31
+1356;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Singapore;2018-01-01;9999-12-31
+1356;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Singapore;2018-01-01;9999-12-31
+1357;1;2;Temperature only;5;Country;23;High risk;Country;Slovakia;2018-01-01;9999-12-31
+1357;2;2.4;Freight insurance;5;Country;23;High risk;Country;Slovakia;2018-01-01;9999-12-31
+1358;1;1;Temperature only;5;Country;5;Low risk;Country;Slovenia;2018-01-01;9999-12-31
+1358;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Slovenia;2018-01-01;9999-12-31
+1359;1;1;Temperature only;5;Country;5;Low risk;Country;Solomon Islands;2018-01-01;9999-12-31
+1359;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Solomon Islands;2018-01-01;9999-12-31
+1360;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Somalia;2018-01-01;9999-12-31
+1360;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Somalia;2018-01-01;9999-12-31
+1361;1;1.5;Temperature only;5;Country;14;Medium risk;Country;South Africa;2018-01-01;9999-12-31
+1361;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;South Africa;2018-01-01;9999-12-31
+1362;1;1;Temperature only;5;Country;5;Low risk;Country;South Georgia and the South Sandwich Islands;2018-01-01;9999-12-31
+1362;2;1.2;Freight insurance;5;Country;5;Low risk;Country;South Georgia and the South Sandwich Islands;2018-01-01;9999-12-31
+1363;1;1;Temperature only;5;Country;5;Low risk;Country;South Sudan;2018-01-01;9999-12-31
+1363;2;1.2;Freight insurance;5;Country;5;Low risk;Country;South Sudan;2018-01-01;9999-12-31
+1364;1;2;Temperature only;5;Country;23;High risk;Country;Spain;2018-01-01;9999-12-31
+1364;2;2.4;Freight insurance;5;Country;23;High risk;Country;Spain;2018-01-01;9999-12-31
+1365;1;2;Temperature only;5;Country;23;High risk;Country;Sri Lanka;2018-01-01;9999-12-31
+1365;2;2.4;Freight insurance;5;Country;23;High risk;Country;Sri Lanka;2018-01-01;9999-12-31
+1366;1;1;Temperature only;5;Country;5;Low risk;Country;Sudan;2018-01-01;9999-12-31
+1366;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Sudan;2018-01-01;9999-12-31
+1367;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Suriname;2018-01-01;9999-12-31
+1367;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Suriname;2018-01-01;9999-12-31
+1368;1;1;Temperature only;5;Country;5;Low risk;Country;Svalbard and Jan Mayen Islands;2018-01-01;9999-12-31
+1368;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Svalbard and Jan Mayen Islands;2018-01-01;9999-12-31
+1369;1;1;Temperature only;5;Country;5;Low risk;Country;Swaziland;2018-01-01;9999-12-31
+1369;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Swaziland;2018-01-01;9999-12-31
+1370;1;1;Temperature only;5;Country;5;Low risk;Country;Sweden;2018-01-01;9999-12-31
+1370;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Sweden;2018-01-01;9999-12-31
+1371;1;1;Temperature only;5;Country;5;Low risk;Country;Switzerland;2018-01-01;9999-12-31
+1371;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Switzerland;2018-01-01;9999-12-31
+1372;1;1;Temperature only;5;Country;5;Low risk;Country;Syrian Arab Republic (Syria);2018-01-01;9999-12-31
+1372;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Syrian Arab Republic (Syria);2018-01-01;9999-12-31
+1373;1;2;Temperature only;5;Country;23;High risk;Country;Taiwan, Republic of China;2018-01-01;9999-12-31
+1373;2;2.4;Freight insurance;5;Country;23;High risk;Country;Taiwan, Republic of China;2018-01-01;9999-12-31
+1374;1;1;Temperature only;5;Country;5;Low risk;Country;Tajikistan;2018-01-01;9999-12-31
+1374;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Tajikistan;2018-01-01;9999-12-31
+1375;1;1;Temperature only;5;Country;5;Low risk;Country;Tanzania, United Republic of;2018-01-01;9999-12-31
+1375;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Tanzania, United Republic of;2018-01-01;9999-12-31
+1376;1;1;Temperature only;5;Country;5;Low risk;Country;Thailand;2018-01-01;9999-12-31
+1376;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Thailand;2018-01-01;9999-12-31
+1377;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Timor-Leste;2018-01-01;9999-12-31
+1377;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Timor-Leste;2018-01-01;9999-12-31
+1378;1;1;Temperature only;5;Country;5;Low risk;Country;Togo;2018-01-01;9999-12-31
+1378;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Togo;2018-01-01;9999-12-31
+1379;1;1;Temperature only;5;Country;5;Low risk;Country;Tokelau;2018-01-01;9999-12-31
+1379;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Tokelau;2018-01-01;9999-12-31
+1380;1;1;Temperature only;5;Country;5;Low risk;Country;Tonga;2018-01-01;9999-12-31
+1380;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Tonga;2018-01-01;9999-12-31
+1381;1;2;Temperature only;5;Country;23;High risk;Country;Trinidad and Tobago;2018-01-01;9999-12-31
+1381;2;2.4;Freight insurance;5;Country;23;High risk;Country;Trinidad and Tobago;2018-01-01;9999-12-31
+1382;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Tunisia;2018-01-01;9999-12-31
+1382;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Tunisia;2018-01-01;9999-12-31
+1383;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Turkey;2018-01-01;9999-12-31
+1383;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Turkey;2018-01-01;9999-12-31
+1384;1;1;Temperature only;5;Country;5;Low risk;Country;Turkmenistan;2018-01-01;9999-12-31
+1384;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Turkmenistan;2018-01-01;9999-12-31
+1385;1;1;Temperature only;5;Country;5;Low risk;Country;Turks and Caicos Islands;2018-01-01;9999-12-31
+1385;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Turks and Caicos Islands;2018-01-01;9999-12-31
+1386;1;1;Temperature only;5;Country;5;Low risk;Country;Tuvalu;2018-01-01;9999-12-31
+1386;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Tuvalu;2018-01-01;9999-12-31
+1387;1;1;Temperature only;5;Country;5;Low risk;Country;Uganda;2018-01-01;9999-12-31
+1387;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Uganda;2018-01-01;9999-12-31
+1388;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Ukraine;2018-01-01;9999-12-31
+1388;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Ukraine;2018-01-01;9999-12-31
+1389;1;2;Temperature only;5;Country;23;High risk;Country;United Arab Emirates;2018-01-01;9999-12-31
+1389;2;2.4;Freight insurance;5;Country;23;High risk;Country;United Arab Emirates;2018-01-01;9999-12-31
+1390;1;1;Temperature only;5;Country;5;Low risk;Country;United Kingdom;2018-01-01;9999-12-31
+1390;2;1.2;Freight insurance;5;Country;5;Low risk;Country;United Kingdom;2018-01-01;9999-12-31
+1391;1;1;Temperature only;5;Country;5;Low risk;Country;United States of America;2018-01-01;9999-12-31
+1391;2;1.2;Freight insurance;5;Country;5;Low risk;Country;United States of America;2018-01-01;9999-12-31
+1392;1;1.5;Temperature only;5;Country;14;Medium risk;Country;US Minor Outlying Islands;2018-01-01;9999-12-31
+1392;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;US Minor Outlying Islands;2018-01-01;9999-12-31
+1393;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Uruguay;2018-01-01;9999-12-31
+1393;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Uruguay;2018-01-01;9999-12-31
+1394;1;1;Temperature only;5;Country;5;Low risk;Country;Uzbekistan;2018-01-01;9999-12-31
+1394;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Uzbekistan;2018-01-01;9999-12-31
+1395;1;1;Temperature only;5;Country;5;Low risk;Country;Vanuatu;2018-01-01;9999-12-31
+1395;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Vanuatu;2018-01-01;9999-12-31
+1396;1;2;Temperature only;5;Country;23;High risk;Country;Venezuela (Bolivarian Republic);2018-01-01;9999-12-31
+1396;2;2.4;Freight insurance;5;Country;23;High risk;Country;Venezuela (Bolivarian Republic);2018-01-01;9999-12-31
+1397;1;2;Temperature only;5;Country;23;High risk;Country;Viet Nam;2018-01-01;9999-12-31
+1397;2;2.4;Freight insurance;5;Country;23;High risk;Country;Viet Nam;2018-01-01;9999-12-31
+1398;1;1;Temperature only;5;Country;5;Low risk;Country;Virgin Islands, US;2018-01-01;9999-12-31
+1398;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Virgin Islands, US;2018-01-01;9999-12-31
+1399;1;1.5;Temperature only;5;Country;14;Medium risk;Country;Wallis and Futuna Islands;2018-01-01;9999-12-31
+1399;2;1.8;Freight insurance;5;Country;14;Medium risk;Country;Wallis and Futuna Islands;2018-01-01;9999-12-31
+1400;1;1;Temperature only;5;Country;5;Low risk;Country;Western Sahara;2018-01-01;9999-12-31
+1400;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Western Sahara;2018-01-01;9999-12-31
+1401;1;1;Temperature only;5;Country;5;Low risk;Country;Yemen;2018-01-01;9999-12-31
+1401;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Yemen;2018-01-01;9999-12-31
+1402;1;1;Temperature only;5;Country;5;Low risk;Country;Zambia;2018-01-01;9999-12-31
+1402;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Zambia;2018-01-01;9999-12-31
+1403;1;1;Temperature only;5;Country;5;Low risk;Country;Zimbabwe;2018-01-01;9999-12-31
+1403;2;1.2;Freight insurance;5;Country;5;Low risk;Country;Zimbabwe;2018-01-01;9999-12-31
+1404;1;0.5;Temperature only;10;Temperature Range;46;CRT 15°C - 25°C;Temperature Range;CRT 15°C - 25°C;2018-01-01;9999-12-31
+1404;2;0.6;Freight insurance;10;Temperature Range;46;CRT 15°C - 25°C;Temperature Range;CRT 15°C - 25°C;2018-01-01;9999-12-31
+1405;1;0.8;Temperature only;10;Temperature Range;47;C 2°C to 8°C;Temperature Range;C 2°C to 8°C;2018-01-01;9999-12-31
+1405;2;1.05;Freight insurance;10;Temperature Range;47;C 2°C to 8°C;Temperature Range;C 2°C to 8°C;2018-01-01;9999-12-31
+1406;1;0.95;Temperature only;10;Temperature Range;48;F -15°C to 0°C;Temperature Range;F -15°C to 0°C;2018-01-01;9999-12-31
+1406;2;1.32;Freight insurance;10;Temperature Range;48;F -15°C to 0°C;Temperature Range;F -15°C to 0°C;2018-01-01;9999-12-31
+1407;1;1.02;Temperature only;10;Temperature Range;49;F -25°C to -15°C;Temperature Range;F -25°C to -15°C;2018-01-01;9999-12-31
+1407;2;1.45;Freight insurance;10;Temperature Range;49;F -25°C to -15°C;Temperature Range;F -25°C to -15°C;2018-01-01;9999-12-31
+1408;1;1.6;Temperature only;10;Temperature Range;50;K <25°C;Temperature Range;K <25°C;2018-01-01;9999-12-31
+1408;2;2.04;Freight insurance;10;Temperature Range;50;K <25°C;Temperature Range;K <25°C;2018-01-01;9999-12-31
+1453;1;1;Temperature only;6;Trucking Time;6;Less than 5 hours;Trucking Time;No trucking;2018-01-01;9999-12-31
+1453;2;1.2;Freight insurance;6;Trucking Time;6;Less than 5 hours;Trucking Time;No trucking;2018-01-01;9999-12-31
+1454;1;1;Temperature only;6;Trucking Time;6;Less than 5 hours;Trucking Time;1 Hour;2018-01-01;9999-12-31
+1454;2;1.2;Freight insurance;6;Trucking Time;6;Less than 5 hours;Trucking Time;1 Hour;2018-01-01;9999-12-31
+1455;1;1;Temperature only;6;Trucking Time;6;Less than 5 hours;Trucking Time;2 Hours;2018-01-01;9999-12-31
+1455;2;1.2;Freight insurance;6;Trucking Time;6;Less than 5 hours;Trucking Time;2 Hours;2018-01-01;9999-12-31
+1456;1;1;Temperature only;6;Trucking Time;6;Less than 5 hours;Trucking Time;3 Hours;2018-01-01;9999-12-31
+1456;2;1.2;Freight insurance;6;Trucking Time;6;Less than 5 hours;Trucking Time;3 Hours;2018-01-01;9999-12-31
+1457;1;1;Temperature only;6;Trucking Time;6;Less than 5 hours;Trucking Time;4 Hours;2018-01-01;9999-12-31
+1457;2;1.2;Freight insurance;6;Trucking Time;6;Less than 5 hours;Trucking Time;4 Hours;2018-01-01;9999-12-31
+1458;1;1.1;Temperature only;6;Trucking Time;15;Between 5 and 8 hours;Trucking Time;5 Hours;2018-01-01;9999-12-31
+1458;2;1.32;Freight insurance;6;Trucking Time;15;Between 5 and 8 hours;Trucking Time;5 Hours;2018-01-01;9999-12-31
+1459;1;1.1;Temperature only;6;Trucking Time;15;Between 5 and 8 hours;Trucking Time;6 Hours;2018-01-01;9999-12-31
+1459;2;1.32;Freight insurance;6;Trucking Time;15;Between 5 and 8 hours;Trucking Time;6 Hours;2018-01-01;9999-12-31
+1460;1;1.1;Temperature only;6;Trucking Time;15;Between 5 and 8 hours;Trucking Time;7 Hours;2018-01-01;9999-12-31
+1460;2;1.32;Freight insurance;6;Trucking Time;15;Between 5 and 8 hours;Trucking Time;7 Hours;2018-01-01;9999-12-31
+1461;1;1.1;Temperature only;6;Trucking Time;15;Between 5 and 8 hours;Trucking Time;8 Hours;2018-01-01;9999-12-31
+1461;2;1.32;Freight insurance;6;Trucking Time;15;Between 5 and 8 hours;Trucking Time;8 Hours;2018-01-01;9999-12-31
+1462;1;1.2;Temperature only;6;Trucking Time;24;Between 9 and 12 hours;Trucking Time;9 Hours;2018-01-01;9999-12-31
+1462;2;1.44;Freight insurance;6;Trucking Time;24;Between 9 and 12 hours;Trucking Time;9 Hours;2018-01-01;9999-12-31
+1463;1;1.2;Temperature only;6;Trucking Time;24;Between 9 and 12 hours;Trucking Time;10 Hours;2018-01-01;9999-12-31
+1463;2;1.44;Freight insurance;6;Trucking Time;24;Between 9 and 12 hours;Trucking Time;10 Hours;2018-01-01;9999-12-31
+1464;1;1.2;Temperature only;6;Trucking Time;24;Between 9 and 12 hours;Trucking Time;11 Hours;2018-01-01;9999-12-31
+1464;2;1.44;Freight insurance;6;Trucking Time;24;Between 9 and 12 hours;Trucking Time;11 Hours;2018-01-01;9999-12-31
+1465;1;1.2;Temperature only;6;Trucking Time;24;Between 9 and 12 hours;Trucking Time;12 Hours;2018-01-01;9999-12-31
+1465;2;1.44;Freight insurance;6;Trucking Time;24;Between 9 and 12 hours;Trucking Time;12 Hours;2018-01-01;9999-12-31
+1466;1;1.3;Temperature only;6;Trucking Time;28;Between 16 and 24 hours;Trucking Time;16 Hours;2018-01-01;9999-12-31
+1466;2;1.56;Freight insurance;6;Trucking Time;28;Between 16 and 24 hours;Trucking Time;16 Hours;2018-01-01;9999-12-31
+1467;1;1.3;Temperature only;6;Trucking Time;28;Between 16 and 24 hours;Trucking Time;20 Hours;2018-01-01;9999-12-31
+1467;2;1.56;Freight insurance;6;Trucking Time;28;Between 16 and 24 hours;Trucking Time;20 Hours;2018-01-01;9999-12-31
+1468;1;1.3;Temperature only;6;Trucking Time;28;Between 16 and 24 hours;Trucking Time;24 Hours;2018-01-01;9999-12-31
+1468;2;1.56;Freight insurance;6;Trucking Time;28;Between 16 and 24 hours;Trucking Time;24 Hours;2018-01-01;9999-12-31
+1469;1;1.5;Temperature only;6;Trucking Time;32;Between 30 and 36 hours;Trucking Time;30 Hours;2018-01-01;9999-12-31
+1469;2;1.8;Freight insurance;6;Trucking Time;32;Between 30 and 36 hours;Trucking Time;30 Hours;2018-01-01;9999-12-31
+1470;1;1.5;Temperature only;6;Trucking Time;32;Between 30 and 36 hours;Trucking Time;36 Hours;2018-01-01;9999-12-31
+1470;2;1.8;Freight insurance;6;Trucking Time;32;Between 30 and 36 hours;Trucking Time;36 Hours;2018-01-01;9999-12-31
+1471;1;1.7;Temperature only;6;Trucking Time;36;Between 42 and 54 hours;Trucking Time;42 Hours;2018-01-01;9999-12-31
+1471;2;2.04;Freight insurance;6;Trucking Time;36;Between 42 and 54 hours;Trucking Time;42 Hours;2018-01-01;9999-12-31
+1472;1;1.7;Temperature only;6;Trucking Time;36;Between 42 and 54 hours;Trucking Time;48 Hours;2018-01-01;9999-12-31
+1472;2;2.04;Freight insurance;6;Trucking Time;36;Between 42 and 54 hours;Trucking Time;48 Hours;2018-01-01;9999-12-31
+1473;1;1.7;Temperature only;6;Trucking Time;36;Between 42 and 54 hours;Trucking Time;54 Hours;2018-01-01;9999-12-31
+1473;2;2.04;Freight insurance;6;Trucking Time;36;Between 42 and 54 hours;Trucking Time;54 Hours;2018-01-01;9999-12-31
+1474;1;2;Temperature only;6;Trucking Time;40;Between 60 and 72 hours;Trucking Time;60 Hours;2018-01-01;9999-12-31
+1474;2;2.4;Freight insurance;6;Trucking Time;40;Between 60 and 72 hours;Trucking Time;60 Hours;2018-01-01;9999-12-31
+1475;1;2;Temperature only;6;Trucking Time;40;Between 60 and 72 hours;Trucking Time;72 Hours;2018-01-01;9999-12-31
+1475;2;2.4;Freight insurance;6;Trucking Time;40;Between 60 and 72 hours;Trucking Time;72 Hours;2018-01-01;9999-12-31
+1476;1;3;Temperature only;6;Trucking Time;42;96 or more hours;Trucking Time;96 Hours;2018-01-01;9999-12-31
+1476;2;3.6;Freight insurance;6;Trucking Time;42;96 or more hours;Trucking Time;96 Hours;2018-01-01;9999-12-31
