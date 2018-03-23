@@ -34,131 +34,214 @@ from project_config.config import (sql_parameter_tablename_dict,
                                   AZURE_PORT)
 
 ## Define parameters
+pricing_parameter_ref_keys = ['start_country',
+                              'end_country',
+                              'airport',
+                              'container_type',
+                              'start_trucking_time',
+                              'end_trucking_time',
+                              'temperature_range'
+                              ]
+
+pricing_parameter_bus_keys = ['forwarder',
+                              'ground_handler']
+
 valid_pricing_parameter_type_names = ['country', 'airport', 'container type']
 csv_list_keys = ['airport', 'ground_handler'] # keys for items that need unpacking
-
 driver= '{ODBC Driver 13 for SQL Server}'
 
-def calculate_premium(premium_request):
-    """
-    :premium_request : a dictionary
-
-    Looks into the database to search for the parameters, and appends the
-    results to a DataFrame.
-    Returns the quote amount, and a list of dictionaries with detailed info
-    """
-    ## Assert that all required keys to calculate a premium are provided
-    ## Commented out (22.03): let the parser take care of this
-    #for key in required_keys:
-    #    assert key in premium_request.keys(), ('Aborting: key "{}" missing in '
-    #                                        'request'.format(key))
-
-    ## Convert csv-strings to lists
-    for key in ['airport', 'ground_handler']:
-        premium_request[key] = [int(r) for r in
-            premium_request[key].split(',')]
-
-    ## Get values from request: timestamp, amount insured, product_id
-    # timestamp
-    timestamp = datetime.strptime(premium_request['timestamp'], '%Y-%m-%d')
-
-    # To filter valid_from/to (not implemented yet)
-    timestamp_str = datetime.strftime(timestamp, '%Y-%m-%d')
-
-    # product_id and amount
-    product_id = premium_request['product_id']
-    sum_insured = premium_request['sum_insured']
-
-    # init the list that contains the elements that determine the premium
-    quote_reply = [{'sum_insured': sum_insured,
-                   'product_id': product_id,
-                   'timestamp': timestamp_str}]
-
-    # Loop through all items, to search for the "parameters"/premium multipliers
-    for key, parameter_ids in premium_request.items():
-
-        # Test if this is a key that requires a parameter lookup
-        # if not, skip it
-        if key in valid_pricing_parameter_type_names:
-            sql = """ SELECT * FROM [dbo].[Pricing_Param_Ref_Data] WHERE
-                    Reference_Data_ID = ? and Product_ID = ?
-                  """
-
-            # Make database connection
-            db_connection = pyodbc.connect((r"DRIVER={driver};PORT={port};SERVER={server};"
+def multi_query_azure(sql_list, vals_list):
+    # send a list of queries, making only a single db connection for speed
+    db_connection = pyodbc.connect((r"DRIVER={driver};PORT={port};SERVER={server};"
                            r"DATABASE={database};UID={username};PWD={password}").format(driver=driver,
                                                     port=AZURE_PORT,
                                                     server=AZURE_SERVER,
                                                     database=AZURE_DATABASE,
                                                     username=AZURE_USERNAME,
                                                     password=AZURE_PASSWORD))
-            # Create database cursor
-            cursor = db_connection.cursor()
-            try:
-                for parameter_id in parameter_ids:
-                    vals = (parameter_id, product_id) #Timestamp not used yet!
-                    cursor.execute(sql, vals)
+    cursor = db_connection.cursor()
+    try:
+        for sql, vals in zip(sql_list, vals_list):
+            cursor.execute(sql, vals)
+            columns = [column[0] for column in cursor.description]
+            row = cursor.fetchone()
+            #columns_list.append(columns)
+            #row_list.append(row)
+            yield (columns, row)
+    except Exception as e:
+        print('Error in multi_query_azure: \n')
+        print(e)
+    finally:
+        db_connection.close()
 
-                    # fetch the result
-                    columns = [column[0] for column in cursor.description]
+def calculate_premium(premium_request):
+    """
+    premium_request : a dictionary
 
-                    # find the index of the row where the Pricing Parameter Value is located
-                    # NB: those strings should probably be in config
-                    pricing_param_value_index = [i for i, col_name in enumerate(columns)
-                                       if col_name == 'Pricing_Parameter_Value'][0]
-                    ref_data_name_index = [i for i, col_name in enumerate(columns)
-                                       if col_name == 'Reference_Data_Name'][0]
-                    pricing_param_type_name_index = [i for i, col_name in enumerate(columns)
-                                       if col_name == 'Pricing_Parameter_Type_Name'][0]
+    The contents of the request can be divided into two groups:
+    1. elements that result in one parameter per element (multiplier for the premium)
+      (airport, container_type, start_country, ....)
+    2. general elements that in another way determine the premium or parameter values
+      (sum_insured, timestamp, temperature_range, product_id)
 
-                    # Get the values
-                    row = cursor.fetchone()
-                    pricing_param_value = row[pricing_param_value_index]
-                    ref_data_name = row[ref_data_name_index]
-                    pricing_param_type_name = row[pricing_param_type_name_index]
+    The first group of elements can be subdivided into:
+    1.  a)  business partners.
+            (forwarder, ground_handler)
+        b)  other pricing parameters
+            (airport, container_type, start_country, end_country, temperature_range,
+            start_trucking_time, end_trucking_time)
 
-                    # Append dictionaries to the list
+    Other pricing parameters depend only on product_id
+       (administration, taxes, fees, Base factor)
 
+    This function calculates the premium using the following steps:
+       - data transformations (comma-separated strings to list, string to date)
+       - retrieving the elements in 2. (sum_insured, timestamp, ... etc)
+       - iterate over the elements of 1.b to retrieve the parameters from the DB, and append parameters to list
+       - iterate over the elements of 1.a to retrieve the parameters from the DB, and append parameters to list
+       - iterate over the other_pricing_params (administration, fees, ) to retrieve those pricing parameters,
+         and append to another list
+       - calculate the premium using all collected parameters
+       - depending on the request, return only the premium or the premium and the details
+         (or a message, in case of error)
 
-                    quote_reply.append({'type': key,
-                                        'pricing_param_type_name': pricing_param_type_name,
-                                        'pricing_param_value': pricing_param_value,
-                                        'ref_data_name': ref_data_name})
-            except Exception as e:
-                print(e)
-                # return {'message': ('parameter_id {} for key {} for date'
-                #                 '{} not found').format(
-                #                     parameter_id, key, timestamp_str)}
-            finally:
-                db_connection.close()
+    """
+    # 0. Initializing/setting variables
+    include_details = True if ('details' in premium_request) and \
+        (premium_request['details'] == 1) else False
+
+    # column names for the Pricing_Param_Ref_Data table
+    param_colnames = ['Pricing_Parameter_Value', 'Reference_Data_Name',
+                        'Pricing_Parameter_Type_Name']
+
+    # column names for the Pricing_Param_Bus_Partner table
+    bus_colnames = ['Pricing_Parameter_Value', 'Business_Partner_Name',
+                        'Pricing_Parameter_Type_Name']
+
+    # 1. Data transformation and retrieving elements
+
+    # split comma-separated strings, put into list
+    for key in csv_list_keys:
+        premium_request[key] = [int(r) for r in
+            premium_request[key].split(',')]
+
+    # timestamp. input is a string: 'yyyy-mm-dd'. do datetime
+    timestamp = datetime.strptime(premium_request['timestamp'], '%Y-%m-%d')
+
+    # to string (for reply)
+    timestamp_str = datetime.strftime(timestamp, '%Y-%m-%d')
+
+    # product_id and amount
+    product_id = premium_request['product_id']
+    sum_insured = premium_request['sum_insured']
+
+    # put into dictionary
+    quote_reply = {'sum_insured': sum_insured,
+                   'product_id': product_id,
+                   'timestamp': timestamp_str,
+                    'parameter_list': []}
+    # 2. Iterate over elements of 1.b and 1.a
+    # Loop through all items, to search for the "parameters"/premium multipliers
+    sql_list, vals_list = [], []
+    for key, parameter_ids in premium_request.items():
+
+        # Make sure we can iterate over the parameter id's
+        # (if list, fine, else: make single-item list)
+        if not type(parameter_ids) == list:
+            parameter_ids = [parameter_ids]
+
+        # Test if this is a key that requires a parameter lookup
+        # if not, skip it
+        if key in pricing_parameter_ref_keys:
+            sql = """ SELECT * FROM [dbo].[Pricing_Param_Ref_Data] WHERE
+                    Reference_Data_ID = ? AND Product_ID = ? AND
+                    Valid_From <= ? AND Valid_To > ?
+                  """
+
+        elif key in pricing_parameter_bus_keys:
+            sql = """ SELECT * FROM [dbo].[Pricing_Param_Bus_Partner] WHERE
+                    Business_Partner_ID = ? AND Product_ID = ? AND
+                    Valid_From <= ? AND Valid_To > ?
+                  """
+
+        # when the key is one of the parameter keys, do the queries for the parameters
+        if (key in pricing_parameter_ref_keys) or (key in pricing_parameter_bus_keys):
+
+            for parameter_id in parameter_ids:
+                vals = (parameter_id, product_id, timestamp, timestamp) #Timestamp not used yet!
+                sql_list.append(sql)
+                vals_list.append(vals)
         else:
             continue # for clarity
+            
+    for (columns, row) in multi_query_azure(sql_list, vals_list):
+
+
+        # find the index of the row where the Pricing Parameter Value is located
+        # NB: those strings should probably be in config
+        try:
+            pricing_param_value_index = [i for i, col_name in enumerate(columns)
+                               if col_name ==  param_colnames[0]][0]
+            ref_data_name_index = [i for i, col_name in enumerate(columns)
+                               if col_name == param_colnames[1]][0]
+            name_index = [i for i, col_name in enumerate(columns)
+                               if col_name == param_colnames[2]][0]
+        except:
+            pricing_param_value_index = [i for i, col_name in enumerate(columns)
+                               if col_name == bus_colnames[0]][0]
+            ref_data_name_index = [i for i, col_name in enumerate(columns)
+                               if col_name == bus_colnames[1]][0]
+            name_index = [i for i, col_name in enumerate(columns)
+                               if col_name == bus_colnames[2]][0]
+
+        # Get the values
+        pricing_param_value = row[pricing_param_value_index]
+        ref_data_name = row[ref_data_name_index]
+        pricing_param_type_name = row[name_index]
+
+    # Append to the list
+
+        quote_reply['parameter_list'].append({'type': key,
+                            'pricing_param_type_name': pricing_param_type_name,
+                            'pricing_param_value': pricing_param_value,
+                                'ref_data_name': ref_data_name})
+
+
+
+
 
     # Process the obtained data to calculate the premium
-    parameters = [item['pricing_param_value'] for item in quote_reply if 'pricing_param_value' in item.keys() ]
+    parameters = [item['pricing_param_value'] for item in quote_reply['parameter_list']
+                  if 'pricing_param_value' in item.keys() ]
     # Multiply all parameters
     parameters_product = 1
     for par in parameters:
         parameters_product *= par
     premium = (premium_request['sum_insured'] * base_rate * parameters_product)
-    return (premium, quote_reply)
+    if include_details:
+        return (premium, quote_reply)
+    else:
+        return premium
 
-
-######################################################
-### Tests           ##################################
-#######################################################
-# Define some tests here:
-def do_tests():
-    pass
 
 
 if __name__ == '__main__':
-    premium_request = { 'product_id': 1,
-                        'sum_insured' : 360E3,
-                        'container type' : [1147],
-                        'airport' : [651, 652, 890],
-                        'timestamp' : (2018, 1, 7),
-                          'country': [1217]} #Y, M, D
+
+    premium_request= {
+      "sum_insured" : 360000,
+      "product_id" : 1,
+      "temperature_range" : 1405,
+      "container_type": 1151,
+      "forwarder" : 91,
+      "start_trucking_time" : 1457,
+      "start_country" : 1266,
+      "airport" : "580, 647, 712",
+      "ground_handler" : "10, 25, 58",
+      "end_trucking_time" : 1455,
+      "end_country" : 1293,
+      "timestamp":"2018-01-28",
+      "details" : 1
+    }
     premium, quote_reply = calculate_premium(premium_request)
     print(premium)
     print(quote_reply)

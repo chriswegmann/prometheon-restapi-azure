@@ -14,7 +14,7 @@ from models.premium import calculate_premium
   "sum_insured" : 360000,
   "product_id" : 1,
   "temperature_range" : 1405,
-  "container_ type": 1151,
+  "container_type": 1151,
   "forwarder" : 91,
   "start_trucking_time" : 1457,
   "start_country" : 1266,
@@ -80,7 +80,7 @@ class Quote(Resource):
             # If there is only a single return item, an error has occurred
             # Then, the tuple unpacking will fail (with a TypeError)
             # The error is communicated by a message
-            message = calculate_premium(premium_request)
+            message = reply
 
         if not quote_reply is None:
             return {"premium": premium,
