@@ -59,10 +59,12 @@ class Quote(Resource):
     ## All lists, formatted as comma separated strings
     parser.add_argument('airport', type=str, required=False,
                         help="'airport' has to be a string (comma separated array)")
-    parser.add_argument('timestamp', type=str, required=True,
-                        help="'timestamp' has to be a string (yyyy-mm-dd)")
     parser.add_argument('ground_handler', type=str, required=False,
                         help="'ground_handler' has to be a string (comma separated array)")
+
+    ## Timestamp, also a string
+    parser.add_argument('timestamp', type=str, required=True,
+                        help="'timestamp' has to be a string (yyyy-mm-dd)")
     @classmethod
     # @jwt_required() # Authentication required
     def post(cls):

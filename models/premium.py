@@ -25,7 +25,6 @@ import os.path
 from datetime import datetime
 
 from project_config.config import (sql_parameter_tablename_dict,
-                                  required_keys,
                                   base_rate,
                                   db_path,
                                   AZURE_SERVER,
@@ -34,8 +33,9 @@ from project_config.config import (sql_parameter_tablename_dict,
                                   AZURE_DATABASE,
                                   AZURE_PORT)
 
+## Define parameters
 valid_pricing_parameter_type_names = ['country', 'airport', 'container type']
-
+csv_list_keys = ['airport', 'ground_handler'] # keys for items that need unpacking
 
 driver= '{ODBC Driver 13 for SQL Server}'
 
@@ -48,18 +48,19 @@ def calculate_premium(premium_request):
     Returns the quote amount, and a list of dictionaries with detailed info
     """
     ## Assert that all required keys to calculate a premium are provided
-    for key in required_keys:
-        assert key in premium_request.keys(), ('Aborting: key "{}" missing in '
-                                            'request'.format(key))
+    ## Commented out (22.03): let the parser take care of this
+    #for key in required_keys:
+    #    assert key in premium_request.keys(), ('Aborting: key "{}" missing in '
+    #                                        'request'.format(key))
+
+    ## Convert csv-strings to lists
+    for key in ['airport', 'ground_handler']:
+        premium_request[key] = [int(r) for r in
+            premium_request[key].split(',')]
 
     ## Get values from request: timestamp, amount insured, product_id
     # timestamp
-    try:
-        # The following works when a list is given of [Y, M, D]
-        timestamp = datetime(*premium_request['timestamp'])
-    except:
-        # When input is a string: 'yyyy-mm-dd'
-        timestamp = datetime.strptime(premium_request['timestamp'], '%Y-%m-%d')
+    timestamp = datetime.strptime(premium_request['timestamp'], '%Y-%m-%d')
 
     # To filter valid_from/to (not implemented yet)
     timestamp_str = datetime.strftime(timestamp, '%Y-%m-%d')
