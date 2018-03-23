@@ -107,17 +107,28 @@ def calculate_premium(premium_request):
 
     """
     # 0. Initializing/setting variables
+    csv_list_keys = ['airport', 'ground_handler'] # keys for items that need unpacking
     include_details = True if ('details' in premium_request) and \
         (premium_request['details'] == 1) else False
 
     # column names for the Pricing_Param_Ref_Data table
     param_colnames = ['Pricing_Parameter_Value', 'Reference_Data_Name',
-                        'Pricing_Parameter_Type_Name']
+                        'Pricing_Parameter_Type_Name', 'Valid_From', 'Valid_To']
 
     # column names for the Pricing_Param_Bus_Partner table
     bus_colnames = ['Pricing_Parameter_Value', 'Business_Partner_Name',
-                        'Pricing_Parameter_Type_Name']
+                        'Pricing_Parameter_Type_Name', 'Valid_From', 'Valid_To']
 
+    general_colnames = ['Pricing_Parameter_Value', 'Pricing_Parameter_Name',
+                        'Pricing_Parameter_Type_Name', 'Valid_From', 'Valid_To']
+    # general parameters
+    general_params = ['Loss adjustment expense',
+                     'Administration (fixed)',
+                     'Administration (variable)',
+                     'Taxes',
+                     'Fees',
+                     'Target profit',
+                     'Base factor']
     # 1. Data transformation and retrieving elements
 
     # split comma-separated strings, put into list
@@ -139,12 +150,14 @@ def calculate_premium(premium_request):
     quote_reply = {'sum_insured': sum_insured,
                    'product_id': product_id,
                    'timestamp': timestamp_str,
-                    'parameter_list': []}
-    # 2. Iterate over elements of 1.b and 1.a
-    # Loop through all items, to search for the "parameters"/premium multipliers
-    sql_list, vals_list = [], []
+                    'parameter_list': [],
+                  'general_params':{}}
+    # 2. Iterate over elements of 1.b and 1.a to gather the "parameters"
+    # (premium multipliers)
+    # Loop through all items, append the sql-queries and the values to a list.
+    # Those will be sent off all at once (to speed-up retrieval)
+    sql_list, vals_list, key_list = [], [], []
     for key, parameter_ids in premium_request.items():
-
         # Make sure we can iterate over the parameter id's
         # (if list, fine, else: make single-item list)
         if not type(parameter_ids) == list:
@@ -167,18 +180,21 @@ def calculate_premium(premium_request):
         # when the key is one of the parameter keys, do the queries for the parameters
         if (key in pricing_parameter_ref_keys) or (key in pricing_parameter_bus_keys):
 
+
+
             for parameter_id in parameter_ids:
+                key_list.append(key)
                 vals = (parameter_id, product_id, timestamp, timestamp) #Timestamp not used yet!
                 sql_list.append(sql)
                 vals_list.append(vals)
         else:
             continue # for clarity
-            
-    for (columns, row) in multi_query_azure(sql_list, vals_list):
 
+    # Send off the queries that are stored in the lists to the SQL server
+    for i, (columns, row) in enumerate(multi_query_azure(sql_list, vals_list)):
 
-        # find the index of the row where the Pricing Parameter Value is located
-        # NB: those strings should probably be in config
+        # find the index of the row where the Pricing Parameter Value etc. is located
+        # NB: not pretty, too much repetition. Fix at some time when there is time.
         try:
             pricing_param_value_index = [i for i, col_name in enumerate(columns)
                                if col_name ==  param_colnames[0]][0]
@@ -186,6 +202,10 @@ def calculate_premium(premium_request):
                                if col_name == param_colnames[1]][0]
             name_index = [i for i, col_name in enumerate(columns)
                                if col_name == param_colnames[2]][0]
+            valid_from_index = [i for i, col_name in enumerate(columns)
+                               if col_name == param_colnames[3]][0]
+            valid_to_index = [i for i, col_name in enumerate(columns)
+                               if col_name == param_colnames[4]][0]
         except:
             pricing_param_value_index = [i for i, col_name in enumerate(columns)
                                if col_name == bus_colnames[0]][0]
@@ -193,31 +213,77 @@ def calculate_premium(premium_request):
                                if col_name == bus_colnames[1]][0]
             name_index = [i for i, col_name in enumerate(columns)
                                if col_name == bus_colnames[2]][0]
+            valid_from_index = [i for i, col_name in enumerate(columns)
+                               if col_name == bus_colnames[3]][0]
+            valid_to_index = [i for i, col_name in enumerate(columns)
+                               if col_name == bus_colnames[4]][0]
 
         # Get the values
         pricing_param_value = row[pricing_param_value_index]
         ref_data_name = row[ref_data_name_index]
         pricing_param_type_name = row[name_index]
+        valid_from = row[valid_from_index]
+        valid_to = row[valid_to_index]
 
     # Append to the list
 
-        quote_reply['parameter_list'].append({'type': key,
+        quote_reply['parameter_list'].append({'type': key_list[i],
                             'pricing_param_type_name': pricing_param_type_name,
                             'pricing_param_value': pricing_param_value,
-                                'ref_data_name': ref_data_name})
+                                'ref_data_name': ref_data_name,
+                                'valid_from': datetime.strftime(valid_from, '%Y-%m-%d'),
+                                'valid_to': datetime.strftime(valid_to, '%Y-%m-%d')})
+
+    ## 3. Get parameters from the Pricing_Param_General table
+    # Also here, create the SQL statements in a list, and use the generator
+    # to iterate through the results
+    # general_params are stored as a dict within quote_reply
+    sql_list = []
+    vals_list = []
+    for general_param in general_params:
+        sql_list.append("""SELECT * FROM [dbo].[Pricing_Param_General] WHERE Product_ID = ?
+                AND Pricing_Parameter_Name = ? AND Valid_From <= ? AND Valid_To > ?
+              """)
+        vals_list.append((product_id, general_param, timestamp, timestamp))
 
 
+    for columns, row in multi_query_azure(sql_list, vals_list):
+        pricing_param_value_index = [i for i, col_name in enumerate(columns)
+                           if col_name == general_colnames[0]][0]
+        name_index = [i for i, col_name in enumerate(columns)
+                           if col_name == general_colnames[1]][0]
+        type_name_index = [i for i, col_name in enumerate(columns)
+                           if col_name == general_colnames[2]][0]
+        valid_from_index = [i for i, col_name in enumerate(columns)
+                           if col_name == general_colnames[3]][0]
+        valid_to_index = [i for i, col_name in enumerate(columns)
+                           if col_name == general_colnames[4]][0]
 
-
+        pricing_param_value = row[pricing_param_value_index]
+        pricing_parameter_name = row[name_index]
+        pricing_param_type_name = row[type_name_index]
+        valid_from = row[valid_from_index]
+        valid_to = row[valid_to_index]
+        quote_reply['general_params'][pricing_parameter_name] = {'pricing_param_value': pricing_param_value,
+                                            'valid_from': datetime.strftime(valid_from, '%Y-%m-%d'),
+                                            'valid_to': datetime.strftime(valid_to, '%Y-%m-%d')}
 
     # Process the obtained data to calculate the premium
     parameters = [item['pricing_param_value'] for item in quote_reply['parameter_list']
                   if 'pricing_param_value' in item.keys() ]
+
     # Multiply all parameters
     parameters_product = 1
     for par in parameters:
         parameters_product *= par
-    premium = (premium_request['sum_insured'] * base_rate * parameters_product)
+
+    # NB: the expression below is not right. Especially the base factor (no idea what to do with 50?)
+    premium = premium_request['sum_insured'] * (
+                quote_reply['general_params']['Base factor']['pricing_param_value']/10000 *
+                (1 + quote_reply['general_params']['Administration (variable)']['pricing_param_value'] +
+                quote_reply['general_params']['Fees']['pricing_param_value']) *
+                parameters_product) + (
+                quote_reply['general_params']['Administration (fixed)']['pricing_param_value'])
     if include_details:
         return (premium, quote_reply)
     else:

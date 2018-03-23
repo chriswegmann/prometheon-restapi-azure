@@ -77,17 +77,17 @@ class Quote(Resource):
         try:
             premium, quote_reply = reply
         except TypeError as e:
-            # If there is only a single return item, an error has occurred
+            # If there is only a single return item,
+            # This was requested (i.e.: not: 'details'=1), or
+            # an error has occurred (disabled for now, could be done)
             # Then, the tuple unpacking will fail (with a TypeError)
-            # The error is communicated by a message
-            message = reply
+            premium = reply
 
         if not quote_reply is None:
             return {"premium": premium,
-                    "details": quote_reply,
-                    "premium_request": premium_request}, 200
+                    "details": quote_reply}, 200
         else:
-            return message, 400
+            return premium, 200
 
 if __name__ == '__main__':
     pass
