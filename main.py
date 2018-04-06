@@ -10,7 +10,7 @@ from flask_restful import Api
 
 # from flask_jwt import JWT
 
-from resources.quote import Quote #, Quote_test
+from resources.quote import Quote, Quote_test
 # from security import authenticate, identity
 
 app = Flask(__name__)
@@ -28,7 +28,7 @@ api = Api(app)
 
 # jwt = JWT(app, authenticate, identity) #creates new endpoint: /auth
 api.add_resource(Quote, '/quote')
-# api.add_resource(Quote_test, '/quote_test')
+api.add_resource(Quote_test, '/quote_test')
 
 
 
