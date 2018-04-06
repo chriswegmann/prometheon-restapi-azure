@@ -129,6 +129,9 @@ def calculate_premium(premium_request):
                      'Fees',
                      'Target profit',
                      'Base factor']
+
+    general_param_ids = [8, 17, 26, 30, 34, 38, 45]
+
     # 1. Data transformation and retrieving elements
 
     # split comma-separated strings, put into list
@@ -192,7 +195,6 @@ def calculate_premium(premium_request):
 
     # Send off the queries that are stored in the lists to the SQL server
     for i, (columns, row) in enumerate(multi_query_azure(sql_list, vals_list)):
-
         # find the index of the row where the Pricing Parameter Value etc. is located
         # NB: not pretty, too much repetition. Fix at some time when there is time.
         try:
@@ -240,14 +242,20 @@ def calculate_premium(premium_request):
     # general_params are stored as a dict within quote_reply
     sql_list = []
     vals_list = []
-    for general_param in general_params:
+    for general_param_id in general_param_ids:
         sql_list.append("""SELECT * FROM [dbo].[Pricing_Param_General] WHERE Product_ID = ?
-                AND Pricing_Parameter_Name = ? AND Valid_From <= ? AND Valid_To > ?
+                AND Pricing_Parameter_ID = ? AND Valid_From <= ? AND Valid_To > ?
               """)
-        vals_list.append((product_id, general_param, timestamp, timestamp))
+        vals_list.append((product_id, general_param_id, timestamp, timestamp))
 
 
-    for columns, row in multi_query_azure(sql_list, vals_list):
+
+
+    for i, (columns, row) in enumerate(multi_query_azure(sql_list, vals_list)):
+        #print(i)
+        #print('sql_list: {}'.format(sql_list[i]))
+        #print('vals_list: {}'.format(vals_list[i]))
+        #print('###############')
         pricing_param_value_index = [i for i, col_name in enumerate(columns)
                            if col_name == general_colnames[0]][0]
         name_index = [i for i, col_name in enumerate(columns)
