@@ -74,6 +74,24 @@ def multi_query_azure(sql_list, vals_list):
     finally:
         db_connection.close()
 
+
+def product_list(li):
+    """ returns the product of all individual items in a list """
+    result = 1
+    for item in li:
+        result *= item
+    return result
+
+def premium_from_parameters(sum_insured, parameters, coverage, commission,
+                            admin_variable, taxes_fees, fixed_expenses,
+                            target_profit):
+    # expected_loss: product of sum_insured, coverage, and all parameters
+    expected_loss = sum_insured * coverage * product_list(parameters)
+    variable_expenses = commission + admin_variable + taxes_fees
+    expenses_profit = 1 - variable_expenses - target_profit
+    premium = (expected_loss + fixed_expenses) / expenses_profit
+    return premium
+
 def calculate_premium(premium_request):
     """
     premium_request : a dictionary
@@ -121,7 +139,8 @@ def calculate_premium(premium_request):
 
     general_colnames = ['Pricing_Parameter_Value', 'Pricing_Parameter_Name',
                         'Pricing_Parameter_Type_Name', 'Valid_From', 'Valid_To']
-    # general parameters
+
+    # general parameters by name
     general_params = ['Loss adjustment expense',
                      'Administration (fixed)',
                      'Administration (variable)',
@@ -130,6 +149,7 @@ def calculate_premium(premium_request):
                      'Target profit',
                      'Base factor']
 
+    # general parameters by id
     general_param_ids = [8, 17, 26, 30, 34, 38, 45]
 
     # 1. Data transformation and retrieving elements
@@ -252,6 +272,12 @@ def calculate_premium(premium_request):
 
 
     for i, (columns, row) in enumerate(multi_query_azure(sql_list, vals_list)):
+
+        # use the param_id as a key (rather than a name, that could change)
+        # sql statements where along the general_param_ids list, so
+        # i is the correct index to retrieve the general_param_id
+        general_param_id = general_param_ids[i]
+
         #print(i)
         #print('sql_list: {}'.format(sql_list[i]))
         #print('vals_list: {}'.format(vals_list[i]))
@@ -272,7 +298,8 @@ def calculate_premium(premium_request):
         pricing_param_type_name = row[type_name_index]
         valid_from = row[valid_from_index]
         valid_to = row[valid_to_index]
-        quote_reply['general_params'][pricing_parameter_name] = {'pricing_param_value': pricing_param_value,
+        quote_reply['general_params'][general_param_id] = {'pricing_parameter_name':pricing_parameter_name,
+                                            'pricing_param_value': pricing_param_value,
                                             'valid_from': datetime.strftime(valid_from, '%Y-%m-%d'),
                                             'valid_to': datetime.strftime(valid_to, '%Y-%m-%d')}
 
@@ -280,23 +307,34 @@ def calculate_premium(premium_request):
     parameters = [item['pricing_param_value'] for item in quote_reply['parameter_list']
                   if 'pricing_param_value' in item.keys() ]
 
-    # Multiply all parameters
-    parameters_product = 1
-    for par in parameters:
-        parameters_product *= par
 
     # NB: the expression below is not right. Especially the base factor (no idea what to do with 50?)
+
     premium = premium_request['sum_insured'] * (
-                quote_reply['general_params']['Base factor']['pricing_param_value']/10000 *
-                (1 + quote_reply['general_params']['Administration (variable)']['pricing_param_value'] +
-                quote_reply['general_params']['Fees']['pricing_param_value']) *
-                parameters_product) + (
-                quote_reply['general_params']['Administration (fixed)']['pricing_param_value'])
+                quote_reply['general_params'][45]['pricing_param_value']/10000 *
+                (1 + quote_reply['general_params'][26]['pricing_param_value'] +
+                quote_reply['general_params'][34]['pricing_param_value']) *
+                product_list(parameters) + (
+                quote_reply['general_params'][17]['pricing_param_value']))
+    # I assume:
+    # - coverage is Base factor
+    # I don't know:
+    # - how to get commission? I don't see that in any view?
+    # - how to get
+    premium = premium_from_parameters(sum_insured=premium_request['sum_insured'],
+            parameters=parameters,
+            coverage=quote_reply['general_params'][45]['pricing_param_value'], # Base factor
+            commission=0.039, #NB hardcoded: where to get this from?
+            admin_variable=quote_reply['general_params'][26]['pricing_param_value'],
+            taxes_fees=(quote_reply['general_params'][30]['pricing_param_value']+
+            quote_reply['general_params'][34]['pricing_param_value']), #taxes + fees
+            fixed_expenses=quote_reply['general_params'][17]['pricing_param_value'],
+            target_profit=quote_reply['general_params'][38]['pricing_param_value'])
+
     if include_details:
         return (premium, quote_reply)
     else:
         return premium
-
 
 
 if __name__ == '__main__':
