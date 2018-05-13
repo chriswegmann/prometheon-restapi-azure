@@ -88,7 +88,7 @@ class Quote(Resource):
         premium = "{0:.2f}".format(round(premium, 2))
         # Convert premium to a string with a comma as decimal separator
         premium = str(premium).replace('.', ',')
-        quote_reply = {"details": "a lot of details"}
+
         if not quote_reply is None:
             return {"premium": premium,
                     "details": quote_reply}, 200
