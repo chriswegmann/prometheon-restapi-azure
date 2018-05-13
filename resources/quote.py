@@ -84,11 +84,12 @@ class Quote(Resource):
             # Then, the tuple unpacking will fail (with a TypeError)
             premium = reply
 
+        quote_reply = {"details": "a lot of details"}
         if not quote_reply is None:
             return {"premium": premium,
                     "details": quote_reply}, 200
         else:
-            return {"premium": premium}, 200
+            return premium, 200
 
 
 ## For test purposes: endpoint \quote_test needs only a "sum_insured" as input
