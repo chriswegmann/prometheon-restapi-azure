@@ -331,6 +331,8 @@ def calculate_premium(premium_request):
             fixed_expenses=quote_reply['general_params'][17]['pricing_param_value'],
             target_profit=quote_reply['general_params'][38]['pricing_param_value'])
 
+    premium = str(premium).replace('.', ',')
+
     if include_details:
         return (premium, quote_reply)
     else:
