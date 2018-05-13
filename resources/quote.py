@@ -88,7 +88,7 @@ class Quote(Resource):
             return {"premium": premium,
                     "details": quote_reply}, 200
         else:
-            return premium, 200
+            return {"premium": premium}, 200
 
 
 ## For test purposes: endpoint \quote_test needs only a "sum_insured" as input
