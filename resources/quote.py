@@ -82,10 +82,12 @@ class Quote(Resource):
             # This was requested (i.e.: not: 'details'=1), or
             # an error has occurred (disabled for now, could be done)
             # Then, the tuple unpacking will fail (with a TypeError)
-            # NB: ugly debug
-            # premium = reply
-            premium = 123.45
+            premium = reply
 
+        # Round premium to two decimals
+        premium = "{0:.2f}".format(round(premium, 2))
+        # Convert premium to a string with a comma as decimal separator
+        premium = str(premium).replace('.', ',')
         quote_reply = {"details": "a lot of details"}
         if not quote_reply is None:
             return {"premium": premium,
