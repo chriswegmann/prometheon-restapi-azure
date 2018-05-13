@@ -99,7 +99,7 @@ class Quote(Resource):
 ## For test purposes: endpoint \quote_test needs only a "sum_insured" as input
 class Quote_test(Resource):
     """
-    Resource that uses SQLITE database to determine premium
+    Resource that has a hard-coded 'body' for the request
 
     """
     # Define class attributes
@@ -171,6 +171,11 @@ class Quote_test(Resource):
             # an error has occurred (disabled for now, could be done)
             # Then, the tuple unpacking will fail (with a TypeError)
             premium = reply
+
+        # Round premium to two decimals
+        premium = "{0:.2f}".format(round(premium, 2))
+        # Convert premium to a string with a comma as decimal separator
+        premium = str(premium).replace('.', ',')
 
         if not quote_reply is None:
             return {"premium": premium,
