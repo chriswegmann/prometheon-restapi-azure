@@ -82,7 +82,9 @@ class Quote(Resource):
             # This was requested (i.e.: not: 'details'=1), or
             # an error has occurred (disabled for now, could be done)
             # Then, the tuple unpacking will fail (with a TypeError)
-            premium = reply
+            # NB: ugly debug
+            # premium = reply
+            premium = 123.45
 
         quote_reply = {"details": "a lot of details"}
         if not quote_reply is None:
