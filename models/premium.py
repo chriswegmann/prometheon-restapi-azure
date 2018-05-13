@@ -339,7 +339,7 @@ def calculate_premium(premium_request):
     if include_details:
         return (premium, quote_reply)
     else:
-        return premium
+        return (premium, quote_reply)
 
 
 if __name__ == '__main__':
